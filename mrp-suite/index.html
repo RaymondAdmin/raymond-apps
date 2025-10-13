@@ -248,9 +248,10 @@
             
             months.forEach(month => {
                 const monthData = [
-                    ['Part Number', 'Description', 'Qty', 'Amount', '% of Sales', 'Avg Price', 'COGS', 'Avg COGS', 'Gross Margin', 'Gross Margin %'],
-                    ['0322', '3" Wheel for File Dolly', '', '', '', '', '', '', '', ''],
-                    ['', '(Add your parts here...)', '', '', '', '', '', '', '', '']
+                    ['', 'Part and Description', 'Qty', 'Amount', '% of Sales', 'Avg Price', 'COGS', 'Avg COGS', 'Gross Margin', 'Gross Margin %'],
+                    ['', '0322 (3" Wheel for File Dolly)', '6', '114', '0.20%', '19', '15.11', '2.52', '98.89', '86.75%'],
+                    ['', '0331 (2.5" Plate Caster for All Purpose Dolly)', '1', '15.12', '0.03%', '15.12', '6.98', '6.98', '8.14', '53.84%'],
+                    ['', '(Paste QuickBooks data here - Tool #1 will split Part # from Description)', '', '', '', '', '', '', '', '']
                 ];
                 const ws = XLSX.utils.aoa_to_sheet(monthData);
                 XLSX.utils.book_append_sheet(wb, ws, month);
@@ -290,11 +291,13 @@
                 ['RAYMOND MRP SUITE - TEMPLATE INSTRUCTIONS'],
                 [''],
                 ['SHEET STRUCTURE:'],
-                ['1. Monthly Sheets (Jan 25 - Dec 25): Enter your sales data for each month'],
-                ['   - Part Number: Your part identifier'],
-                ['   - Description: Part description'],
-                ['   - Qty: Quantity sold'],
+                ['1. Monthly Sheets (Jan 25 - Dec 25): Enter sales data in RAW QuickBooks format'],
+                ['   - Column A: Leave EMPTY (QuickBooks format)'],
+                ['   - Column B: Part and Description in format: "PARTNUM (Description)"'],
+                ['      Example: 0322 (3" Wheel for File Dolly)'],
+                ['   - Column C: Qty sold'],
                 ['   - Other columns: Amount, COGS, etc.'],
+                ['   - Tool #1 will SPLIT these into Part Number and Description columns'],
                 [''],
                 ['2. Parts by Month Summary: Will be auto-populated by Tool #4'],
                 [''],
@@ -308,10 +311,14 @@
                 ['   - Cost column is critical for expense calculations'],
                 [''],
                 ['WORKFLOW:'],
-                ['1. Fill in monthly sales data (Jan 25 - Dec 25 sheets)'],
-                ['2. Fill in BOMS Data with your bill of materials'],
-                ['3. Fill in Products sheet with part costs'],
-                ['4. Use the tools in order (#1-7) to generate reports'],
+                ['1. Export monthly sales from QuickBooks (keeps format: PARTNUM (Description))'],
+                ['2. Paste into monthly sheets (Jan 25 - Dec 25)'],
+                ['3. Use Tool #1 to CLEAN and split part numbers from descriptions'],
+                ['4. Fill in BOMS Data with your bill of materials'],
+                ['5. Fill in Products sheet with part costs'],
+                ['6. Use remaining tools (#2-7) to generate reports'],
+                [''],
+                ['IMPORTANT: Start with QuickBooks format, Tool #1 cleans it!'],
                 [''],
                 ['For support: Reference the Raymond MRP Suite documentation']
             ];
