@@ -2,241 +2,799 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Raymond MRP Suite</title>
+    <title>Raymond MRP Processor</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f5f5; }
-        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
         
         header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-                 color: white; padding: 30px; border-radius: 10px; margin-bottom: 30px; }
-        header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        header p { font-size: 1.1em; opacity: 0.9; }
+                 color: white; padding: 40px; border-radius: 10px; margin-bottom: 30px; text-align: center; }
+        header h1 { font-size: 2.8em; margin-bottom: 10px; }
+        header p { font-size: 1.2em; opacity: 0.95; }
         
-        .tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
-                      gap: 20px; margin-bottom: 30px; }
+        .main-card { background: white; border-radius: 10px; padding: 40px; 
+                     box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin-bottom: 30px; text-align: center; }
+        .main-card h2 { color: #667eea; margin-bottom: 20px; font-size: 2em; }
+        .main-card p { color: #666; margin-bottom: 30px; line-height: 1.8; font-size: 1.1em; }
         
-        .tool-card { background: white; border-radius: 10px; padding: 25px; 
-                     box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.2s; }
-        .tool-card:hover { transform: translateY(-5px); box-shadow: 0 5px 20px rgba(0,0,0,0.15); }
-        .tool-card h2 { color: #667eea; margin-bottom: 15px; font-size: 1.5em; }
-        .tool-card p { color: #666; margin-bottom: 20px; line-height: 1.6; }
-        
-        .btn { background: #667eea; color: white; padding: 12px 24px; border: none; 
-               border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: 600;
-               transition: all 0.3s; }
-        .btn:hover { background: #5568d3; transform: scale(1.05); }
-        .btn:disabled { background: #ccc; cursor: not-allowed; transform: scale(1); }
-        
-        .btn-success { background: #4CAF50; }
-        .btn-success:hover { background: #45a049; }
+        .upload-area { border: 3px dashed #667eea; border-radius: 10px; padding: 50px; 
+                      background: #f8f9ff; margin: 30px 0; transition: all 0.3s; cursor: pointer; }
+        .upload-area:hover { background: #eef0ff; border-color: #5568d3; }
+        .upload-area.active { background: #e0e7ff; border-color: #4c51bf; }
         
         input[type="file"] { display: none; }
-        .file-input-label { display: inline-block; background: #667eea; color: white; 
-                           padding: 12px 24px; border-radius: 5px; cursor: pointer; 
-                           font-weight: 600; transition: all 0.3s; }
-        .file-input-label:hover { background: #5568d3; }
         
-        .success { background: #d4edda; color: #155724; padding: 15px; border-radius: 5px; 
-                  margin: 20px 0; border-left: 4px solid #28a745; }
-        .warning { background: #fff3cd; color: #856404; padding: 15px; border-radius: 5px; 
-                  margin: 20px 0; border-left: 4px solid #ffc107; }
-        .error { background: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; 
-                margin: 20px 0; border-left: 4px solid #dc3545; }
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                      color: white; padding: 18px 40px; border: none; border-radius: 8px; 
+                      cursor: pointer; font-size: 1.3em; font-weight: 700;
+                      transition: all 0.3s; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6); }
+        .btn-primary:disabled { background: #ccc; cursor: not-allowed; transform: none; box-shadow: none; }
         
-        .results { background: white; padding: 25px; border-radius: 10px; 
-                  box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 20px; }
+        .btn-secondary { background: #28a745; color: white; padding: 12px 30px; border: none; 
+                        border-radius: 6px; cursor: pointer; font-size: 1em; font-weight: 600;
+                        transition: all 0.3s; margin: 10px; }
+        .btn-secondary:hover { background: #218838; transform: scale(1.05); }
         
-        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-                gap: 15px; margin: 20px 0; }
+        .file-info { background: #d4edda; color: #155724; padding: 20px; border-radius: 8px; 
+                    margin: 20px 0; border-left: 5px solid #28a745; font-size: 1.1em; }
+        
+        .progress-area { margin: 30px 0; display: none; }
+        .progress-bar { background: #e0e0e0; height: 30px; border-radius: 15px; overflow: hidden; }
+        .progress-fill { background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); 
+                        height: 100%; width: 0%; transition: width 0.3s; 
+                        display: flex; align-items: center; justify-content: center;
+                        color: white; font-weight: bold; }
+        
+        .status-log { background: #f8f9fa; padding: 20px; border-radius: 8px; 
+                     margin: 20px 0; max-height: 300px; overflow-y: auto; 
+                     font-family: 'Courier New', monospace; font-size: 0.9em; display: none; }
+        .status-log div { padding: 5px 0; border-bottom: 1px solid #dee2e6; }
+        .status-log .success { color: #28a745; }
+        .status-log .error { color: #dc3545; }
+        .status-log .info { color: #667eea; }
+        
+        .results-area { background: white; padding: 30px; border-radius: 10px; 
+                       box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin-top: 30px; display: none; }
+        .results-area h3 { color: #667eea; margin-bottom: 20px; font-size: 1.8em; }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+                     gap: 20px; margin: 30px 0; }
         .stat-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-                    color: white; padding: 20px; border-radius: 8px; text-align: center; }
-        .stat-card .number { font-size: 2em; font-weight: bold; margin-bottom: 5px; }
-        .stat-card .label { opacity: 0.9; }
+                    color: white; padding: 25px; border-radius: 10px; text-align: center;
+                    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); }
+        .stat-card .number { font-size: 2.5em; font-weight: bold; margin-bottom: 10px; }
+        .stat-card .label { opacity: 0.95; font-size: 1.1em; }
         
-        #currentFile { font-style: italic; color: #666; margin: 10px 0; }
+        footer { text-align: center; margin-top: 50px; padding: 20px; color: #666; font-size: 0.95em; }
         
-        .hidden { display: none; }
-        
-        footer { text-align: center; margin-top: 50px; padding: 20px; color: #666; }
+        .icon { font-size: 3em; margin-bottom: 20px; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🏭 Raymond MRP Suite</h1>
-            <p>Complete Material Requirements Planning & Analysis System</p>
+            <h1>🏭 Raymond MRP Processor</h1>
+            <p>Complete Material Requirements Planning - Single Click Analysis</p>
         </header>
 
-        <div class="tool-card" style="margin-bottom: 30px;">
-            <h2>📥 Get Started</h2>
-            <p>Download the template file to set up your data structure</p>
-            <button class="btn btn-success" onclick="downloadTemplate()">⬇️ Download Excel Template</button>
-            <p style="margin-top: 15px;">Or upload your existing file:</p>
-            <label for="mainFileInput" class="file-input-label">Choose File</label>
-            <input type="file" id="mainFileInput" accept=".xlsx" />
-            <div id="currentFile"></div>
+        <div class="main-card" style="margin-bottom: 20px;">
+            <h2>📥 Step 1: Get the Template</h2>
+            <p>Download the template, fill in your sales data and BOMs, then come back to process it.</p>
+            <button class="btn-secondary" onclick="downloadTemplate()">⬇️ Download Excel Template</button>
         </div>
 
-        <div class="tools-grid">
-            <div class="tool-card">
-                <h2>1️⃣ Clean Monthly Data</h2>
-                <p>Split part numbers from descriptions in all 12 monthly sheets (Jan-Dec)</p>
-                <button class="btn" id="btnCleanMonths" disabled>Clean All Months</button>
+        <div class="main-card">
+            <div class="icon">📊</div>
+            <h2>Step 2: Process Your MRP Data</h2>
+            <p>Upload your filled template and get a complete analysis including:<br>
+                ✓ Monthly data cleaning &nbsp; ✓ YTD calculations &nbsp; ✓ BOM explosions &nbsp; ✓ Material movements &nbsp; ✓ Expense calculations</p>
+            
+            <div class="upload-area" id="uploadArea">
+                <div style="font-size: 3em; margin-bottom: 15px;">📁</div>
+                <div style="font-size: 1.3em; color: #667eea; font-weight: 600;">Click to Upload Excel File</div>
+                <div style="color: #999; margin-top: 10px;">or drag and drop your .xlsx file here</div>
+                <input type="file" id="fileInput" accept=".xlsx" />
             </div>
-
-            <div class="tool-card">
-                <h2>2️⃣ Build YTD</h2>
-                <p>Create Year-to-Date totals by aggregating all 12 months</p>
-                <button class="btn" id="btnBuildYTD" disabled>Build YTD</button>
+            
+            <div id="fileInfo" class="file-info" style="display: none;"></div>
+            
+            <button class="btn-primary" id="processBtn" disabled>
+                🚀 Process Complete MRP Analysis
+            </button>
+            
+            <div class="progress-area" id="progressArea">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill">0%</div>
+                </div>
             </div>
-
-            <div class="tool-card">
-                <h2>3️⃣ Monthly Summary</h2>
-                <p>Generate month-by-month sales summary totals</p>
-                <button class="btn" id="btnMonthlySummary" disabled>Create Summary</button>
-            </div>
-
-            <div class="tool-card">
-                <h2>4️⃣ Populate Parts Summary</h2>
-                <p>Fill "Parts by Month Summary" with quantities from monthly sheets</p>
-                <button class="btn" id="btnPopulateParts" disabled>Populate Summary</button>
-            </div>
-
-            <div class="tool-card">
-                <h2>5️⃣ Explode BOMs</h2>
-                <p>Recursively explode all Bill of Materials to show component consumption</p>
-                <button class="btn" id="btnExplodeBOMs" disabled>Explode BOMs</button>
-            </div>
-
-            <div class="tool-card">
-                <h2>6️⃣ Material Movements</h2>
-                <p>Calculate monthly material consumption based on sales</p>
-                <button class="btn" id="btnMaterialMovements" disabled>Calculate Movements</button>
-            </div>
-
-            <div class="tool-card">
-                <h2>7️⃣ Material Expenses</h2>
-                <p>Calculate monthly expenses: Quantity × Unit Cost</p>
-                <button class="btn" id="btnMaterialExpenses" disabled>Calculate Expenses</button>
-            </div>
+            
+            <div class="status-log" id="statusLog"></div>
         </div>
 
-        <div id="results" class="hidden"></div>
+        <div class="results-area" id="resultsArea">
+            <h3>✅ Processing Complete!</h3>
+            <div id="statsGrid" class="stats-grid"></div>
+            <button class="btn-secondary" id="downloadBtn">⬇️ Download Complete Analysis</button>
+        </div>
 
         <footer>
-            <p>Raymond MRP Suite v1.0 | Built for comprehensive manufacturing resource planning</p>
+            <p>Raymond MRP Processor v2.0 | Single-Click Complete Analysis</p>
         </footer>
     </div>
 
     <script>
         let workbook = null;
-        let currentTool = null;
-        let outputData = null;
+        let processedWorkbook = null;
+        let fileName = '';
 
-        document.getElementById('mainFileInput').addEventListener('change', function(e) {
+        // Helper function to format part number columns as text (preserves leading zeros)
+        function formatPartNumberColumns(worksheet, partNumberColumns) {
+            if (!worksheet || !worksheet['!ref']) return;
+            
+            const range = XLSX.utils.decode_range(worksheet['!ref']);
+            
+            for (let row = range.s.r; row <= range.e.r; row++) {
+                for (const col of partNumberColumns) {
+                    const cellAddress = XLSX.utils.encode_cell({ r: row, c: col });
+                    const cell = worksheet[cellAddress];
+                    
+                    if (cell && cell.v !== undefined && cell.v !== null) {
+                        // Convert to text format
+                        cell.t = 's'; // Set type to string
+                        cell.v = String(cell.v); // Ensure value is string
+                        cell.z = '@'; // Set number format to text
+                    }
+                }
+            }
+        }
+
+        // File upload handling
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const processBtn = document.getElementById('processBtn');
+
+        uploadArea.addEventListener('click', () => fileInput.click());
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('active');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('active');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('active');
+            const file = e.dataTransfer.files[0];
+            if (file && file.name.endsWith('.xlsx')) {
+                loadFile(file);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
             const file = e.target.files[0];
-            if (!file) return;
+            if (file) loadFile(file);
+        });
 
+        function loadFile(file) {
+            fileName = file.name.replace('.xlsx', '');
             const reader = new FileReader();
             reader.onload = function(e) {
                 const data = new Uint8Array(e.target.result);
-                workbook = XLSX.read(data, { type: 'array' });
+                workbook = XLSX.read(data, { type: 'array', cellFormula: true, cellStyles: true });
                 
-                document.getElementById('currentFile').innerHTML = 
-                    `<strong>Loaded:</strong> ${file.name} <span style="color: green;">✓</span>`;
-                
-                // Enable buttons based on available sheets
-                const sheets = workbook.SheetNames;
-                
-                if (sheets.includes('Jan 25')) {
-                    document.getElementById('btnCleanMonths').disabled = false;
-                    document.getElementById('btnBuildYTD').disabled = false;
-                    document.getElementById('btnMonthlySummary').disabled = false;
-                    document.getElementById('btnPopulateParts').disabled = false;
-                }
-                
-                if (sheets.includes('BOMS Data')) {
-                    document.getElementById('btnExplodeBOMs').disabled = false;
-                    document.getElementById('btnMaterialMovements').disabled = false;
-                }
-                
-                if (sheets.includes('MRP-Master') && sheets.includes('Products')) {
-                    document.getElementById('btnMaterialExpenses').disabled = false;
-                }
+                fileInfo.style.display = 'block';
+                fileInfo.innerHTML = `<strong>✓ Loaded:</strong> ${file.name} &nbsp;|&nbsp; <strong>Sheets:</strong> ${workbook.SheetNames.length}`;
+                processBtn.disabled = false;
             };
             reader.readAsArrayBuffer(file);
-        });
+        }
 
-        // Tool implementations would go here...
-        // For brevity, I'll show the structure
+        // Main processing
+        processBtn.addEventListener('click', processCompleteAnalysis);
 
-        document.getElementById('btnCleanMonths').addEventListener('click', () => cleanMonthlyData());
-        document.getElementById('btnBuildYTD').addEventListener('click', () => buildYTD());
-        document.getElementById('btnMonthlySummary').addEventListener('click', () => monthlySummary());
-        document.getElementById('btnPopulateParts').addEventListener('click', () => populatePartsSummary());
-        document.getElementById('btnExplodeBOMs').addEventListener('click', () => explodeBOMs());
-        document.getElementById('btnMaterialMovements').addEventListener('click', () => materialMovements());
-        document.getElementById('btnMaterialExpenses').addEventListener('click', () => materialExpenses());
+        function log(message, type = 'info') {
+            const statusLog = document.getElementById('statusLog');
+            statusLog.style.display = 'block';
+            const div = document.createElement('div');
+            div.className = type;
+            div.textContent = `${new Date().toLocaleTimeString()} - ${message}`;
+            statusLog.appendChild(div);
+            statusLog.scrollTop = statusLog.scrollHeight;
+        }
 
-        function showResults(title, data, stats) {
-            const resultsDiv = document.getElementById('results');
-            resultsDiv.classList.remove('hidden');
+        function updateProgress(percent, text) {
+            const progressArea = document.getElementById('progressArea');
+            const progressFill = document.getElementById('progressFill');
+            progressArea.style.display = 'block';
+            progressFill.style.width = percent + '%';
+            progressFill.textContent = text;
+        }
+
+        async function processCompleteAnalysis() {
+            processBtn.disabled = true;
+            document.getElementById('statusLog').innerHTML = '';
+            document.getElementById('resultsArea').style.display = 'none';
             
-            let html = `<h2>${title}</h2>`;
-            html += '<div class="success">✓ Processing complete!</div>';
-            
-            if (stats) {
-                html += '<div class="stats">';
-                for (const [label, value] of Object.entries(stats)) {
-                    html += `<div class="stat-card"><div class="number">${value}</div><div class="label">${label}</div></div>`;
+            try {
+                updateProgress(5, 'Starting...');
+                log('Starting complete MRP analysis...', 'info');
+                
+                // Clone workbook for processing
+                processedWorkbook = XLSX.utils.book_new();
+                
+                // Step 1: Clean monthly data
+                updateProgress(15, 'Cleaning monthly data...');
+                log('Step 1: Cleaning monthly sheets...', 'info');
+                const monthSheets = ['Jan 25', 'Feb 25', 'Mar 25', 'Apr 25', 'May 25', 'Jun 25', 
+                                    'Jul 25', 'Aug 25', 'Sept 25', 'Oct 25', 'Nov 25', 'Dec 25'];
+                
+                const cleanedMonths = {};
+                for (const month of monthSheets) {
+                    if (workbook.Sheets[month]) {
+                        cleanedMonths[month] = cleanMonthlySheet(month);
+                    }
                 }
-                html += '</div>';
+                log(`✓ Cleaned ${Object.keys(cleanedMonths).length} monthly sheets`, 'success');
+                
+                // Step 2: Build YTD
+                updateProgress(30, 'Building YTD totals...');
+                log('Step 2: Building YTD totals...', 'info');
+                const ytdSheet = buildYTD(cleanedMonths);
+                XLSX.utils.book_append_sheet(processedWorkbook, ytdSheet, 'YTD');
+                log('✓ YTD sheet created', 'success');
+                
+                // Step 3: Monthly Summary
+                updateProgress(45, 'Creating monthly summary...');
+                log('Step 3: Creating monthly summary...', 'info');
+                const summarySheet = createMonthlySummary(cleanedMonths);
+                XLSX.utils.book_append_sheet(processedWorkbook, summarySheet, 'Monthly Summary');
+                log('✓ Monthly summary created', 'success');
+                
+                // Step 4: Populate Parts by Month
+                updateProgress(55, 'Populating parts summary...');
+                log('Step 4: Populating parts by month summary...', 'info');
+                const partsMonthSheet = populatePartsSummary(cleanedMonths);
+                XLSX.utils.book_append_sheet(processedWorkbook, partsMonthSheet, 'Parts by Month Summary');
+                log('✓ Parts summary populated', 'success');
+                
+                // Step 5: Explode BOMs
+                updateProgress(70, 'Exploding BOMs...');
+                log('Step 5: Exploding Bills of Materials...', 'info');
+                const bomExplosion = explodeBOMs();
+                XLSX.utils.book_append_sheet(processedWorkbook, bomExplosion, 'BOM Explosion');
+                log('✓ BOMs exploded', 'success');
+                
+                // Step 6: Material Movements
+                updateProgress(85, 'Calculating material movements...');
+                log('Step 6: Calculating material movements...', 'info');
+                const movements = calculateMaterialMovements(cleanedMonths, bomExplosion);
+                XLSX.utils.book_append_sheet(processedWorkbook, movements, 'Material Movements');
+                log('✓ Material movements calculated', 'success');
+                
+                // Step 7: Material Expenses
+                updateProgress(95, 'Calculating expenses...');
+                log('Step 7: Calculating material expenses...', 'info');
+                const expenses = calculateMaterialExpenses(movements);
+                XLSX.utils.book_append_sheet(processedWorkbook, expenses, 'Material Expenses');
+                log('✓ Material expenses calculated', 'success');
+                
+                // Copy original sheets for reference
+                if (workbook.Sheets['BOMS Data']) {
+                    XLSX.utils.book_append_sheet(processedWorkbook, workbook.Sheets['BOMS Data'], 'BOMS Data');
+                }
+                if (workbook.Sheets['Products']) {
+                    XLSX.utils.book_append_sheet(processedWorkbook, workbook.Sheets['Products'], 'Products');
+                }
+                
+                updateProgress(100, 'Complete!');
+                log('✅ All processing complete!', 'success');
+                
+                // Show results
+                showResults(cleanedMonths, movements, expenses);
+                
+            } catch (error) {
+                log('❌ Error: ' + error.message, 'error');
+                updateProgress(0, 'Error occurred');
+                alert('Error during processing: ' + error.message);
+            } finally {
+                processBtn.disabled = false;
+            }
+        }
+
+        function cleanMonthlySheet(monthName) {
+            const sheet = workbook.Sheets[monthName];
+            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: '' });
+            
+            const cleaned = [];
+            
+            // Header row
+            cleaned.push(['Part Number', 'Description', 'Qty', 'Amount', '% of Sales', 'Avg Price', 'COGS', 'Avg COGS', 'Gross Margin', 'Gross Margin %']);
+            
+            // Process data rows
+            for (let i = 0; i < data.length; i++) {
+                const row = data[i];
+                if (!row || row.length < 2) continue;
+                
+                const partAndDesc = String(row[1] || '').trim();
+                if (!partAndDesc || partAndDesc === 'Part and Description') continue;
+                
+                // Parse "0322 (3" Wheel for File Dolly)" format
+                const match = partAndDesc.match(/^(\S+)\s*\((.+)\)$/);
+                if (match) {
+                    const partNum = match[1];
+                    const desc = match[2];
+                    
+                    cleaned.push([
+                        partNum,
+                        desc,
+                        row[2] || 0,
+                        row[3] || 0,
+                        row[4] || 0,
+                        row[5] || 0,
+                        row[6] || 0,
+                        row[7] || 0,
+                        row[8] || 0,
+                        row[9] || 0
+                    ]);
+                }
             }
             
-            html += '<button class="btn btn-success" onclick="copyToClipboard()">📋 Copy to Clipboard</button>';
+            const ws = XLSX.utils.aoa_to_sheet(cleaned);
+            formatPartNumberColumns(ws, [0]); // Column A (Part Number)
+            XLSX.utils.book_append_sheet(processedWorkbook, ws, monthName);
             
-            resultsDiv.innerHTML = html;
-            outputData = data;
-            resultsDiv.scrollIntoView({ behavior: 'smooth' });
+            return cleaned;
         }
 
-        function copyToClipboard() {
-            if (!outputData) return;
-            navigator.clipboard.writeText(outputData).then(() => {
-                alert('✓ Copied to clipboard! Paste into Excel.');
-            });
+        function buildYTD(cleanedMonths) {
+            const ytdData = {};
+            
+            // Aggregate all months
+            for (const [month, data] of Object.entries(cleanedMonths)) {
+                for (let i = 1; i < data.length; i++) {
+                    const row = data[i];
+                    const partNum = row[0];
+                    const qty = parseFloat(row[2]) || 0;
+                    const amount = parseFloat(row[3]) || 0;
+                    const cogs = parseFloat(row[6]) || 0;
+                    
+                    if (!ytdData[partNum]) {
+                        ytdData[partNum] = {
+                            desc: row[1],
+                            qty: 0,
+                            amount: 0,
+                            cogs: 0
+                        };
+                    }
+                    
+                    ytdData[partNum].qty += qty;
+                    ytdData[partNum].amount += amount;
+                    ytdData[partNum].cogs += cogs;
+                }
+            }
+            
+            // Build output
+            const output = [['Part Number', 'Description', 'Total Qty', 'Total Amount', 'Total COGS', 'Gross Margin', 'Margin %']];
+            
+            for (const [partNum, data] of Object.entries(ytdData)) {
+                const margin = data.amount - data.cogs;
+                const marginPct = data.amount > 0 ? margin / data.amount : 0;
+                
+                output.push([
+                    partNum,
+                    data.desc,
+                    data.qty,
+                    data.amount,
+                    data.cogs,
+                    margin,
+                    marginPct
+                ]);
+            }
+            
+            const ws = XLSX.utils.aoa_to_sheet(output);
+            formatPartNumberColumns(ws, [0]); // Column A (Part Number)
+            return ws;
         }
 
-        // Placeholder functions - each would contain the actual logic
-        function cleanMonthlyData() {
-            alert('This tool would clean all monthly sheets. Implementation from previous tools goes here.');
+        function createMonthlySummary(cleanedMonths) {
+            const months = ['Jan 25', 'Feb 25', 'Mar 25', 'Apr 25', 'May 25', 'Jun 25', 
+                          'Jul 25', 'Aug 25', 'Sept 25', 'Oct 25', 'Nov 25', 'Dec 25'];
+            
+            const output = [['Metric', ...months]];
+            
+            const metrics = {
+                'Total Sales': [],
+                'Total COGS': [],
+                'Gross Margin': [],
+                'Margin %': [],
+                'Units Sold': []
+            };
+            
+            for (const month of months) {
+                const data = cleanedMonths[month];
+                if (!data) {
+                    for (const key in metrics) metrics[key].push(0);
+                    continue;
+                }
+                
+                let totalAmount = 0, totalCOGS = 0, totalQty = 0;
+                
+                for (let i = 1; i < data.length; i++) {
+                    totalAmount += parseFloat(data[i][3]) || 0;
+                    totalCOGS += parseFloat(data[i][6]) || 0;
+                    totalQty += parseFloat(data[i][2]) || 0;
+                }
+                
+                const margin = totalAmount - totalCOGS;
+                const marginPct = totalAmount > 0 ? margin / totalAmount : 0;
+                
+                metrics['Total Sales'].push(totalAmount);
+                metrics['Total COGS'].push(totalCOGS);
+                metrics['Gross Margin'].push(margin);
+                metrics['Margin %'].push(marginPct);
+                metrics['Units Sold'].push(totalQty);
+            }
+            
+            for (const [metric, values] of Object.entries(metrics)) {
+                output.push([metric, ...values]);
+            }
+            
+            return XLSX.utils.aoa_to_sheet(output);
         }
 
-        function buildYTD() {
-            alert('This tool would build YTD. Implementation from previous tools goes here.');
-        }
-
-        function monthlySummary() {
-            alert('This tool would create monthly summary. Implementation from previous tools goes here.');
-        }
-
-        function populatePartsSummary() {
-            alert('This tool would populate parts summary. Implementation from previous tools goes here.');
+        function populatePartsSummary(cleanedMonths) {
+            const months = ['Jan 25', 'Feb 25', 'Mar 25', 'Apr 25', 'May 25', 'Jun 25', 
+                          'Jul 25', 'Aug 25', 'Sept 25', 'Oct 25', 'Nov 25', 'Dec 25'];
+            
+            const partsData = {};
+            
+            // Collect all parts and their monthly quantities
+            for (const month of months) {
+                const data = cleanedMonths[month];
+                if (!data) continue;
+                
+                for (let i = 1; i < data.length; i++) {
+                    const partNum = data[i][0];
+                    const desc = data[i][1];
+                    const qty = parseFloat(data[i][2]) || 0;
+                    
+                    if (!partsData[partNum]) {
+                        partsData[partNum] = {
+                            desc: desc,
+                            months: {}
+                        };
+                    }
+                    
+                    partsData[partNum].months[month] = qty;
+                }
+            }
+            
+            // Build output
+            const output = [['Part Number', 'Description', ...months.map(m => m.split(' ')[0])]];
+            
+            for (const [partNum, data] of Object.entries(partsData)) {
+                const row = [partNum, data.desc];
+                for (const month of months) {
+                    row.push(data.months[month] || '');
+                }
+                output.push(row);
+            }
+            
+            const ws = XLSX.utils.aoa_to_sheet(output);
+            formatPartNumberColumns(ws, [0]); // Column A (Part Number)
+            return ws;
         }
 
         function explodeBOMs() {
-            alert('This tool would explode BOMs. Implementation from previous tools goes here.');
+            if (!workbook.Sheets['BOMS Data']) {
+                return XLSX.utils.aoa_to_sheet([['BOM data not found']]);
+            }
+            
+            const bomsData = XLSX.utils.sheet_to_json(workbook.Sheets['BOMS Data'], { header: 1 });
+            
+            // Build BOM structure
+            const bomMap = {};
+            let currentParent = null;
+            
+            for (let i = 1; i < bomsData.length; i++) {
+                const row = bomsData[i];
+                const partNum = row[2];
+                const componentPartNum = row[6];
+                const componentQty = parseFloat(row[8]) || 1;
+                
+                if (partNum) {
+                    currentParent = partNum;
+                    bomMap[currentParent] = [];
+                }
+                
+                if (currentParent && componentPartNum) {
+                    bomMap[currentParent].push({
+                        component: componentPartNum,
+                        qty: componentQty,
+                        desc: row[7] || ''
+                    });
+                }
+            }
+            
+            // Explode BOMs recursively
+            function explode(partNum, quantity = 1, level = 0) {
+                const results = [];
+                const components = bomMap[partNum];
+                
+                if (components) {
+                    for (const comp of components) {
+                        const totalQty = comp.qty * quantity;
+                        results.push({
+                            level: level,
+                            parent: partNum,
+                            component: comp.component,
+                            desc: comp.desc,
+                            qtyPer: comp.qty,
+                            totalQty: totalQty
+                        });
+                        
+                        // Recursive explosion
+                        const subComponents = explode(comp.component, totalQty, level + 1);
+                        results.push(...subComponents);
+                    }
+                }
+                
+                return results;
+            }
+            
+            // Build explosion output
+            const output = [['Level', 'Parent Part', 'Component', 'Description', 'Qty Per Parent', 'Total Qty']];
+            
+            for (const partNum of Object.keys(bomMap)) {
+                const explosion = explode(partNum, 1, 0);
+                for (const item of explosion) {
+                    output.push([
+                        item.level,
+                        item.parent,
+                        item.component,
+                        item.desc,
+                        item.qtyPer,
+                        item.totalQty
+                    ]);
+                }
+            }
+            
+            const ws = XLSX.utils.aoa_to_sheet(output);
+            formatPartNumberColumns(ws, [1, 2]); // Columns B & C (Parent Part, Component)
+            return ws;
         }
 
-        function materialMovements() {
-            alert('This tool would calculate material movements. Implementation from previous tools goes here.');
+        function calculateMaterialMovements(cleanedMonths, bomExplosionSheet) {
+            const months = ['Jan 25', 'Feb 25', 'Mar 25', 'Apr 25', 'May 25', 'Jun 25', 
+                          'Jul 25', 'Aug 25', 'Sept 25', 'Oct 25', 'Nov 25', 'Dec 25'];
+            
+            // Get BOM relationships
+            const bomData = XLSX.utils.sheet_to_json(bomExplosionSheet, { header: 1 });
+            const bomMap = {};
+            
+            for (let i = 1; i < bomData.length; i++) {
+                const row = bomData[i];
+                const parent = row[1];
+                const component = row[2];
+                const qtyPer = parseFloat(row[4]) || 1;
+                
+                if (!bomMap[parent]) bomMap[parent] = {};
+                bomMap[parent][component] = qtyPer;
+            }
+            
+            // Get all components from BOM explosion
+            const allComponents = new Set();
+            for (let i = 1; i < bomData.length; i++) {
+                const row = bomData[i];
+                const component = row[2];
+                if (component && String(component).trim()) {
+                    allComponents.add(String(component).trim());
+                }
+            }
+            
+            // Filter to only these categories from Products sheet
+            const trackCategories = ['Expenses', 'Raw Materials', 'Sub Assemblies', 'Sub Contracting'];
+            const allMaterials = new Set();
+            if (workbook.Sheets['Products']) {
+                const productsData = XLSX.utils.sheet_to_json(workbook.Sheets['Products'], { header: 1 });
+                for (let i = 1; i < productsData.length; i++) {
+                    const row = productsData[i];
+                    const category = String(row[0] || '').trim();
+                    const partNum = String(row[1] || '').trim();
+                    
+                    // Only include tracked categories that are also in BOM components
+                    if (partNum && trackCategories.includes(category) && allComponents.has(partNum)) {
+                        allMaterials.add(partNum);
+                    }
+                }
+            }
+            
+            // Initialize material movements for ALL materials
+            const materialMovements = {};
+            for (const material of allMaterials) {
+                materialMovements[material] = {};
+            }
+            
+            // Calculate material consumption by month
+            for (const month of months) {
+                const data = cleanedMonths[month];
+                if (!data) continue;
+                
+                for (let i = 1; i < data.length; i++) {
+                    const partNum = data[i][0];
+                    const qtySold = parseFloat(data[i][2]) || 0;
+                    
+                    // Find components for this part
+                    if (bomMap[partNum]) {
+                        for (const [component, qtyPer] of Object.entries(bomMap[partNum])) {
+                            // Only track if it's in our materials list
+                            if (allMaterials.has(component)) {
+                                if (!materialMovements[component]) {
+                                    materialMovements[component] = {};
+                                }
+                                if (!materialMovements[component][month]) {
+                                    materialMovements[component][month] = 0;
+                                }
+                                materialMovements[component][month] += qtySold * qtyPer;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // Build output - include ALL materials even if zero movement
+            const output = [['Component Part', ...months.map(m => m.split(' ')[0]), 'Total']];
+            
+            for (const [component, monthlyData] of Object.entries(materialMovements)) {
+                const row = [component];
+                let total = 0;
+                
+                for (const month of months) {
+                    const qty = monthlyData[month] || 0;
+                    row.push(qty);
+                    total += qty;
+                }
+                
+                row.push(total);
+                output.push(row);
+            }
+            
+            const ws = XLSX.utils.aoa_to_sheet(output);
+            formatPartNumberColumns(ws, [0]); // Column A (Component Part)
+            return ws;
         }
 
-        function materialExpenses() {
-            alert('This tool would calculate material expenses. Implementation from previous tools goes here.');
+        function calculateMaterialExpenses(movementsSheet) {
+            const movements = XLSX.utils.sheet_to_json(movementsSheet, { header: 1 });
+            
+            // Get product costs
+            const costs = {};
+            if (workbook.Sheets['Products']) {
+                const productsData = XLSX.utils.sheet_to_json(workbook.Sheets['Products'], { header: 1 });
+                for (let i = 1; i < productsData.length; i++) {
+                    const row = productsData[i];
+                    const partNum = row[1];
+                    const cost = parseFloat(row[3]) || 0;
+                    if (partNum) costs[partNum] = cost;
+                }
+            }
+            
+            // Calculate expenses
+            const output = [movements[0].slice(0, -1).concat(['Total Qty', 'Unit Cost', 'Total Expense'])];
+            
+            for (let i = 1; i < movements.length; i++) {
+                const row = movements[i];
+                const component = row[0];
+                const unitCost = costs[component] || 0;
+                const totalQty = row[row.length - 1] || 0;
+                const totalExpense = totalQty * unitCost;
+                
+                const newRow = row.slice(0, -1);
+                newRow.push(totalQty, unitCost, totalExpense);
+                output.push(newRow);
+            }
+            
+            const ws = XLSX.utils.aoa_to_sheet(output);
+            formatPartNumberColumns(ws, [0]); // Column A (Component Part)
+            return ws;
         }
+
+        function showResults(cleanedMonths, movements, expenses) {
+            const resultsArea = document.getElementById('resultsArea');
+            const statsGrid = document.getElementById('statsGrid');
+            
+            // Calculate statistics
+            const monthsProcessed = Object.keys(cleanedMonths).length;
+            
+            // Count unique parts sold
+            let totalParts = 0;
+            const allParts = new Set();
+            for (const data of Object.values(cleanedMonths)) {
+                for (let i = 1; i < data.length; i++) {
+                    allParts.add(data[i][0]);
+                }
+            }
+            totalParts = allParts.size;
+            
+            // Count material movements tracked (ALL rows, not just ones with movement)
+            const movementsData = XLSX.utils.sheet_to_json(movements, { header: 1 });
+            let materialMovements = 0;
+            for (let i = 1; i < movementsData.length; i++) { // Start at 1 to skip header
+                const row = movementsData[i];
+                if (row && row[0]) { // Only count rows with a part number
+                    materialMovements++;
+                }
+            }
+            
+            // Count total BOM lines from explosion
+            let bomLines = 0;
+            if (processedWorkbook.Sheets['BOM Explosion']) {
+                const bomData = XLSX.utils.sheet_to_json(processedWorkbook.Sheets['BOM Explosion'], { header: 1 });
+                bomLines = bomData.length - 1;
+            }
+            
+            const expensesData = XLSX.utils.sheet_to_json(expenses, { header: 1 });
+            let totalExpense = 0;
+            for (let i = 1; i < expensesData.length; i++) {
+                totalExpense += parseFloat(expensesData[i][expensesData[i].length - 1]) || 0;
+            }
+            
+            statsGrid.innerHTML = `
+                <div class="stat-card">
+                    <div class="number">${monthsProcessed}</div>
+                    <div class="label">Months Processed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">${totalParts}</div>
+                    <div class="label">Unique Parts Sold</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">${materialMovements}</div>
+                    <div class="label">Material Movements Tracked</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">${bomLines.toLocaleString()}</div>
+                    <div class="label">BOMs Exploded</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">$${(totalExpense / 1000).toFixed(1)}K</div>
+                    <div class="label">Total Material Expense</div>
+                </div>
+            `;
+            
+            resultsArea.style.display = 'block';
+            resultsArea.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        document.getElementById('downloadBtn').addEventListener('click', () => {
+            if (!processedWorkbook) return;
+            
+            const wbout = XLSX.write(processedWorkbook, { bookType: 'xlsx', type: 'binary' });
+            
+            function s2ab(s) {
+                const buf = new ArrayBuffer(s.length);
+                const view = new Uint8Array(buf);
+                for (let i = 0; i < s.length; i++) view[i] = s.charCodeAt(i) & 0xFF;
+                return buf;
+            }
+            
+            const blob = new Blob([s2ab(wbout)], { type: 'application/octet-stream' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${fileName}_MRP_Analysis.xlsx`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
 
         function downloadTemplate() {
             // Create a new workbook with proper sheet structure
@@ -249,9 +807,10 @@
             months.forEach(month => {
                 const monthData = [
                     ['', 'Part and Description', 'Qty', 'Amount', '% of Sales', 'Avg Price', 'COGS', 'Avg COGS', 'Gross Margin', 'Gross Margin %'],
-                    ['', '0322 (3" Wheel for File Dolly)', '6', '114', '0.20%', '19', '15.11', '2.52', '98.89', '86.75%'],
-                    ['', '0331 (2.5" Plate Caster for All Purpose Dolly)', '1', '15.12', '0.03%', '15.12', '6.98', '6.98', '8.14', '53.84%'],
-                    ['', '(Paste QuickBooks data here - Tool #1 will split Part # from Description)', '', '', '', '', '', '', '', '']
+                    ['', '0322 (3" Wheel for File Dolly)', '6', '114', '0.0020', '19', '15.11', '2.52', '98.89', '0.8675'],
+                    ['', '0331 (2.5" Plate Caster for All Purpose Dolly)', '1', '15.12', '0.0003', '15.12', '6.98', '6.98', '8.14', '0.5384'],
+                    ['', '*** Paste your QuickBooks sales data below (keep format: PARTNUM (Description)) ***', '', '', '', '', '', '', '', ''],
+                    ['', '*** Tool will automatically split Part Number from Description ***', '', '', '', '', '', '', '', '']
                 ];
                 const ws = XLSX.utils.aoa_to_sheet(monthData);
                 XLSX.utils.book_append_sheet(wb, ws, month);
@@ -260,8 +819,9 @@
             // 2. Parts by Month Summary
             const partsMonthData = [
                 ['Part Number', 'Description', 'Part and Description', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-                ['0322', '3" Wheel for File Dolly', '0322 (3" Wheel for File Dolly)', '', '', '', '', '', '', '', '', '', '', '', ''],
-                ['', '(This will be auto-populated)', '', '', '', '', '', '', '', '', '', '', '', '', '']
+                ['322', '3" Wheel for File Dolly', '0322 (3" Wheel for File Dolly)', '', '', '', '', '', '', '', '', '', '', '', ''],
+                ['331', '2.5" Plate Caster for All Purpose Dolly', '0331 (2.5" Plate Caster for All Purpose Dolly)', '', '', '', '', '', '', '', '', '', '', '', ''],
+                ['', '*** This sheet will be auto-populated by the tool ***', '', '', '', '', '', '', '', '', '', '', '', '', '']
             ];
             const wsPartsMonth = XLSX.utils.aoa_to_sheet(partsMonthData);
             XLSX.utils.book_append_sheet(wb, wsPartsMonth, 'Parts by Month Summary');
@@ -269,9 +829,12 @@
             // 3. BOMS Data
             const bomsData = [
                 ['Sort', 'Category', 'Part Number', 'Description', 'Quantity', 'Category', 'Component Part Number', 'BoM Lines/Component', 'BoM Lines/Quantity'],
-                ['1', 'Finished Goods', '0322', '[0322] 3" Wheel for File Dolly', '1', 'Raw Materials', '30173', '[30173] Wheel 3" for K.K.', '1'],
+                ['1', 'Finished Goods', '0322', '[0322] 3" Wheel for File Dolly', '1', 'Raw Materials', '30173', '[30173] Wheel 3" for K.K. (1/2" bore hole)', '1'],
                 ['2', '', '', '', '', 'Raw Materials', '35941', '[35941] Carton 5 panel folder', '1'],
-                ['', '(Blank cells = same parent part)', '', '', '', '', '', '', '']
+                ['3', 'Finished Goods', '0331', '[0331] 2.5" Plate Caster', '1', 'Raw Materials', '30333', '[30333] Caster 2 1/2" swivel plate', '1'],
+                ['', '*** Fill in your Bill of Materials here ***', '', '', '', '', '', '', ''],
+                ['', '*** When Part Number is blank, it means "same as row above" ***', '', '', '', '', '', '', ''],
+                ['', '*** This allows multiple components per finished good ***', '', '', '', '', '', '', '']
             ];
             const wsBoms = XLSX.utils.aoa_to_sheet(bomsData);
             XLSX.utils.book_append_sheet(wb, wsBoms, 'BOMS Data');
@@ -279,48 +842,88 @@
             // 4. Products (for costing)
             const productsData = [
                 ['categ_id', 'Part Number', 'Description', 'Cost', 'List Price'],
-                ['Raw Materials', '30173', 'Wheel 3" for K.K.', '5.50', '12.00'],
+                ['Raw Materials', '30173', 'Wheel 3" for K.K. (1/2" bore hole)', '5.50', '12.00'],
                 ['Raw Materials', '35941', 'Carton 5 panel folder', '0.75', '2.00'],
-                ['', '(Add all your products with costs)', '', '', '']
+                ['Raw Materials', '30333', 'Caster 2 1/2" swivel plate', '8.25', '18.00'],
+                ['Finished Goods', '0322', '3" Wheel for File Dolly', '6.25', '19.00'],
+                ['Finished Goods', '0331', '2.5" Plate Caster for All Purpose Dolly', '9.00', '15.12'],
+                ['', '*** Add all your products with costs here ***', '', '', ''],
+                ['', '*** Cost column is critical for expense calculations ***', '', '', '']
             ];
             const wsProducts = XLSX.utils.aoa_to_sheet(productsData);
             XLSX.utils.book_append_sheet(wb, wsProducts, 'Products');
             
             // 5. Instructions sheet
             const instructions = [
-                ['RAYMOND MRP SUITE - TEMPLATE INSTRUCTIONS'],
+                ['RAYMOND MRP PROCESSOR - TEMPLATE INSTRUCTIONS'],
                 [''],
-                ['SHEET STRUCTURE:'],
-                ['1. Monthly Sheets (Jan 25 - Dec 25): Enter sales data in RAW QuickBooks format'],
-                ['   - Column A: Leave EMPTY (QuickBooks format)'],
-                ['   - Column B: Part and Description in format: "PARTNUM (Description)"'],
-                ['      Example: 0322 (3" Wheel for File Dolly)'],
-                ['   - Column C: Qty sold'],
-                ['   - Other columns: Amount, COGS, etc.'],
-                ['   - Tool #1 will SPLIT these into Part Number and Description columns'],
+                ['=== QUICK START ==='],
+                ['1. Fill in monthly sales data (Jan 25 - Dec 25 sheets)'],
+                ['2. Fill in BOMS Data with your bill of materials'],
+                ['3. Fill in Products sheet with part costs'],
+                ['4. Upload this file to the MRP Processor'],
+                ['5. Click "Process Complete MRP Analysis"'],
+                ['6. Download your complete analysis!'],
                 [''],
-                ['2. Parts by Month Summary: Will be auto-populated by Tool #4'],
+                ['=== SHEET DETAILS ==='],
                 [''],
-                ['3. BOMS Data: Your Bill of Materials in Odoo import format'],
-                ['   - When Part Number is blank, it means "same as previous row"'],
-                ['   - This allows multiple components per finished good'],
-                ['   - Can have multi-level BOMs (Sub Assemblies within Sub Assemblies)'],
+                ['MONTHLY SHEETS (Jan 25 - Dec 25):'],
+                ['- Paste sales data from QuickBooks in RAW format'],
+                ['- Column A: Leave EMPTY (QuickBooks format)'],
+                ['- Column B: Part and Description as "PARTNUM (Description)"'],
+                ['  Example: 0322 (3" Wheel for File Dolly)'],
+                ['- Column C: Qty sold'],
+                ['- Other columns: Amount, COGS, etc.'],
+                ['- Tool will automatically SPLIT Part Number from Description'],
                 [''],
-                ['4. Products: Master list of all parts with costs'],
-                ['   - Used for calculating material expenses'],
-                ['   - Cost column is critical for expense calculations'],
+                ['PARTS BY MONTH SUMMARY:'],
+                ['- This sheet will be auto-populated by the tool'],
+                ['- Shows quantity sold per part per month'],
+                ['- No manual entry needed'],
                 [''],
-                ['WORKFLOW:'],
-                ['1. Export monthly sales from QuickBooks (keeps format: PARTNUM (Description))'],
-                ['2. Paste into monthly sheets (Jan 25 - Dec 25)'],
-                ['3. Use Tool #1 to CLEAN and split part numbers from descriptions'],
-                ['4. Fill in BOMS Data with your bill of materials'],
-                ['5. Fill in Products sheet with part costs'],
-                ['6. Use remaining tools (#2-7) to generate reports'],
+                ['BOMS DATA:'],
+                ['- Enter your Bill of Materials in Odoo import format'],
+                ['- When Part Number column is BLANK, it means "same as previous row"'],
+                ['- This allows multiple components per finished good'],
+                ['- Can have multi-level BOMs (Sub Assemblies within Sub Assemblies)'],
+                ['- Format:'],
+                ['  Row 1: Part 0322, Component 30173, Qty 1'],
+                ['  Row 2: (blank), Component 35941, Qty 1  <- Same parent (0322)'],
                 [''],
-                ['IMPORTANT: Start with QuickBooks format, Tool #1 cleans it!'],
+                ['PRODUCTS:'],
+                ['- Master list of ALL parts with costs'],
+                ['- Used for calculating material expenses'],
+                ['- Cost column is CRITICAL for accurate expense calculations'],
+                ['- Include both raw materials and finished goods'],
                 [''],
-                ['For support: Reference the Raymond MRP Suite documentation']
+                ['=== PROCESSING WORKFLOW ==='],
+                ['The tool automatically performs these 7 steps:'],
+                ['1. Clean Monthly Data - Splits part numbers from descriptions'],
+                ['2. Build YTD - Creates year-to-date totals'],
+                ['3. Monthly Summary - Aggregates sales/COGS/margins by month'],
+                ['4. Populate Parts Summary - Fills quantities by part by month'],
+                ['5. Explode BOMs - Recursively breaks down all bill of materials'],
+                ['6. Calculate Material Movements - Shows component consumption'],
+                ['7. Calculate Material Expenses - Multiplies quantities × costs'],
+                [''],
+                ['=== OUTPUT ==='],
+                ['You will receive an Excel file with all analysis sheets:'],
+                ['- 12 cleaned monthly sheets'],
+                ['- YTD totals'],
+                ['- Monthly Summary'],
+                ['- Parts by Month Summary (populated)'],
+                ['- BOM Explosion'],
+                ['- Material Movements'],
+                ['- Material Expenses'],
+                ['- Original reference sheets'],
+                [''],
+                ['=== TIPS ==='],
+                ['- Keep QuickBooks format in monthly sheets (PARTNUM (Description))'],
+                ['- Fill in complete BOM relationships for accurate material tracking'],
+                ['- Ensure Products sheet has costs for all components'],
+                ['- Process takes 5-15 seconds depending on data size'],
+                [''],
+                ['For support: Reference Raymond MRP Processor documentation']
             ];
             const wsInstructions = XLSX.utils.aoa_to_sheet(instructions);
             XLSX.utils.book_append_sheet(wb, wsInstructions, 'Instructions');
@@ -345,7 +948,7 @@
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
             
-            alert('✓ Template downloaded! Fill in your data and upload it back to use the tools.');
+            alert('✓ Template downloaded! Fill in your data and upload it back to process.');
         }
     </script>
 </body>
