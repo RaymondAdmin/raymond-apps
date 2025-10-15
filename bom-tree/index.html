@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM Tree Explorer - Raymond Tools (Odoo Format)</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.3em;
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            background: #f8f9ff;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .upload-area:hover {
+            background: #eef0ff;
+            border-color: #764ba2;
+        }
+        
+        .upload-area.dragover {
+            background: #e3e7ff;
+            border-color: #764ba2;
+            transform: scale(1.02);
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-icon {
+            font-size: 3em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .search-section {
+            display: none;
+            margin-top: 20px;
+        }
+        
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .search-input {
+            flex: 1;
+            padding: 12px 20px;
+            font-size: 1.1em;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+        
+        .tree-container {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .tree-node {
+            margin: 5px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+        }
+        
+        .tree-node:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transform: translateX(5px);
+        }
+        
+        .level-0 { margin-left: 0px; border-left-color: #dc3545; background: #fff5f5; }
+        .level-1 { margin-left: 40px; border-left-color: #fd7e14; background: #fff8f0; }
+        .level-2 { margin-left: 80px; border-left-color: #ffc107; background: #fffcf0; }
+        .level-3 { margin-left: 120px; border-left-color: #28a745; background: #f0fff4; }
+        .level-4 { margin-left: 160px; border-left-color: #17a2b8; background: #f0fbff; }
+        .level-5 { margin-left: 200px; border-left-color: #6610f2; background: #f8f0ff; }
+        
+        .part-number {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        .part-description {
+            color: #333;
+            margin: 5px 0;
+            font-size: 1.05em;
+        }
+        
+        .part-details {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+            font-size: 0.9em;
+        }
+        
+        .detail-badge {
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        .badge-category {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+        
+        .badge-qty {
+            background: #fff3e0;
+            color: #e65100;
+        }
+        
+        .badge-level {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+        
+        .badge-cost {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+        
+        .alert {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .alert-info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border-left: 4px solid #17a2b8;
+        }
+        
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border-left: 4px solid #28a745;
+        }
+        
+        .alert-warning {
+            background: #fff3cd;
+            color: #856404;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .export-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .suggestions-box {
+            margin-top: 10px;
+            padding: 15px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 5px;
+        }
+        
+        .suggestion-item {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 3px;
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .suggestion-item:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌳 BOM Tree Explorer</h1>
+            <p>Visualize complete bill of materials hierarchy (Odoo Format)</p>
+        </div>
+        
+        <div class="content">
+            <!-- Upload Section -->
+            <div class="section">
+                <div class="section-title">📁 Upload BOM Data</div>
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📊</div>
+                    <h3>Drop your Odoo BOM CSV file here or click to browse</h3>
+                    <p>Accepts: Final_Odoo_BOMS_for_Import format</p>
+                </div>
+                <div id="fileInfo" style="margin-top: 15px;"></div>
+            </div>
+            
+            <!-- Search Section -->
+            <div class="section search-section" id="searchSection">
+                <div class="section-title">🔍 Search Part Number</div>
+                <div class="search-box">
+                    <input type="text" 
+                           id="searchInput" 
+                           class="search-input" 
+                           placeholder="Enter part number (e.g., 0376, 101-B, 3826)">
+                    <button class="btn btn-primary" onclick="searchPart()">Build Tree</button>
+                    <button class="btn btn-secondary" onclick="clearResults()">Clear</button>
+                </div>
+                
+                <div id="suggestions" style="display: none;"></div>
+            </div>
+            
+            <!-- Results Section -->
+            <div class="section" id="resultsSection" style="display: none;">
+                <div class="section-title">📊 BOM Tree Results</div>
+                
+                <div id="statsContainer"></div>
+                
+                <div class="export-buttons">
+                    <button class="btn btn-primary" onclick="exportTree()">📥 Export to Excel</button>
+                    <button class="btn btn-secondary" onclick="printTree()">🖨️ Print</button>
+                </div>
+                
+                <div class="tree-container" id="treeContainer"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let bomData = [];
+        let bomMap = {}; // Maps Reference to its BOM structure
+        
+        // File upload handling
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
+        fileInput.accept = '.csv';
+        fileInput.style.display = 'none';
+        document.body.appendChild(fileInput);
+        
+        uploadArea.addEventListener('click', () => fileInput.click());
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            handleFile(file);
+        });
+        
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            handleFile(file);
+        });
+        
+        function handleFile(file) {
+            if (!file) return;
+            
+            Papa.parse(file, {
+                header: true,
+                skipEmptyLines: true,
+                complete: function(results) {
+                    try {
+                        bomData = results.data;
+                        processBOMData();
+                        
+                        // Show success message
+                        const uniqueParents = Object.keys(bomMap).length;
+                        const totalComponents = bomData.length;
+                        
+                        document.getElementById('fileInfo').innerHTML = `
+                            <div class="alert alert-success">
+                                ✅ File loaded successfully!<br>
+                                📦 ${uniqueParents} parent products found<br>
+                                🔧 ${totalComponents} total BOM relationships loaded
+                            </div>
+                        `;
+                        
+                        // Show search section
+                        document.getElementById('searchSection').style.display = 'block';
+                        
+                    } catch (error) {
+                        alert('Error processing file: ' + error.message);
+                    }
+                },
+                error: function(error) {
+                    alert('Error reading file: ' + error.message);
+                }
+            });
+        }
+        
+        function processBOMData() {
+            bomMap = {};
+            let currentParent = null;
+            
+            bomData.forEach(row => {
+                const reference = (row['Reference'] || '').trim();
+                const componentPartNumber = (row['Component Part Number'] || '').trim();
+                const componentFull = (row['BoM Lines/Component'] || '').trim();
+                const qty = parseFloat(row['BoM Lines/Quantity']) || 1;
+                
+                // New parent row
+                if (reference) {
+                    currentParent = reference;
+                    bomMap[reference] = {
+                        reference: reference,
+                        product: row['Product'] || '',
+                        category: row['Category'] || '',
+                        bomType: row['BOM Type'] || '',
+                        components: []
+                    };
+                }
+                
+                // Component row (includes first component on parent row)
+                if (currentParent && componentPartNumber) {
+                    bomMap[currentParent].components.push({
+                        partNumber: componentPartNumber,
+                        description: componentFull,
+                        quantity: qty
+                    });
+                }
+            });
+        }
+        
+        // Search and build tree
+        let currentTree = [];
+        
+        function searchPart() {
+            const searchValue = document.getElementById('searchInput').value.trim();
+            if (!searchValue) {
+                alert('Please enter a part number');
+                return;
+            }
+            
+            // Find the part
+            const partInfo = bomMap[searchValue];
+            if (!partInfo) {
+                alert('Part number not found in BOM data');
+                showSuggestions(searchValue);
+                return;
+            }
+            
+            // Build tree
+            currentTree = [];
+            buildTree(searchValue, 0, 1, []);
+            
+            // Display tree
+            displayTree(searchValue, partInfo);
+        }
+        
+        function buildTree(partNumber, level, quantity, path) {
+            // Prevent infinite loops
+            if (path.includes(partNumber)) {
+                console.warn(`Circular reference detected: ${partNumber}`);
+                return;
+            }
+            
+            const partInfo = bomMap[partNumber];
+            if (!partInfo) {
+                // This is a raw material or purchased component
+                currentTree.push({
+                    partNumber: partNumber,
+                    description: partNumber,
+                    category: 'Component',
+                    level: level,
+                    quantity: quantity
+                });
+                return;
+            }
+            
+            // Add current part to tree
+            currentTree.push({
+                partNumber: partInfo.reference,
+                description: partInfo.product,
+                category: partInfo.category,
+                bomType: partInfo.bomType,
+                level: level,
+                quantity: quantity
+            });
+            
+            // Build tree for each component
+            const newPath = [...path, partNumber];
+            partInfo.components.forEach(component => {
+                const childQty = quantity * component.quantity;
+                
+                // Check if this component is also a parent (has its own BOM)
+                if (bomMap[component.partNumber]) {
+                    buildTree(component.partNumber, level + 1, childQty, newPath);
+                } else {
+                    // Leaf node - raw material/component
+                    currentTree.push({
+                        partNumber: component.partNumber,
+                        description: component.description,
+                        category: 'Component',
+                        level: level + 1,
+                        quantity: childQty
+                    });
+                }
+            });
+        }
+        
+        function displayTree(rootPart, rootInfo) {
+            const resultsSection = document.getElementById('resultsSection');
+            const treeContainer = document.getElementById('treeContainer');
+            const statsContainer = document.getElementById('statsContainer');
+            
+            resultsSection.style.display = 'block';
+            
+            // Calculate statistics
+            const stats = calculateStats();
+            
+            // Display stats
+            statsContainer.innerHTML = `
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.totalParts}</div>
+                        <div class="stat-label">Total Parts</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.maxLevel}</div>
+                        <div class="stat-label">Max Depth</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.uniqueParts}</div>
+                        <div class="stat-label">Unique Parts</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.parentBOMs}</div>
+                        <div class="stat-label">Sub-Assemblies</div>
+                    </div>
+                </div>
+            `;
+            
+            // Display tree
+            let html = '';
+            currentTree.forEach(node => {
+                const levelClass = `level-${Math.min(node.level, 5)}`;
+                html += `
+                    <div class="tree-node ${levelClass}">
+                        <div class="part-number">${node.partNumber}</div>
+                        <div class="part-description">${node.description}</div>
+                        <div class="part-details">
+                            <span class="detail-badge badge-level">Level ${node.level}</span>
+                            ${node.category ? `<span class="detail-badge badge-category">${node.category}</span>` : ''}
+                            <span class="detail-badge badge-qty">Qty: ${node.quantity}</span>
+                            ${node.bomType ? `<span class="detail-badge">${node.bomType}</span>` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            treeContainer.innerHTML = html;
+            
+            // Scroll to results
+            resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        function calculateStats() {
+            const totalParts = currentTree.length;
+            const maxLevel = Math.max(...currentTree.map(n => n.level));
+            const uniqueParts = new Set(currentTree.map(n => n.partNumber)).size;
+            const parentBOMs = currentTree.filter(n => bomMap[n.partNumber]).length;
+            
+            return { totalParts, maxLevel, uniqueParts, parentBOMs };
+        }
+        
+        function showSuggestions(searchValue) {
+            const suggestions = Object.keys(bomMap)
+                .filter(p => p.toLowerCase().includes(searchValue.toLowerCase()))
+                .slice(0, 20);
+            
+            if (suggestions.length > 0) {
+                const suggestionsHTML = suggestions.map(s => 
+                    `<span class="suggestion-item" onclick="document.getElementById('searchInput').value='${s}'; searchPart();">${s}</span>`
+                ).join('');
+                
+                document.getElementById('suggestions').innerHTML = `
+                    <div class="suggestions-box">
+                        <strong>Did you mean one of these?</strong><br>
+                        ${suggestionsHTML}
+                    </div>
+                `;
+                document.getElementById('suggestions').style.display = 'block';
+            }
+        }
+        
+        function clearResults() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('suggestions').style.display = 'none';
+            currentTree = [];
+        }
+        
+        function exportTree() {
+            if (currentTree.length === 0) return;
+            
+            // Create worksheet data
+            const wsData = [
+                ['Level', 'Part Number', 'Description', 'Category', 'Quantity', 'BOM Type']
+            ];
+            
+            currentTree.forEach(node => {
+                wsData.push([
+                    node.level,
+                    node.partNumber,
+                    node.description,
+                    node.category || '',
+                    node.quantity,
+                    node.bomType || ''
+                ]);
+            });
+            
+            // Create workbook
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.aoa_to_sheet(wsData);
+            
+            // Auto-size columns
+            const colWidths = [
+                { wch: 8 },  // Level
+                { wch: 15 }, // Part Number
+                { wch: 50 }, // Description
+                { wch: 20 }, // Category
+                { wch: 10 }, // Quantity
+                { wch: 25 }  // BOM Type
+            ];
+            ws['!cols'] = colWidths;
+            
+            XLSX.utils.book_append_sheet(wb, ws, 'BOM Tree');
+            
+            // Download
+            const fileName = `BOM_Tree_${currentTree[0].partNumber}_${new Date().toISOString().slice(0,10)}.xlsx`;
+            XLSX.writeFile(wb, fileName);
+        }
+        
+        function printTree() {
+            window.print();
+        }
+        
+        // Enable Enter key for search
+        document.getElementById('searchInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                searchPart();
+            }
+        });
+    </script>
+</body>
+</html>
