@@ -557,8 +557,8 @@
                 for (const item of explosion) {
                     output.push([
                         item.level,
-                        item.parent,
-                        item.component,
+                        String(item.parent), // Force to string
+                        String(item.component), // Force to string
                         item.desc,
                         item.qtyPer,
                         item.totalQty
@@ -950,6 +950,10 @@
             
             alert('✓ Template downloaded! Fill in your data and upload it back to process.');
         }
+    </script>
+</body>
+</html>
+
     </script>
 </body>
 </html>
