@@ -4,7 +4,7 @@ Handles freight class calculation, dimensional weight, and other shipping calcul
 """
 
 from typing import List
-from .product_loader import Box
+from product_loader import Box
 
 
 class FreightCalculator:

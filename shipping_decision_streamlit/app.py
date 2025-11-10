@@ -3,12 +3,8 @@ Streamlit Web App for Raymond Products Shipping Decision System
 """
 
 import streamlit as st
-import sys
-import os
 
-# Add parent directory to path for imports
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
+# Direct imports (no relative imports needed)
 from product_loader import ProductCatalog
 from decision_engine import DecisionEngine, ShippingDecision
 from pallet_builder import PalletBuilder, PalletReport

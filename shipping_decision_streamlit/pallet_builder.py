@@ -4,8 +4,8 @@ Distributes boxes across pallets and calculates final pallet configurations
 """
 
 from typing import List, Dict
-from .product_loader import Box, Product
-from .calculator import ShipmentCalculator, FreightCalculator
+from product_loader import Box, Product
+from calculator import ShipmentCalculator, FreightCalculator
 
 
 class Pallet:

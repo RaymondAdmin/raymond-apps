@@ -4,8 +4,8 @@ Determines whether a shipment should go Small Parcel or Freight
 """
 
 from typing import List, Tuple
-from .product_loader import Box, Product
-from .calculator import ShipmentCalculator
+from product_loader import Box, Product
+from calculator import ShipmentCalculator
 
 
 class ShippingDecision:
