@@ -78,13 +78,6 @@ if st.session_state.catalog_loaded:
             placeholder="Type SKU (e.g., RPP-3828)",
             help="Enter the product SKU directly"
         )
-        
-        # Show suggestions if partial match
-        if sku:
-            product_list = sorted(st.session_state.catalog.products.keys())
-            matches = [p for p in product_list if sku.upper() in p.upper()]
-            if matches and len(matches) <= 10:
-                st.caption(f"💡 Matching SKUs: {', '.join(matches[:5])}" + (" ..." if len(matches) > 5 else ""))
     
     with col2:
         quantity = st.number_input(
