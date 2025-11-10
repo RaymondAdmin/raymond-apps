@@ -72,13 +72,19 @@ if st.session_state.catalog_loaded:
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        # Product search with autocomplete
-        product_list = sorted(st.session_state.catalog.products.keys())
-        sku = st.selectbox(
-            "Select Product SKU",
-            options=product_list,
-            help="Start typing to search for a product"
+        # Product search with text input
+        sku = st.text_input(
+            "Enter Product SKU",
+            placeholder="Type SKU (e.g., RPP-3828)",
+            help="Enter the product SKU directly"
         )
+        
+        # Show suggestions if partial match
+        if sku:
+            product_list = sorted(st.session_state.catalog.products.keys())
+            matches = [p for p in product_list if sku.upper() in p.upper()]
+            if matches and len(matches) <= 10:
+                st.caption(f"💡 Matching SKUs: {', '.join(matches[:5])}" + (" ..." if len(matches) > 5 else ""))
     
     with col2:
         quantity = st.number_input(
@@ -142,12 +148,33 @@ if st.session_state.catalog_loaded:
                     # If freight, show pallet configuration
                     if decision.decision == ShippingDecision.FREIGHT:
                         st.markdown("---")
-                        st.subheader("🏗️ Pallet Configuration")
+                        st.subheader("🏗️ Freight Summary")
                         
                         pallets = PalletBuilder.build_pallets(product, quantity)
-                        
-                        # Summary metrics
                         total_weight = sum(p.total_weight() for p in pallets)
+                        
+                        # Clean summary for copy/paste
+                        st.markdown("**Quick Reference (Copy/Paste Ready):**")
+                        summary_lines = []
+                        summary_lines.append(f"**Pallet Count:** {len(pallets)}")
+                        summary_lines.append("")
+                        
+                        for pallet in pallets:
+                            dims = pallet.dimensions()
+                            volume = pallet.volume() / 1728  # Convert to cubic feet
+                            density = pallet.total_weight() / volume if volume > 0 else 0
+                            
+                            summary_lines.append(
+                                f"**Pallet {pallet.pallet_number}:** "
+                                f"{dims[0]:.0f}×{dims[1]:.0f}×{dims[2]:.0f}\" @ {pallet.total_weight():.0f} lbs, "
+                                f"Class {pallet.freight_class()}, "
+                                f"Density {density:.1f} lbs/cu ft"
+                            )
+                        
+                        summary_text = "\n".join(summary_lines)
+                        st.code(summary_text, language=None)
+                        
+                        # Overall metrics
                         col1, col2, col3 = st.columns(3)
                         with col1:
                             st.metric("Total Pallets", len(pallets))
@@ -156,6 +183,10 @@ if st.session_state.catalog_loaded:
                         with col3:
                             avg_class = sum(p.freight_class() for p in pallets) / len(pallets)
                             st.metric("Avg Freight Class", f"{avg_class:.1f}")
+                        
+                        # Detailed pallet breakdown
+                        st.markdown("---")
+                        st.subheader("📋 Detailed Pallet Configuration")
                         
                         # Individual pallet details
                         for pallet in pallets:
