@@ -20,16 +20,20 @@ This system automates the decision-making process and provides pallet configurat
   - Number of boxes (4 box threshold)
   - Individual box dimensions (96" max for parcel)
   - Dimensional weight calculations
-  - Oversized box detection (>67" height)
+  - Oversized box detection (>91" height)
 
 - **Freight Class Calculation**: Accurate NMFC freight class determination based on density
+  - **CRITICAL RULE:** Pallets 75" or taller are calculated AS IF they were 96" tall
+  - This NMFC rule discourages tall/unstable shipments by increasing freight class
+  - Physical limit is still 96" (91" + 5" pallet), but cost calculated at 96" for anything ≥75"
 
 - **Pallet Configuration**: 
   - Distributes boxes evenly across pallets
-  - Respects 67" height constraint (72" total - 5" pallet)
+  - Respects 91" height constraint (96" total - 5" pallet)
   - Handles oversized boxes that can't be stacked
   - Calculates final pallet dimensions including overhang
   - Adds 50 lbs per pallet to weight calculations
+  - Shows both actual and calculated dimensions when 75" rule applies
 
 - **Multi-Box Product Support**: Correctly handles products that ship in multiple boxes per unit
 
@@ -143,6 +147,37 @@ Any of the following triggers freight:
 
 ### Borderline (100-150 lbs)
 Flagged for manual review - could go either way depending on distance and urgency.
+
+## Critical Freight Rules
+
+### The 75" Height Rule (NMFC Regulation)
+
+**Physical vs. Calculation Height:**
+- **Physical Limit:** Can pack up to 96" total height (91" product + 5" pallet base)
+- **Freight Class Calculation:** Any pallet ≥ 75" tall is calculated AS IF it were 96" tall
+
+**Why This Rule Exists:**
+- Discourages tall/unstable shipments (safety concern)
+- Tall pallets are more likely to tip during transit
+- Carriers charge premium rates via higher freight class
+
+**Financial Impact Example:**
+
+*Scenario: 80" tall pallet, 48×40 base, 400 lbs total weight*
+
+**WITHOUT the rule (if carriers charged at actual height):**
+- Volume: 48 × 40 × 80 = 153,600 cu in = 88.9 cu ft
+- Density: 400 lbs ÷ 88.9 cu ft = 4.5 lbs/cu ft
+- Freight Class: **250**
+
+**WITH the 75" rule (actual calculation):**
+- Volume: 48 × 40 × 96 = 184,320 cu in = 106.7 cu ft
+- Density: 400 lbs ÷ 106.7 cu ft = 3.7 lbs/cu ft
+- Freight Class: **300**
+
+**Result:** Moving from Class 250 to Class 300 typically increases shipping cost by 15-20%
+
+**Key Insight:** You can still physically ship tall loads up to 96", but you'll pay as if it's 96" tall even if it's only 75"-95". The pricing penalty begins at 75".
 
 ## Freight Class Table
 

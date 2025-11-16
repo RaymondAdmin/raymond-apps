@@ -154,12 +154,22 @@ if st.session_state.catalog_loaded:
                         
                         for pallet in pallets:
                             dims = pallet.dimensions()
-                            volume = pallet.volume() / 1728  # Convert to cubic feet
-                            density = pallet.total_weight() / volume if volume > 0 else 0
+                            actual_height = dims[2]
+                            
+                            # Calculate density using the 75" rule if applicable
+                            if actual_height >= 75:
+                                calc_volume_inches = dims[0] * dims[1] * 96
+                                calc_volume_cf = calc_volume_inches / 1728
+                                density = pallet.total_weight() / calc_volume_cf if calc_volume_cf > 0 else 0
+                                height_note = " (calc @ 96\")"
+                            else:
+                                volume = pallet.volume() / 1728
+                                density = pallet.total_weight() / volume if volume > 0 else 0
+                                height_note = ""
                             
                             summary_lines.append(
                                 f"**Pallet {pallet.pallet_number}:** "
-                                f"{dims[0]:.0f}×{dims[1]:.0f}×{dims[2]:.0f}\" @ {pallet.total_weight():.0f} lbs, "
+                                f"{dims[0]:.0f}×{dims[1]:.0f}×{dims[2]:.0f}\"{height_note} @ {pallet.total_weight():.0f} lbs, "
                                 f"Class {pallet.freight_class()}, "
                                 f"Density {density:.1f} lbs/cu ft"
                             )
@@ -201,6 +211,15 @@ if st.session_state.catalog_loaded:
                                     st.write("**Pallet Specs:**")
                                     st.write(f"- Dimensions: {dims[0]:.0f}×{dims[1]:.0f}×{dims[2]:.0f}\"")
                                     st.write(f"- Volume: {volume:.1f} cu ft")
+                                    
+                                    # Show 75" rule if it applies
+                                    actual_height = dims[2]
+                                    if actual_height >= 75:
+                                        calc_volume_inches = dims[0] * dims[1] * 96
+                                        calc_volume_cf = calc_volume_inches / 1728
+                                        calc_density = pallet.total_weight() / calc_volume_cf if calc_volume_cf > 0 else 0
+                                        st.warning(f"⚠️ Height ≥ 75\" → Class calc uses 96\" ({calc_volume_cf:.1f} cu ft, {calc_density:.1f} lbs/cu ft)")
+                                    
                                     st.write(f"- Product Weight: {pallet.total_product_weight():.0f} lbs")
                                     st.write(f"- Pallet Weight: {pallet.pallet_weight:.0f} lbs")
                                     st.write(f"- **Total Weight: {pallet.total_weight():.0f} lbs**")

@@ -87,8 +87,22 @@ class Pallet:
         return dims[0] * dims[1] * dims[2]
     
     def freight_class(self) -> int:
-        """Calculate freight class for this pallet"""
-        density = FreightCalculator.calculate_density(self.total_weight(), self.volume())
+        """
+        Calculate freight class for this pallet
+        
+        CRITICAL RULE: For freight class calculation, any pallet 75" or taller
+        is calculated AS IF it were 96" tall (NMFC rule for tall shipments)
+        """
+        dims = self.dimensions()
+        actual_height = dims[2]
+        
+        # Apply 75" rule: if height >= 75", use 96" for class calculation
+        calc_height = 96 if actual_height >= 75 else actual_height
+        
+        # Calculate volume using the adjusted height
+        calc_volume = dims[0] * dims[1] * calc_height
+        
+        density = FreightCalculator.calculate_density(self.total_weight(), calc_volume)
         return FreightCalculator.get_freight_class(density)
     
     def __repr__(self):
@@ -99,8 +113,14 @@ class Pallet:
 class PalletBuilder:
     """Builds pallet configurations for freight shipments"""
     
-    MAX_PALLET_HEIGHT = 67  # inches (72 total - 5 for pallet)
+    MAX_PALLET_HEIGHT = 91  # inches (96 total - 5 for pallet base)
     PALLET_WEIGHT = 50  # lbs
+    HEIGHT_CLASS_THRESHOLD = 75  # inches - if pallet >= 75", calculate class at 96"
+    
+    # CRITICAL FREIGHT RULE:
+    # Physical constraint: Can pack up to 96" total height (91" + 5" pallet)
+    # Freight class rule: Anything 75"+ tall is calculated AS IF it were 96" tall
+    #                     (NMFC rule to discourage tall/unstable shipments)
     
     @staticmethod
     def build_pallets(product: Product, quantity: int) -> List[Pallet]:
@@ -265,9 +285,18 @@ class PalletReport:
                 lines.append(f"  - {box_desc} ({box.length:.1f}×{box.width:.1f}×{box.height:.1f}\", {box.weight:.0f} lbs) - qty {qty}")
             
             dims = pallet.dimensions()
+            actual_height = dims[2]
             volume_cubic_inches = dims[0] * dims[1] * dims[2]
             volume_cubic_feet = volume_cubic_inches / 1728
+            
             lines.append(f"  Pallet Dimensions: {dims[0]:.0f}×{dims[1]:.0f}×{dims[2]:.0f}\" ({volume_cubic_feet:.1f} cu ft)")
+            
+            # Show freight class calculation details if 75" rule applies
+            if actual_height >= 75:
+                calc_volume_inches = dims[0] * dims[1] * 96
+                calc_volume_cf = calc_volume_inches / 1728
+                lines.append(f"  ⚠️  Height >= 75\" → Class calculated at 96\" ({calc_volume_cf:.1f} cu ft)")
+            
             lines.append(f"  Total Weight: {pallet.total_weight():.0f} lbs ({pallet.total_product_weight():.0f} product + {pallet.pallet_weight:.0f} pallet)")
             lines.append(f"  Freight Class: {pallet.freight_class()}")
             lines.append("")
