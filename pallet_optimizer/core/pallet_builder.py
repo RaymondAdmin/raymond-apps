@@ -109,17 +109,21 @@ class PalletBuilder:
             placed_boxes.append(placed)
         
         # Calculate pallet dimensions
-        # Use actual packed dimensions, not just pallet base
+        # CRITICAL: Palletier uses Y as HEIGHT axis, not Z!
+        # Palletier coords: X=length, Y=height, Z=width
+        # We want: (length, width, height)
         if placed_boxes:
             max_x = max(pb.x + pb.orientation[0] for pb in placed_boxes)
-            max_y = max(pb.y + pb.orientation[1] for pb in placed_boxes)
+            max_y = max(pb.y + pb.orientation[1] for pb in placed_boxes)  # This is HEIGHT
             max_z = max(pb.z + pb.orientation[2] for pb in placed_boxes)
             
-            # Round to reasonable precision
+            # Convert from palletier coords (X, Y, Z) to standard (L, W, H)
+            # Palletier: X=length, Y=height, Z=width
+            # Standard: (length, width, height)
             actual_dims = (
-                round(max_x, 1),
-                round(max_y, 1),
-                round(max_z, 1)
+                round(max_x, 1),   # Length (X)
+                round(max_z, 1),   # Width (Z)
+                round(max_y, 1)    # Height (Y)
             )
         else:
             actual_dims = (pallet_dims[0], pallet_dims[1], 5)
