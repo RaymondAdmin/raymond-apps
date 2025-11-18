@@ -2,8 +2,6 @@
 Raymond Products Pallet Optimizer - Streamlit Application
 """
 import streamlit as st
-import sys
-sys.path.insert(0, '/home/claude/pallet_optimizer')
 
 from utils.product_loader import ProductLoader
 from core.pallet_builder import PalletBuilder

@@ -1,9 +1,6 @@
 """
 Pallet Builder using EB-AFIT algorithm from palletier
 """
-import sys
-sys.path.insert(0, '/home/claude/palletier-master')
-
 from typing import List, Tuple
 from palletier import Solver, Box as PalletierBox, Pallet as PalletierPallet
 from core.models import Product, Box, PlacedBox, PalletConfig
