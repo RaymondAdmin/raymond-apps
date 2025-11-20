@@ -1,0 +1,680 @@
+categ_id (catagory),default_code,description,combined,PackID,Sequence,Length 1,Width 1,Height 1,Weight 1
+Finished Goods,RPP-0302-1,"3"" Caster for Table Tote","[RPP-0302-1] 3"" Caster for Table Tote",,1,10,12,14,2
+Finished Goods,RPP-0302-2,"4"" Caster for Table Tote","[RPP-0302-2] 4"" Caster for Table Tote",,1,10,12,14,3
+Finished Goods,RPP-0302-3,Back Lever Arms for Table Tote,[RPP-0302-3] Back Lever Arms for Table Tote,,1,10,12,14,3
+Finished Goods,RPP-0302-4,Handle for Table Tote,[RPP-0302-4] Handle for Table Tote,,1,10,12,14,4
+Finished Goods,RPP-0302-5,Hinged Lock Catch for Table Tote,[RPP-0302-5] Hinged Lock Catch for Table Tote,,1,10,12,14,3
+Finished Goods,RPP-0318,"Small top plate(1-1/4 x 2-1/16) 3"" hard rubber caster (Taxidermy Unlimited)","[RPP-0318] Small top plate(1-1/4 x 2-1/16) 3"" hard rubber caster (Taxidermy Unlimited)",,1,10,12,14,3
+Finished Goods,RPP-0319,"Plastic 2"" plate caster (Taxidermy Unlimited)","[RPP-0319] Plastic 2"" plate caster (Taxidermy Unlimited)",,1,10,12,14,3
+Finished Goods,RPP-0321,"2.5"" Caster for File Dolly","[RPP-0321] 2.5"" Caster for File Dolly",,1,10,12,14,2
+Finished Goods,RPP-0322,"3"" Wheel for File Dolly","[RPP-0322] 3"" Wheel for File Dolly",,1,10,12,14,2
+Finished Goods,RPP-0324,Locking Collar with Set Screw for File Dolly,[RPP-0324] Locking Collar with Set Screw for File Dolly,,1,10,12,14,1
+Finished Goods,RPP-0325,Axle for 3215 File Dolly,[RPP-0325] Axle for 3215 File Dolly,,1,10,12,14,2
+Finished Goods,RPP-0328,Axle for 3218 File Dolly,[RPP-0328] Axle for 3218 File Dolly,,1,10,12,14,2
+Finished Goods,RPP-0329,Axle for 3220 File Dolly,[RPP-0329] Axle for 3220 File Dolly,,1,10,12,14,2
+Finished Goods,RPP-0331,"2.5"" Plate Caster for All Purpose Dolly","[RPP-0331] 2.5"" Plate Caster for All Purpose Dolly",,1,10,12,14,3
+Finished Goods,RPP-0352,"5"" Phenolic Swivel Caster for Panel Mover","[RPP-0352] 5"" Phenolic Swivel Caster for Panel Mover",,1,10,12,14,6
+Finished Goods,RPP-0352B,"5"" Phenolic Swivel Caster W/Brake for Panel Mover","[RPP-0352B] 5"" Phenolic Swivel Caster W/Brake for Panel Mover",,1,10,12,14,7
+Finished Goods,RPP-0353,"5"" Phenolic Fixed Caster for Panel Mover","[RPP-0353] 5"" Phenolic Fixed Caster for Panel Mover",,1,10,12,14,5
+Finished Goods,RPP-0362,"6"" Phenolic Swivel Caster for Panel Mover","[RPP-0362] 6"" Phenolic Swivel Caster for Panel Mover",,1,10,12,14,7
+Finished Goods,RPP-0362B,"6"" Phenolic Swivel Caster W/Brake for Panel Mover","[RPP-0362B] 6"" Phenolic Swivel Caster W/Brake for Panel Mover",,1,10,12,14,7
+Finished Goods,RPP-0363,"6"" Phenolic Fixed Caster for Panel Mover","[RPP-0363] 6"" Phenolic Fixed Caster for Panel Mover",,1,10,12,14,6
+Finished Goods,RPP-0375,HD Upright for 3700 Series Round Table Movers,[RPP-0375] HD Upright for 3700 Series Round Table Movers,,1,49,45,3,20
+Finished Goods,RPP-0376,"Base only for Model #3771, with hardware","[RPP-0376] Base only for Model #3771, with hardware",,1,49,45,3,45
+Finished Goods,RPP-0378AF,"8"" AIR FREE Swivel caster with Brake","[RPP-0378AF] 8"" AIR FREE Swivel caster with Brake",,1,10,12,14,8
+Finished Goods,RPP-0379AF,"8"" AIR FREE Rigid caster","[RPP-0379AF] 8"" AIR FREE Rigid caster",,1,10,12,14,7
+Finished Goods,RPP-0381,"Standard Upright for Panel Mover 26"" High","[RPP-0381] Standard Upright for Panel Mover 26"" High",,1,40,31,4,11
+Finished Goods,RPP-0382,"Extra Tall Upright for Panel Mover 45"" High","[RPP-0382] Extra Tall Upright for Panel Mover 45"" High",,1,50,40,4,21
+Finished Goods,RPP-0384,BOLT PACK 3800/3900,[RPP-0384] BOLT PACK 3800/3900,,1,50,40,4,21
+Finished Goods,RPP-0385,Push Handle for 3800 series base,[RPP-0385] Push Handle for 3800 series base,,1,50,40,4,21
+Finished Goods,RPP-0390,"8"" Poly Swivel Caster for Panel Mover","[RPP-0390] 8"" Poly Swivel Caster for Panel Mover",,1,10,12,14,8
+Finished Goods,RPP-0391,"8"" Poly Fixed Caster for Panel Mover","[RPP-0391] 8"" Poly Fixed Caster for Panel Mover",,1,10,12,14,7
+Finished Goods,RPP-0392,END UPRIGHT for 3985/3986,[RPP-0392] END UPRIGHT for 3985/3986,,1,50,40,4,21
+Finished Goods,RPP-0393,"8"" Swivel Poly Caster with Brake","[RPP-0393] 8"" Swivel Poly Caster with Brake",,1,50,40,4,21
+Finished Goods,RPP-0394,HD Panel Mover Base Only for 3900 Series Panel Movers,[RPP-0394] HD Panel Mover Base Only for 3900 Series Panel Movers,,1,50,40,4,21
+Finished Goods,RPP-0395,Upright Only for HD Panel Mover 3900 Series,[RPP-0395] Upright Only for HD Panel Mover 3900 Series,,1,56,31,3,19
+Finished Goods,RPP-0396,"Extra Tall Upright Only for HD Panel Mover 3900 Series 37.25"" above base","[RPP-0396] Extra Tall Upright Only for HD Panel Mover 3900 Series 37.25"" above base",,1,56,42,4,57
+Finished Goods,RPP-0397,Push Handle for HD Platform Truck,[RPP-0397] Push Handle for HD Platform Truck,,1,36,31,6,14
+Finished Goods,RPP-0398,Retaining End for HD Platform Truck,[RPP-0398] Retaining End for HD Platform Truck,,1,14,16,18,12
+Finished Goods,RPP-0399,Connector Brace for # 3900 uprights,[RPP-0399] Connector Brace for # 3900 uprights,,1,36,31,6,14
+Finished Goods,RPP-0409,Upright (single) for H.D. caddy,[RPP-0409] Upright (single) for H.D. caddy,,1,36,31,6,14
+Finished Goods,RPP-0411AF,"10"" AIR FREE wheel 4.10/3.50-4","[RPP-0411AF] 10"" AIR FREE wheel 4.10/3.50-4",,1,10,12,14,5
+Finished Goods,RPP-0421,Clip with O-Ring for series 420,[RPP-0421] Clip with O-Ring for series 420,,1,10,12,14,5
+Finished Goods,RPP-0422,Replacement handle Only for #420,[RPP-0422] Replacement handle Only for #420,,1,36,31,6,14
+Finished Goods,RPP-0430,"STRAP Flagship/Junior 1"" Black x 42"" spring buckle & hook","[RPP-0430] STRAP Flagship/Junior 1"" Black x 42"" spring buckle & hook",,1,10,12,14,5
+Finished Goods,RPP-0448,"O.T.T. ( Replacement ) 5"" poly swivel caster Top plate 2-1/2 x 3-3/4 Bolt hole CNT. to CNT. 1...","[RPP-0448] O.T.T. ( Replacement ) 5"" poly swivel caster Top plate 2-1/2 x 3-3/4 Bolt hole CNT. to CNT. 1...",,1,10,12,14,5
+Finished Goods,RPP-0449,"O.T.T. ( Replacement ) 5"" poly swivel caster w/brake Top plate 2-1/2 x 3-3/4 Bolt hole CNT. to...","[RPP-0449] O.T.T. ( Replacement ) 5"" poly swivel caster w/brake Top plate 2-1/2 x 3-3/4 Bolt hole CNT. to...",,1,10,12,14,5
+Finished Goods,RPP-0452,"5"" Quiet Poly Swivel Caster for Panel Mover","[RPP-0452] 5"" Quiet Poly Swivel Caster for Panel Mover",,1,10,12,14,6
+Finished Goods,RPP-0452-B poly,"5"" Quiet Poly Swivel Caster with Brake","[RPP-0452-B poly] 5"" Quiet Poly Swivel Caster with Brake",,1,10,12,14,5
+Finished Goods,RPP-0453,"5"" Quiet Poly Fixed Caster for Panel Mover","[RPP-0453] 5"" Quiet Poly Fixed Caster for Panel Mover",,1,10,12,14,5
+Finished Goods,RPP-0498,"Brake only for 8"" Swivel Caster","[RPP-0498] Brake only for 8"" Swivel Caster",,1,10,12,14,2
+Finished Goods,RPP-0501-1,"8"" Wheel for 500/550","[RPP-0501-1] 8"" Wheel for 500/550",,1,10,12,14,5
+Finished Goods,RPP-0502,Axle for 500 Stacked Chair Dolly,[RPP-0502] Axle for 500 Stacked Chair Dolly,,1,10,12,14,5
+Finished Goods,RPP-0503,Palnut for Stacked Chair Dolly,[RPP-0503] Palnut for Stacked Chair Dolly,,1,10,12,14,5
+Finished Goods,RPP-0504,"Handle for 500 series, coated","[RPP-0504] Handle for 500 series, coated",,1,36,31,6,14
+Finished Goods,RPP-0505,"Axle for 500PN 22-5/8""","[RPP-0505] Axle for 500PN 22-5/8""",,1,10,12,14,5
+Finished Goods,RPP-0506,Handle for 550,[RPP-0506] Handle for 550,,1,36,31,6,14
+Finished Goods,RPP-0552,"Axle for 550 1/2"" X 18-3/8""","[RPP-0552] Axle for 550 1/2"" X 18-3/8""",,1,10,12,14,5
+Finished Goods,RPP-0590,"5"" Phenolic Swivel Caster for 900 Series Chair Storage Truck","[RPP-0590] 5"" Phenolic Swivel Caster for 900 Series Chair Storage Truck",,1,10,12,14,4
+Finished Goods,RPP-0591,"5"" Phenolic Fixed Caster for 900 Series Chair Storage Truck","[RPP-0591] 5"" Phenolic Fixed Caster for 900 Series Chair Storage Truck",,1,10,12,14,4
+Finished Goods,RPP-0592,"5"" Poly Swivel Caster for 900 Series Chair Storage Truck","[RPP-0592] 5"" Poly Swivel Caster for 900 Series Chair Storage Truck",,1,10,12,14,4
+Finished Goods,RPP-0593,900 Hanger Painted,[RPP-0593] 900 Hanger Painted,,1,10,12,14,4
+Finished Goods,RPP-0594,"#900 5"" SQ. Stem Caster with Brake","[RPP-0594] #900 5"" SQ. Stem Caster with Brake",,1,10,12,14,4
+Finished Goods,RPP-0595,"Brake kit only ( #E65 ) for square stem 5"" #900 series caster","[RPP-0595] Brake kit only ( #E65 ) for square stem 5"" #900 series caster",,1,10,12,14,4
+Finished Goods,RPP-0605,Push Handle for 600 Series Chair Tote,[RPP-0605] Push Handle for 600 Series Chair Tote,,1,10,12,14,11
+Finished Goods,RPP-0607,Retaining End for 600 Series Chair Tote,[RPP-0607] Retaining End for 600 Series Chair Tote,,1,10,12,14,7
+Finished Goods,RPP-0609,"600 Base ONLY , no casters , no push handle or retaining end","[RPP-0609] 600 Base ONLY , no casters , no push handle or retaining end",,1,36,31,6,14
+Finished Goods,RPP-0610,"4"" Hard Rubber Swivel Caster for 600 Series Chair Tote","[RPP-0610] 4"" Hard Rubber Swivel Caster for 600 Series Chair Tote",,1,10,12,14,2
+Finished Goods,RPP-0611,"4"" Hard Rubber Fixed Caster for 600 Series Chair Tote","[RPP-0611] 4"" Hard Rubber Fixed Caster for 600 Series Chair Tote",,1,10,12,14,12
+Finished Goods,RPP-0612,"6"" Thermoplastic Swivel Caster for 600 Series Chair Tote","[RPP-0612] 6"" Thermoplastic Swivel Caster for 600 Series Chair Tote",,1,10,12,14,4
+Finished Goods,RPP-0613,"6"" Thermoplastic Fixed Caster for 600 Series Chair Tote","[RPP-0613] 6"" Thermoplastic Fixed Caster for 600 Series Chair Tote",,1,10,12,14,4
+Finished Goods,RPP-0614,630 Base ONLY,[RPP-0614] 630 Base ONLY,,1,36,31,6,14
+Finished Goods,RPP-0701,"8"" Rubber Wheel for Series 420 , 700, 720, 750, 800","[RPP-0701] 8"" Rubber Wheel for Series 420 , 700, 720, 750, 800",,1,10,12,14,4
+Finished Goods,RPP-0702,Sliding Bracket Assembly for Series 700 W/Fork,[RPP-0702] Sliding Bracket Assembly for Series 700 W/Fork,,1,10,12,14,4
+Finished Goods,RPP-0703,Handle with Grip for Series 700,[RPP-0703] Handle with Grip for Series 700,,1,36,31,6,14
+Finished Goods,RPP-0704,Base and Axle for Series 700,[RPP-0704] Base and Axle for Series 700,,1,36,31,6,23
+Finished Goods,RPP-0705,Sliding Lock Assembly with Clip for Series 700 (Without Fork),[RPP-0705] Sliding Lock Assembly with Clip for Series 700 (Without Fork),,1,10,12,14,4
+Finished Goods,RPP-0706,#700 Nosebar Replacement - coated,[RPP-0706] #700 Nosebar Replacement - coated,,1,36,31,6,14
+Finished Goods,RPP-0707,Coated Fork ONLY for #700,[RPP-0707] Coated Fork ONLY for #700,,1,36,31,6,14
+Finished Goods,RPP-0901,Upright T-End for 900 Series,[RPP-0901] Upright T-End for 900 Series,,1,36,31,6,14
+Finished Goods,RPP-0902,Hanger for 900 series,[RPP-0902] Hanger for 900 series,,1,10,12,14,4
+Finished Goods,RPP-0903,LIFETIME 900 Upright T-End,[RPP-0903] LIFETIME 900 Upright T-End,,1,36,31,6,14
+Finished Goods,RPP-0904,Upright T-End for 940,[RPP-0904] Upright T-End for 940,,1,36,31,6,14
+Finished Goods,RPP-0905,Cross Brace for 900 Series,[RPP-0905] Cross Brace for 900 Series,,1,36,31,6,14
+Finished Goods,RPP-0906,920 Cross Brace,[RPP-0906] 920 Cross Brace,,1,36,31,6,14
+Finished Goods,RPP-0907,920 Hanger Painted,[RPP-0907] 920 Hanger Painted,,1,10,12,14,4
+Finished Goods,RPP-0908,"7/8"" round, pound in black cap for 900 hangers","[RPP-0908] 7/8"" round, pound in black cap for 900 hangers",,1,10,12,14,4
+Finished Goods,RPP-0909,"Brake Kit for 5"" sq. stem 900 caster","[RPP-0909] Brake Kit for 5"" sq. stem 900 caster",,1,10,12,14,4
+Finished Goods,RPP-1420,"Royal Dolly 16""x 26"" with 3"" Casters","[RPP-1420] Royal Dolly 16""x 26"" with 3"" Casters",,1,28,17,6,17
+Finished Goods,RPP-1424,"Royal Dolly 16"" x 26"" with 4"" Casters","[RPP-1424] Royal Dolly 16"" x 26"" with 4"" Casters",,1,28,17,6,17
+Finished Goods,RPP-1424-B,"Royal Dolly 16"" x 20"" with 4"" all swivel casters, 2 casters w/brakes","[RPP-1424-B] Royal Dolly 16"" x 20"" with 4"" all swivel casters, 2 casters w/brakes",,1,28,17,6,17
+Finished Goods,RPP-1430,"Royal Dolly 20"" x 30"" with 3"" Casters","[RPP-1430] Royal Dolly 20"" x 30"" with 3"" Casters",,1,33,21,6,18
+Finished Goods,RPP-1434,"Royal Dolly 20"" x 30"" with 4"" Casters","[RPP-1434] Royal Dolly 20"" x 30"" with 4"" Casters",,1,33,21,6,18
+Finished Goods,RPP-1434-B,"Royal Dolly 20"" x 30"" with 4"" all swivel casters, 2 casters w/brakes","[RPP-1434-B] Royal Dolly 20"" x 30"" with 4"" all swivel casters, 2 casters w/brakes",,1,33,21,6,18
+Finished Goods,RPP-1436,"Royal Dolly 24"" x 36"" with 3"" Casters","[RPP-1436] Royal Dolly 24"" x 36"" with 3"" Casters",,1,38,25,6,25
+Finished Goods,RPP-1437,"Royal Dolly 24"" x 36"" with 4"" Casters","[RPP-1437] Royal Dolly 24"" x 36"" with 4"" Casters",,1,38,25,6,25
+Finished Goods,RPP-1437-B,"Royal Dolly 24"" x 36"" with 4"" all Swivel Casters, 2 Casters w/Brakes","[RPP-1437-B] Royal Dolly 24"" x 36"" with 4"" all Swivel Casters, 2 Casters w/Brakes",,1,38,25,6,25
+Finished Goods,RPP-1440,Pull Handle for Royal Dolly,[RPP-1440] Pull Handle for Royal Dolly,,1,40,10,3,3
+Finished Goods,RPP-1450,Cradle for Royal Dolly,[RPP-1450] Cradle for Royal Dolly,,1,40,10,3,6
+Finished Goods,RPP-1485,Pallet Hook,[RPP-1485] Pallet Hook,,1,40,10,4,4
+Finished Goods,RPP-1487,Dolly Uprights Black,[RPP-1487] Dolly Uprights Black,,1,40,10,4,4
+Finished Goods,RPP-1600,Computer/Utility Table Lift Attachment for Desk Lift,[RPP-1600] Computer/Utility Table Lift Attachment for Desk Lift,,1,23,21,15,17
+Finished Goods,RPP-1800,Single Pedestal Attachment for Desk Lift,[RPP-1800] Single Pedestal Attachment for Desk Lift,,1,20,18,14,11
+Finished Goods,RPP-1805,1800 Lift Frame,[RPP-1805] 1800 Lift Frame,,1,20,18,14,11
+Finished Goods,RPP-2000,"Mighty King Desk Lift with 16 x 32"" Lift Frame","[RPP-2000] Mighty King Desk Lift with 16 x 32"" Lift Frame",,1,33,24,5,43
+Finished Goods,RPP-2000-40,"Mighty King Desk Lift with 16x40"" Lift Frame","[RPP-2000-40] Mighty King Desk Lift with 16x40"" Lift Frame",,1,42,24,6,44
+Finished Goods,RPP-2000-40/1800,2000-40 Desklift & 1800 Lift Attachment,[RPP-2000-40/1800] 2000-40 Desklift & 1800 Lift Attachment,,1,42,24,6,44
+Finished Goods,RPP-2000-46,"Mighty King Desk Lift with 16x46"" Lift Frame","[RPP-2000-46] Mighty King Desk Lift with 16x46"" Lift Frame",,1,48,24,6,46
+Finished Goods,RPP-2001,Front Yoke and Caster Base for Desk Lift,[RPP-2001] Front Yoke and Caster Base for Desk Lift,,1,48,24,6,46
+Finished Goods,RPP-2002,Right Rear Caster and Axle Mount for Desk Lift,[RPP-2002] Right Rear Caster and Axle Mount for Desk Lift,,1,48,24,6,46
+Finished Goods,RPP-2003,Left Rear Caster and Axle Mount for Desk Lift,[RPP-2003] Left Rear Caster and Axle Mount for Desk Lift,,1,48,24,6,46
+Finished Goods,RPP-2004,Lift Fork and Handle Socket for Desk Lift,[RPP-2004] Lift Fork and Handle Socket for Desk Lift,,1,48,24,6,46
+Finished Goods,RPP-2005,Rear Lift Arms for Desk Lift,[RPP-2005] Rear Lift Arms for Desk Lift,,1,48,24,6,46
+Finished Goods,RPP-2006,Cross Tee for Desk Lift Handle,[RPP-2006] Cross Tee for Desk Lift Handle,,1,48,24,6,46
+Finished Goods,RPP-2007,Lift Handle for Desk Lift,[RPP-2007] Lift Handle for Desk Lift,,1,39,9,5,10
+Finished Goods,RPP-2008,"Lift Frame for 2000/2300 Desk Lift 16x32""","[RPP-2008] Lift Frame for 2000/2300 Desk Lift 16x32""",,1,39,9,5,10
+Finished Goods,RPP-2009,"Rear Axle for 2000/2300 Desk Lift 1/2""x24""","[RPP-2009] Rear Axle for 2000/2300 Desk Lift 1/2""x24""",,1,39,9,5,10
+Finished Goods,RPP-2010,Collars for Desk Lift,[RPP-2010] Collars for Desk Lift,,1,39,9,5,10
+Finished Goods,RPP-2011,"Side Channel for Desk Lift 1.5""x12-11/16""","[RPP-2011] Side Channel for Desk Lift 1.5""x12-11/16""",,1,39,9,5,10
+Finished Goods,RPP-2013,"Pin with Cotter Pins for Desk Lift 1-1/2""","[RPP-2013] Pin with Cotter Pins for Desk Lift 1-1/2""",,1,10,12,14,4
+Finished Goods,RPP-2014,"Pin with Cotter Pins for Desk Lift 5-7/8""","[RPP-2014] Pin with Cotter Pins for Desk Lift 5-7/8""",,1,10,12,14,4
+Finished Goods,RPP-2015,"Spacer for Desk Lift 1/2 x 5/8""","[RPP-2015] Spacer for Desk Lift 1/2 x 5/8""",,1,10,12,14,4
+Finished Goods,RPP-2016,"Front Axle for 2000/2300 Desk Lift 1/2 x 6""","[RPP-2016] Front Axle for 2000/2300 Desk Lift 1/2 x 6""",,1,10,12,14,4
+Finished Goods,RPP-2017,Trip Lock for Desk Lift,[RPP-2017] Trip Lock for Desk Lift,,1,10,12,14,5
+Finished Goods,RPP-2018,Carriage Bolt for Desk Lift,[RPP-2018] Carriage Bolt for Desk Lift,,1,10,12,14,4
+Finished Goods,RPP-2019,Handle Grip for Desk Lift,[RPP-2019] Handle Grip for Desk Lift,,1,10,12,14,4
+Finished Goods,RPP-2020-1,"2.5"" Caster for 2000 Desk Lift","[RPP-2020-1] 2.5"" Caster for 2000 Desk Lift",,1,10,12,14,4
+Finished Goods,RPP-2041,Extra Long Handle for Desk Lift,[RPP-2041] Extra Long Handle for Desk Lift,,1,10,12,14,1
+Finished Goods,RPP-2050,"Height Attachment for Desk Lift 16 x 32""","[RPP-2050] Height Attachment for Desk Lift 16 x 32""",,1,33,21,10,19
+Finished Goods,RPP-2051,"Height Attachment for Desk Lift 16x44""","[RPP-2051] Height Attachment for Desk Lift 16x44""",,1,46,18,6,17
+Finished Goods,RPP-2300,"Mighty King Desk Lift 16x32"" Lift Frame","[RPP-2300] Mighty King Desk Lift 16x32"" Lift Frame",,1,33,24,5,43
+Finished Goods,RPP-2300-40,"Mighty King Desk Lift 16x40"" Lift Frame","[RPP-2300-40] Mighty King Desk Lift 16x40"" Lift Frame",,1,42,24,6,44
+Finished Goods,RPP-2300-46,"Mighty King Desk Lift 16x46"" Lift Frame","[RPP-2300-46] Mighty King Desk Lift 16x46"" Lift Frame",,1,48,24,6,46
+Finished Goods,RPP-2330-1,"3"" Caster for 2300 Desk Lift","[RPP-2330-1] 3"" Caster for 2300 Desk Lift",,1,10,12,14,4
+Finished Goods,RPP-3032,"Table Tote with 3"" Casters","[RPP-3032] Table Tote with 3"" Casters",,1,34,34,26,49
+Finished Goods,RPP-3032US,"Table Tote with 3"" Casters","[RPP-3032US] Table Tote with 3"" Casters",,1,34,34,26,49
+Finished Goods,RPP-3033,"Table Tote with 4"" Casters","[RPP-3033] Table Tote with 4"" Casters",,1,34,34,26,49
+Finished Goods,RPP-3215,"Karry King File Dolly 15 x 32""","[RPP-3215] Karry King File Dolly 15 x 32""",,1,34,16,4,20
+Finished Goods,RPP-3218,"Karry King File Dolly 18x32""","[RPP-3218] Karry King File Dolly 18x32""",,1,34,19,4,22
+Finished Goods,RPP-3220,"Karry King File Dolly 20x32""","[RPP-3220] Karry King File Dolly 20x32""",,1,34,21,4,25
+Finished Goods,RPP-3300,"All Purpose Dolly, 1 each","[RPP-3300] All Purpose Dolly, 1 each",,1,21,10,6,10
+Finished Goods,RPP-3400,4 Wheel All Purpose Dolly,[RPP-3400] 4 Wheel All Purpose Dolly,,1,21,10,6,15
+Finished Goods,RPP-3500,"Mighty King Desk Lift 16x32"" Lift Frame","[RPP-3500] Mighty King Desk Lift 16x32"" Lift Frame",,1,33,25,6,47
+Finished Goods,RPP-3500-40,"Mighty King Desk Lift 16x40"" Lift Frame","[RPP-3500-40] Mighty King Desk Lift 16x40"" Lift Frame",,1,42,24,6,48
+Finished Goods,RPP-3500-46,"Mighty King Desk Lift 16x46"" Lift Frame","[RPP-3500-46] Mighty King Desk Lift 16x46"" Lift Frame",,1,48,24,6,50
+Finished Goods,RPP-3501,Front Yoke and Caster Base for Desk Lift,[RPP-3501] Front Yoke and Caster Base for Desk Lift,,1,10,12,14,4
+Finished Goods,RPP-3502,Right Rear Caster and Axle Mount for Desk Lift,[RPP-3502] Right Rear Caster and Axle Mount for Desk Lift,,1,10,12,14,4
+Finished Goods,RPP-3503,Left Rear Caster and Axle Mount for Desk Lift,[RPP-3503] Left Rear Caster and Axle Mount for Desk Lift,,1,10,12,14,4
+Finished Goods,RPP-3508,"Lift Frame for 3500/4000 Desk Lift 16x32""","[RPP-3508] Lift Frame for 3500/4000 Desk Lift 16x32""",,1,10,12,14,4
+Finished Goods,RPP-3509,"Rear Axle for 3500/4000 Desk Lift 1/2x14-3/4""","[RPP-3509] Rear Axle for 3500/4000 Desk Lift 1/2x14-3/4""",,1,10,12,14,4
+Finished Goods,RPP-3511,"Side Channel for 3500/4000 Desk Lift 1-1/2x10-3/16""","[RPP-3511] Side Channel for 3500/4000 Desk Lift 1-1/2x10-3/16""",,1,10,12,14,4
+Finished Goods,RPP-3512,"Rear Channel for 3500/4000 Desk Lift 1-1/2x17-1/2""","[RPP-3512] Rear Channel for 3500/4000 Desk Lift 1-1/2x17-1/2""",,1,10,12,14,4
+Finished Goods,RPP-3516,"Front Axle for 3500/4000 Desk Lift 1/2x6-3/4""","[RPP-3516] Front Axle for 3500/4000 Desk Lift 1/2x6-3/4""",,1,10,12,14,4
+Finished Goods,RPP-3517,Trip Lock for Desk Lift,[RPP-3517] Trip Lock for Desk Lift,,1,10,12,14,4
+Finished Goods,RPP-3535-1,"3.5"" Caster for 3500 Desk Lift","[RPP-3535-1] 3.5"" Caster for 3500 Desk Lift",,1,10,12,14,4
+Finished Goods,RPP-3710,"Standard Round Folding Table Mover, Base and Uprights only includes hardware; No Casters","[RPP-3710] Standard Round Folding Table Mover, Base and Uprights only includes hardware; No Casters",,1,50,34,5,38
+Finished Goods,RPP-3769,"3770 FRAME with 5"" casters, 2 fixed & 2 swivel with brakes, NO uprights","[RPP-3769] 3770 FRAME with 5"" casters, 2 fixed & 2 swivel with brakes, NO uprights",,1,49,38,7,77
+Finished Goods,RPP-3770,"Narrow Round Folding Table Mover, without casters","[RPP-3770] Narrow Round Folding Table Mover, without casters",,1,50,25,5,35
+Finished Goods,RPP-3805,Panel Mover Base only; with Hardware,[RPP-3805] Panel Mover Base only; with Hardware,,1,40,28,6,36
+Finished Goods,RPP-3807,"3850 Panel Mover 5"" phenolic all swivel casters, no uprights","[RPP-3807] 3850 Panel Mover 5"" phenolic all swivel casters, no uprights",,1,40,28,6,36
+Finished Goods,RPP-3820,Lip Attachment for Panel Mover,[RPP-3820] Lip Attachment for Panel Mover,,1,40,31,4,10
+Finished Goods,RPP-3825,"Panel Mover with 5"" Phenolic Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights","[RPP-3825] Panel Mover with 5"" Phenolic Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights",,1,41,32,9,76
+Finished Goods,RPP-3825-B,"Panel Mover with 5"" Phenolic Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights With Brakes","[RPP-3825-B] Panel Mover with 5"" Phenolic Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights With Brakes",,1,41,32,9,76
+Finished Goods,RPP-3825US,"Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel & 3 Standard 26"" Uprights","[RPP-3825US] Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel & 3 Standard 26"" Uprights",,1,41,32,9,76
+Finished Goods,RPP-3826,"Panel Mover with 6"" Phenolic Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights","[RPP-3826] Panel Mover with 6"" Phenolic Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights",,1,41,32,9,79
+Finished Goods,RPP-3826-B,"3826 Panel Mover with Brakes, 6"" Phenolic Casters; 2 Swivel & 2 Fixed, and 3 Standard 26"" Uprights","[RPP-3826-B] 3826 Panel Mover with Brakes, 6"" Phenolic Casters; 2 Swivel & 2 Fixed, and 3 Standard 26"" Uprights",,1,41,32,9,79
+Finished Goods,RPP-3826US,"Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel & 3 Standard 26"" Uprights","[RPP-3826US] Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel & 3 Standard 26"" Uprights",,1,41,32,9,79
+Finished Goods,RPP-3830,"Panel Mover Base and 3 standard 26"" Uprights Only. No Casters.","[RPP-3830] Panel Mover Base and 3 standard 26"" Uprights Only. No Casters.",,1,42,31,6,57
+Finished Goods,RPP-3831,Panel Mover Base and 2 Standard Uprights. No Casters.,[RPP-3831] Panel Mover Base and 2 Standard Uprights. No Casters.,,1,42,31,6,50
+Finished Goods,RPP-3850,"Panel Mover with 5"" Phenolic Casters, all swivel and 3 standard 26"" uprights","[RPP-3850] Panel Mover with 5"" Phenolic Casters, all swivel and 3 standard 26"" uprights",,1,41,32,9,77
+Finished Goods,RPP-3850-B,"Panel Mover with 5"" Phenolic Casters, all swivel and 3 standard 26"" uprights with Brakes","[RPP-3850-B] Panel Mover with 5"" Phenolic Casters, all swivel and 3 standard 26"" uprights with Brakes",,1,41,32,9,77
+Finished Goods,RPP-3850US,"Panel Mover with 5"" Phenolic Casters, all swivel and 3 standard uprights","[RPP-3850US] Panel Mover with 5"" Phenolic Casters, all swivel and 3 standard uprights",,1,41,32,9,77
+Finished Goods,RPP-3850W,"Wooden Kiwi 3850 extended 48"" bed panel mover top tubes,3 standard uprights,5"" all swivel casters","[RPP-3850W] Wooden Kiwi 3850 extended 48"" bed panel mover top tubes,3 standard uprights,5"" all swivel casters",,1,41,32,9,77
+Finished Goods,RPP-3850W-A,"Wooden Kiwi extended bed 53"" panel mover with 2 pcs. of angle iron,3 x-tall uprights,5"" all swivel","[RPP-3850W-A] Wooden Kiwi extended bed 53"" panel mover with 2 pcs. of angle iron,3 x-tall uprights,5"" all swivel",,1,41,32,9,77
+Finished Goods,RPP-3851,"Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel, 3 Standard Uprights","[RPP-3851] Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel, 3 Standard Uprights",,1,41,32,9,75
+Finished Goods,RPP-3851 PW - Tall Side U,Tall Side Upright for Park West 3851 PWT unit painted Silver,[RPP-3851 PW - Tall Side U] Tall Side Upright for Park West 3851 PWT unit painted Silver,,1,41,32,9,75
+Finished Goods,RPP-3851 PW Shelf,"Park West Shelf 12 ga. x 24"" x 38.5 "" coated RED","[RPP-3851 PW Shelf] Park West Shelf 12 ga. x 24"" x 38.5 "" coated RED",,1,41,32,9,75
+Finished Goods,RPP-3851 PW-N,"NARROW Park West Panel mover coated Red with 2 std (PW) side uprights,painted . 24"" width x 38...","[RPP-3851 PW-N] NARROW Park West Panel mover coated Red with 2 std (PW) side uprights,painted . 24"" width x 38...",,1,41,32,9,75
+Finished Goods,RPP-3851 Red-NU,"3851 Coated Red, 5"" Poly casters 2 Sw, 2 Fixed NO Uprights","[RPP-3851 Red-NU] 3851 Coated Red, 5"" Poly casters 2 Sw, 2 Fixed NO Uprights",,1,41,32,9,75
+Finished Goods,RPP-3851-B,"Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel, 3 Standard Uprights with Brakes","[RPP-3851-B] Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel, 3 Standard Uprights with Brakes",,1,41,32,9,75
+Finished Goods,RPP-3851PW,"Park West 3851 black coated base with painted sides & end upright,5"" poly casters 2 F & 2 S , an...","[RPP-3851PW] Park West 3851 black coated base with painted sides & end upright,5"" poly casters 2 F & 2 S , an...",,1,41,32,9,75
+Finished Goods,RPP-3851PWT,"Park West Black coated base , TALL painted sides & end upright , with removable coated shelf , ...","[RPP-3851PWT] Park West Black coated base , TALL painted sides & end upright , with removable coated shelf , ...",,1,41,32,9,75
+Finished Goods,RPP-3851US,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, 3 standard uprights","[RPP-3851US] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, 3 standard uprights",,1,41,32,9,75
+Finished Goods,RPP-3852,"Panel Mover with 5"" Poly Casters, all swivel & 3 standard 26"" uprights","[RPP-3852] Panel Mover with 5"" Poly Casters, all swivel & 3 standard 26"" uprights",,1,41,32,9,76
+Finished Goods,RPP-3852 - Vic,"3800 Panel Mover All Swivel 5"" Poly casters, 2 std uprights ,1 X-Tall upright","[RPP-3852 - Vic] 3800 Panel Mover All Swivel 5"" Poly casters, 2 std uprights ,1 X-Tall upright",,1,41,32,9,75
+Finished Goods,RPP-3852-B,"Panel Mover with 5"" Poly Casters, all swivel & 3 standard 26"" uprights with Brakes","[RPP-3852-B] Panel Mover with 5"" Poly Casters, all swivel & 3 standard 26"" uprights with Brakes",,1,41,32,9,75
+Finished Goods,RPP-3852PWT-(N.E.Up.),"Park West black coated base, with two tall side uprights, removable shelf 5"" poly casters 2 swiv...","[RPP-3852PWT-(N.E.Up.)] Park West black coated base, with two tall side uprights, removable shelf 5"" poly casters 2 swiv...",,1,41,32,9,75
+Finished Goods,RPP-3852US,"Panel Mover with 5"" Poly Casters, all swivel & 3 26"" uprights","[RPP-3852US] Panel Mover with 5"" Poly Casters, all swivel & 3 26"" uprights",,1,41,32,9,75
+Finished Goods,RPP-3860,"Panel Movers with 6"" Phenolic Casters, all swivel & 3 26"" uprights","[RPP-3860] Panel Movers with 6"" Phenolic Casters, all swivel & 3 26"" uprights",,1,41,32,9,79
+Finished Goods,RPP-3860-B,"Panel Movers with 6"" Phenolic Casters, all swivel & 3 26"" uprights with Brakes","[RPP-3860-B] Panel Movers with 6"" Phenolic Casters, all swivel & 3 26"" uprights with Brakes",,1,41,32,9,79
+Finished Goods,RPP-3860US,"Panel Movers with 6"" Phenolic Casters, all swivel & 3 26"" uprights","[RPP-3860US] Panel Movers with 6"" Phenolic Casters, all swivel & 3 26"" uprights",,1,41,32,9,79
+Finished Goods,RPP-3861-B,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3861-B] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3863-B,"Panel Mover with 5"" Poly Casters, All Swivel, and 2 45"" Uprights with Brakes","[RPP-3863-B] Panel Mover with 5"" Poly Casters, All Swivel, and 2 45"" Uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3865,"Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights","[RPP-3865] Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights",,1,41,32,9,67
+Finished Goods,RPP-3865-B,"Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights with Brakes","[RPP-3865-B] Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights with Brakes",,1,41,32,9,67
+Finished Goods,RPP-3866,"Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights.","[RPP-3866] Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights.",,1,41,32,9,70
+Finished Goods,RPP-3866- B,"Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights. with Brakes","[RPP-3866- B] Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 standard uprights. with Brakes",,1,41,32,9,70
+Finished Goods,RPP-3867,"Panel Mover with 5"" Phenolic Casters, all swivel, and 2 standard uprights","[RPP-3867] Panel Mover with 5"" Phenolic Casters, all swivel, and 2 standard uprights",,1,41,32,9,68
+Finished Goods,RPP-3867- B,"Panel Mover with 5"" Phenolic Casters, all swivel, and 2 standard uprights with Brakes","[RPP-3867- B] Panel Mover with 5"" Phenolic Casters, all swivel, and 2 standard uprights with Brakes",,1,41,32,9,68
+Finished Goods,RPP-3868,"Panel Mover with 6"" Phenolic Casters, all swivel, and 2 standard uprights","[RPP-3868] Panel Mover with 6"" Phenolic Casters, all swivel, and 2 standard uprights",,1,41,32,9,70
+Finished Goods,RPP-3868- B,"Panel Mover with 6"" Phenolic Casters, all swivel, and 2 standard uprights with Brakes","[RPP-3868- B] Panel Mover with 6"" Phenolic Casters, all swivel, and 2 standard uprights with Brakes",,1,41,32,9,70
+Finished Goods,RPP-3871,"Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights","[RPP-3871] Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights",,1,41,32,9,68
+Finished Goods,RPP-3871- B,"Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights with Brakes","[RPP-3871- B] Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights with Brakes",,1,41,32,9,68
+Finished Goods,RPP-3872,"Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights","[RPP-3872] Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights",,1,41,32,9,67
+Finished Goods,RPP-3900,"H.D. platform truck coated base, 8 "" poly casters 2 swivel, 2 fixed NO uprights","[RPP-3900] H.D. platform truck coated base, 8 "" poly casters 2 swivel, 2 fixed NO uprights",,1,40,28,6,65
+Finished Goods,RPP-3900 - B,"H.D. platform truck coated base, 8 "" poly casters 2 swivel, 2 fixed NO uprights with Brakes","[RPP-3900 - B] H.D. platform truck coated base, 8 "" poly casters 2 swivel, 2 fixed NO uprights with Brakes",,1,40,28,6,65
+Finished Goods,RPP-3901,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 standard uprights","[RPP-3901] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 standard uprights",,1,56,33,8,123
+Finished Goods,RPP-3901 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 standard upright...","[RPP-3901 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 standard upright...",,1,56,33,8,123
+Finished Goods,RPP-3901US,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 standard uprights","[RPP-3901US] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 standard uprights",,1,56,33,8,123
+Finished Goods,RPP-3908,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 2 standard uprights","[RPP-3908] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 2 standard uprights",,1,56,33,8,127
+Finished Goods,RPP-3908 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 2 standard uprights with Brakes","[RPP-3908 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 2 standard uprights with Brakes",,1,56,33,8,127
+Finished Goods,RPP-3908US,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 2 standard uprights","[RPP-3908US] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 2 standard uprights",,1,56,33,8,127
+Finished Goods,RPP-3910,"Heavy Duty Panel/Sheet Truck, Base and 2 Standard Uprights, No Casters","[RPP-3910] Heavy Duty Panel/Sheet Truck, Base and 2 Standard Uprights, No Casters",,1,56,33,8,127
+Finished Goods,RPP-3911,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 swivel, 2 fixed casters and 4 standard upri...","[RPP-3911] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 swivel, 2 fixed casters and 4 standard upri...",,1,56,33,11,154
+Finished Goods,RPP-3911 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 swivel, 2 fixed casters and 4 standard upri...","[RPP-3911 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 swivel, 2 fixed casters and 4 standard upri...",,1,56,33,11,154
+Finished Goods,RPP-3911US,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 swivel, 2 fixed casters and 4 standard upri...","[RPP-3911US] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 swivel, 2 fixed casters and 4 standard upri...",,1,56,33,11,154
+Finished Goods,RPP-3912,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 3 Xtra Tall 37.25"" ...","[RPP-3912] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 3 Xtra Tall 37.25"" ...",,1,56,33,11,154
+Finished Goods,RPP-3912 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 3 Xtra Tall 37.25"" ...","[RPP-3912 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 3 Xtra Tall 37.25"" ...",,1,56,33,11,154
+Finished Goods,RPP-3913,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 Xtra Tall 37.25...","[RPP-3913] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 Xtra Tall 37.25...",,1,56,33,11,154
+Finished Goods,RPP-3913 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 Xtra Tall 37.25"" ...","[RPP-3913 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 Xtra Tall 37.25"" ...",,1,56,33,11,154
+Finished Goods,RPP-3914,"Heavy Duty Panel/Sheet Truck, Base and 4 standard uprights, No Casters","[RPP-3914] Heavy Duty Panel/Sheet Truck, Base and 4 standard uprights, No Casters",,1,56,33,11,161
+Finished Goods,RPP-3915,"Heavy Duty Panel/Sheet truck 8"" Poly Casters ALL Swivel, 2 ea Xtra Tall 37.25"" Uprights","[RPP-3915] Heavy Duty Panel/Sheet truck 8"" Poly Casters ALL Swivel, 2 ea Xtra Tall 37.25"" Uprights",,1,56,33,11,161
+Finished Goods,RPP-3915 - B,"Heavy Duty Panel/Sheet truck 8"" Poly Casters ALL Swivel, 2 ea Xtra Tall 37.25"" Uprights with Brakes","[RPP-3915 - B] Heavy Duty Panel/Sheet truck 8"" Poly Casters ALL Swivel, 2 ea Xtra Tall 37.25"" Uprights with Brakes",,1,56,33,11,161
+Finished Goods,RPP-3916,"Heavy Duty Panel/Sheet Mover with 8"" Poly Casters, 2 fixed & 2 swivel, & 4 ea Xtra Tall 37.25"" U...","[RPP-3916] Heavy Duty Panel/Sheet Mover with 8"" Poly Casters, 2 fixed & 2 swivel, & 4 ea Xtra Tall 37.25"" U...",,1,56,33,11,161
+Finished Goods,RPP-3916 - B,"Heavy Duty Panel/Sheet Mover with 8"" Poly Casters, 2 fixed & 2 swivel, & 4 ea Xtra Tall 37.25"" U...","[RPP-3916 - B] Heavy Duty Panel/Sheet Mover with 8"" Poly Casters, 2 fixed & 2 swivel, & 4 ea Xtra Tall 37.25"" U...",,1,56,33,11,161
+Finished Goods,RPP-3917 (3901-B),"Heavy Duty Panel/Sheet Mover Coated with 2 ea 8"" Swivel casters W/Brakes, 2 ea 8"" Fixed Casters...","[RPP-3917 (3901-B)] Heavy Duty Panel/Sheet Mover Coated with 2 ea 8"" Swivel casters W/Brakes, 2 ea 8"" Fixed Casters...",,1,56,33,11,161
+Finished Goods,RPP-3918,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, All Swivel, & 4 Standard Uprights","[RPP-3918] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, All Swivel, & 4 Standard Uprights",,1,56,33,11,158
+Finished Goods,RPP-3918 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, All Swivel, & 4 Standard Uprights with Brakes","[RPP-3918 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, All Swivel, & 4 Standard Uprights with Brakes",,1,56,33,11,161
+Finished Goods,RPP-3918 N. U.,"H. D. Panel Mover base, 4 All Swivel 8"" poly casters, NO uprights","[RPP-3918 N. U.] H. D. Panel Mover base, 4 All Swivel 8"" poly casters, NO uprights",,1,56,33,11,161
+Finished Goods,RPP-3919,"Heavy Duty Panel Mover with 5"" Phenolic Casters All Swivel, 2 Each Xtra Tall 37.25"" Uprights, ...","[RPP-3919] Heavy Duty Panel Mover with 5"" Phenolic Casters All Swivel, 2 Each Xtra Tall 37.25"" Uprights, ...",,1,56,33,11,161
+Finished Goods,RPP-3919 - B,"Heavy Duty Panel Mover with 5"" Phenolic Casters All Swivel, 2 Each Xtra Tall 37.25"" Uprights, ...","[RPP-3919 - B] Heavy Duty Panel Mover with 5"" Phenolic Casters All Swivel, 2 Each Xtra Tall 37.25"" Uprights, ...",,1,56,33,11,161
+Finished Goods,RPP-3920,Lip Attachment for Heavy Duty Panel/Sheet Mover,[RPP-3920] Lip Attachment for Heavy Duty Panel/Sheet Mover,,1,10,12,14,14
+Finished Goods,RPP-3921,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, No U...","[RPP-3921] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, No U...",,1,56,33,8,123
+Finished Goods,RPP-3921 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, No U...","[RPP-3921 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, No U...",,1,56,33,8,123
+Finished Goods,RPP-3923,"Heavy Duty Panel/Sheet truck with 8"" Air Free casters, 2 F & 2 SW with Brakes, no uprights","[RPP-3923] Heavy Duty Panel/Sheet truck with 8"" Air Free casters, 2 F & 2 SW with Brakes, no uprights",,1,56,33,8,123
+Finished Goods,RPP-3928,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 1 Push Handle, No Uprights","[RPP-3928] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 1 Push Handle, No Uprights",,1,56,33,8,125
+Finished Goods,RPP-3928 - B,"Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 1 Push Handle, No Uprights wi...","[RPP-3928 - B] Heavy Duty Panel/Sheet Truck with 8"" Poly Casters, all swivel, and 1 Push Handle, No Uprights wi...",,1,56,33,8,125
+Finished Goods,RPP-3931,"Painted 3900 Base 3 Uprights 5"" Poly casters 2 F & 2 S ( BELLCOMB)","[RPP-3931] Painted 3900 Base 3 Uprights 5"" Poly casters 2 F & 2 S ( BELLCOMB)",,1,56,33,8,125
+Finished Goods,RPP-3937,"H.D. coated panel mover base, 8"" poly- 2sw/w brake, 2 fixed, 2 -37"" uprights, 1 custom push hand...","[RPP-3937] H.D. coated panel mover base, 8"" poly- 2sw/w brake, 2 fixed, 2 -37"" uprights, 1 custom push hand...",,1,56,33,8,125
+Finished Goods,RPP-3940,"Mini Platform truck , 1 push handle , no casters","[RPP-3940] Mini Platform truck , 1 push handle , no casters",,1,56,33,8,125
+Finished Goods,RPP-3941,"Mini Heavy Duty Platform Truck with 4"" Hard Rubber Casters, all swivel, and 1 Push Handle","[RPP-3941] Mini Heavy Duty Platform Truck with 4"" Hard Rubber Casters, all swivel, and 1 Push Handle",,1,41,28,9,56
+Finished Goods,RPP-3942,"Mini Heavy Duty Platform Truck with 4"" Hard Rubber Casters, all swivel, and 1 Push Handle and 1 ...","[RPP-3942] Mini Heavy Duty Platform Truck with 4"" Hard Rubber Casters, all swivel, and 1 Push Handle and 1 ...",,1,41,28,9,60
+Finished Goods,RPP-3943,"Mini Platform truck, 1 Push handle, 1 retaining end, NO casters","[RPP-3943] Mini Platform truck, 1 Push handle, 1 retaining end, NO casters",,1,41,28,9,60
+Finished Goods,RPP-3950,"Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle","[RPP-3950] Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle",,1,56,33,9,88
+Finished Goods,RPP-3950 - B,"Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle with...","[RPP-3950 - B] Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle with...",,1,56,33,9,88
+Finished Goods,RPP-3951,"Heavy Duty Platform Truck with 5"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle","[RPP-3951] Heavy Duty Platform Truck with 5"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle",,1,56,33,9,106
+Finished Goods,RPP-3951 - B,"Heavy Duty Platform Truck with 5"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle with Brakes","[RPP-3951 - B] Heavy Duty Platform Truck with 5"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle with Brakes",,1,56,33,9,106
+Finished Goods,RPP-3952,"Heavy Duty Platform Truck with 5"" Poly Casters, all swivel, and 1 Push Handle","[RPP-3952] Heavy Duty Platform Truck with 5"" Poly Casters, all swivel, and 1 Push Handle",,1,56,33,9,106
+Finished Goods,RPP-3952 - B,"Heavy Duty Platform Truck with 5"" Poly Casters, all swivel, and 1 Push Handle with Brakes","[RPP-3952 - B] Heavy Duty Platform Truck with 5"" Poly Casters, all swivel, and 1 Push Handle with Brakes",,1,56,33,9,106
+Finished Goods,RPP-3953,"Heavy Duty Platform Truck with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle","[RPP-3953] Heavy Duty Platform Truck with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle",,1,56,33,9,109
+Finished Goods,RPP-3953 - B,"Heavy Duty Platform Truck with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle with...","[RPP-3953 - B] Heavy Duty Platform Truck with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle with...",,1,56,33,9,109
+Finished Goods,RPP-3953-R,"Heavy Duty platform truck 6"" phenolic casters 2 Sw. & 2 Fixed, 1 push handle,1 retaining end","[RPP-3953-R] Heavy Duty platform truck 6"" phenolic casters 2 Sw. & 2 Fixed, 1 push handle,1 retaining end",,1,56,33,9,109
+Finished Goods,RPP-3954,"Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle","[RPP-3954] Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle",,1,56,33,9,89
+Finished Goods,RPP-3954 - B,"Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle with Brakes","[RPP-3954 - B] Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle with Brakes",,1,56,33,9,89
+Finished Goods,RPP-3955,"Heavy Duty Platform Truck, Base and 1 Push Handle, No Casters","[RPP-3955] Heavy Duty Platform Truck, Base and 1 Push Handle, No Casters",,1,56,33,9,84
+Finished Goods,RPP-3957,"Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle","[RPP-3957] Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle",,1,56,33,9,95
+Finished Goods,RPP-3957 - B,"Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle with Brakes","[RPP-3957 - B] Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle with Brakes",,1,56,33,9,95
+Finished Goods,RPP-3958,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle","[RPP-3958] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle",,1,56,33,9,96
+Finished Goods,RPP-3958 - B,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle with Brakes","[RPP-3958 - B] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle with Brakes",,1,56,33,9,96
+Finished Goods,RPP-3959,"Heavy Duty Platform Truck with 6"" Phenolic Casters, all swivel, and 1 Push Handle","[RPP-3959] Heavy Duty Platform Truck with 6"" Phenolic Casters, all swivel, and 1 Push Handle",,1,56,33,9,111
+Finished Goods,RPP-3959 - B,"Heavy Duty Platform Truck with 6"" Phenolic Casters, all swivel, and 1 Push Handle with Brakes","[RPP-3959 - B] Heavy Duty Platform Truck with 6"" Phenolic Casters, all swivel, and 1 Push Handle with Brakes",,1,56,33,9,111
+Finished Goods,RPP-3960,"Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle, and...","[RPP-3960] Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle, and...",,1,56,33,9,98
+Finished Goods,RPP-3960 - B,"Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle, and...","[RPP-3960 - B] Heavy Duty Platform Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 1 Push Handle, and...",,1,56,33,9,98
+Finished Goods,RPP-3964,"Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle and 1 Retainin...","[RPP-3964] Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle and 1 Retainin...",,1,56,33,9,99
+Finished Goods,RPP-3964 - B,"Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle and 1 Retainin...","[RPP-3964 - B] Heavy Duty Platform Truck with 5"" Phenolic Casters, all swivel, and 1 Push Handle and 1 Retainin...",,1,56,33,9,99
+Finished Goods,RPP-3967,"Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, and 1 R...","[RPP-3967] Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, and 1 R...",,1,56,33,9,105
+Finished Goods,RPP-3967 - B,"Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, and 1 R...","[RPP-3967 - B] Heavy Duty Platform Truck with 8"" Poly Casters, 2 fixed and 2 swivel, and 1 Push Handle, and 1 R...",,1,56,33,9,105
+Finished Goods,RPP-3968,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle and 1 Retaining End","[RPP-3968] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle and 1 Retaining End",,1,56,33,9,107
+Finished Goods,RPP-3968 - B,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle and 1 Retaining En...","[RPP-3968 - B] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 1 Push Handle and 1 Retaining En...",,1,56,33,9,107
+Finished Goods,RPP-3969 - B,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights with Brakes","[RPP-3969 - B] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights with Brakes",,1,56,33,9,72
+Finished Goods,RPP-3969 - B,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights with Brakes","[RPP-3969 - B] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights with Brakes",,2,15,13,10,28
+Finished Goods,RPP-3970,"Heavy Duty Platform Truck with 1 Push Handle and 1 Retaining End, No Casters","[RPP-3970] Heavy Duty Platform Truck with 1 Push Handle and 1 Retaining End, No Casters",,1,56,33,9,106
+Finished Goods,RPP-3971,"Heavy Duty Platform Base Only, No Casters, No Push Handle","[RPP-3971] Heavy Duty Platform Base Only, No Casters, No Push Handle",,1,56,33,9,106
+Finished Goods,RPP-3972,"Heavy Duty Platform truck with 4 X-Tall uprights, 8"" casters 2 fixed & 2 swivel","[RPP-3972] Heavy Duty Platform truck with 4 X-Tall uprights, 8"" casters 2 fixed & 2 swivel",,1,56,33,9,106
+Finished Goods,RPP-3972 - B,"Heavy Duty Platform truck with 4 X-Tall uprights, 8"" casters 2 fixed & 2 swivel with Brakes","[RPP-3972 - B] Heavy Duty Platform truck with 4 X-Tall uprights, 8"" casters 2 fixed & 2 swivel with Brakes",,1,56,33,9,106
+Finished Goods,RPP-3973,"Heavy Duty Platform Truck with 8"" Poly All Swivel Casters, 2 Side Uprights","[RPP-3973] Heavy Duty Platform Truck with 8"" Poly All Swivel Casters, 2 Side Uprights",,1,56,33,9,106
+Finished Goods,RPP-3973 - B,"Heavy Duty Platform Truck with 8"" Poly All Swivel Casters, 2 Side Uprights with Brakes","[RPP-3973 - B] Heavy Duty Platform Truck with 8"" Poly All Swivel Casters, 2 Side Uprights with Brakes",,1,56,33,9,106
+Finished Goods,RPP-3980,"Heavy Duty Narrow Panel/Sheet Mover, 2 End Uprights, NO Casters","[RPP-3980] Heavy Duty Narrow Panel/Sheet Mover, 2 End Uprights, NO Casters",,1,56,33,9,106
+Finished Goods,RPP-3981,Heavy Duty Narrow Panel/Sheet mover no casters & no uprights.,[RPP-3981] Heavy Duty Narrow Panel/Sheet mover no casters & no uprights.,,1,56,33,9,106
+Finished Goods,RPP-3984,"Heavy Duty Narrow Panel/Sheet Mover 5"" POLY Casters 2F & 2 SW, with Two End Uprights","[RPP-3984] Heavy Duty Narrow Panel/Sheet Mover 5"" POLY Casters 2F & 2 SW, with Two End Uprights",,1,56,33,9,106
+Finished Goods,RPP-3984 - B,"Heavy Duty Narrow Panel/Sheet Mover 5"" POLY Casters 2F & 2 SW, with Two End Uprights with Brakes","[RPP-3984 - B] Heavy Duty Narrow Panel/Sheet Mover 5"" POLY Casters 2F & 2 SW, with Two End Uprights with Brakes",,1,56,33,9,106
+Finished Goods,RPP-4000,"Mighty King Desk Lift with 16x32"" Lift Frame","[RPP-4000] Mighty King Desk Lift with 16x32"" Lift Frame",,1,33,25,6,47
+Finished Goods,RPP-4000-40,"Mighty King Desk Lift with 16x40"" Lift Frame","[RPP-4000-40] Mighty King Desk Lift with 16x40"" Lift Frame",,1,42,24,6,48
+Finished Goods,RPP-4000-46,"Mighty King Desk Lift with 16x46"" Lift Frame","[RPP-4000-46] Mighty King Desk Lift with 16x46"" Lift Frame",,1,48,24,6,50
+Finished Goods,RPP-4016-2,"Lift Frame only 16x40"" for 2000/2300 Desk Lift","[RPP-4016-2] Lift Frame only 16x40"" for 2000/2300 Desk Lift",,1,48,24,6,50
+Finished Goods,RPP-4016-3,"Lift Frame only 16x40"" for 3500/4000 Desk Lift","[RPP-4016-3] Lift Frame only 16x40"" for 3500/4000 Desk Lift",,1,48,24,6,50
+Finished Goods,RPP-4040-1,"4"" Caster for Desk Lift","[RPP-4040-1] 4"" Caster for Desk Lift",,1,10,12,14,4
+Finished Goods,RPP-4040-1 B,"4"" Desk Lift / Royal Dolly, Swivel Caster with Brake","[RPP-4040-1 B] 4"" Desk Lift / Royal Dolly, Swivel Caster with Brake",,1,33,25,6,60
+Finished Goods,RPP-4108,Adjustable Cube Style Desk Lift,[RPP-4108] Adjustable Cube Style Desk Lift,,1,33,25,6,60
+Finished Goods,RPP-4108-RS,Replacement Slide for #4108 Desk Lift (single),[RPP-4108-RS] Replacement Slide for #4108 Desk Lift (single),,1,10,12,14,4
+Finished Goods,RPP-420,Single Table/Sheet Mover,[RPP-420] Single Table/Sheet Mover,,1,53,15,9,15
+Finished Goods,RPP-4616-2,"Lift Frame 16x46"" for 2000/2300 Desk Lift","[RPP-4616-2] Lift Frame 16x46"" for 2000/2300 Desk Lift",,1,53,15,9,15
+Finished Goods,RPP-4616-3,"Lift Frame 16x46"" for 3500/4000 Desk Lift","[RPP-4616-3] Lift Frame 16x46"" for 3500/4000 Desk Lift",,1,53,15,9,15
+Finished Goods,RPP-465,"HD Caddy with 10"" Air Free Wheels, and 6.125"" Channel","[RPP-465] HD Caddy with 10"" Air Free Wheels, and 6.125"" Channel",,1,21,16,11,18
+Finished Goods,RPP-466,"HD Caddy 6.125"" Channel, and No Wheels","[RPP-466] HD Caddy 6.125"" Channel, and No Wheels",,1,21,16,11,18
+Finished Goods,RPP-470,"HD Caddy with 10"" Air Free Wheels, and 12.25"" Channel","[RPP-470] HD Caddy with 10"" Air Free Wheels, and 12.25"" Channel",,1,22,21,12,24
+Finished Goods,RPP-471,470 HD caddy NO WHEELS,[RPP-471] 470 HD caddy NO WHEELS,,1,22,21,12,24
+Finished Goods,RPP-500,"Stacked Chair Dolly with 8"" Wheels","[RPP-500] Stacked Chair Dolly with 8"" Wheels",,1,37,28,15,28
+Finished Goods,RPP-500PN,"Stacked Chair Dolly with 10"" Air Free Wheels","[RPP-500PN] Stacked Chair Dolly with 10"" Air Free Wheels",,1,37,28,15,31
+Finished Goods,RPP-500PN-US,"Stacked Chair Dolly with 10"" Air Free Wheels","[RPP-500PN-US] Stacked Chair Dolly with 10"" Air Free Wheels",,1,37,28,15,31
+Finished Goods,RPP-500US,"Stacked Chair Dolly with 8"" Wheels","[RPP-500US] Stacked Chair Dolly with 8"" Wheels",,1,37,28,15,31
+Finished Goods,RPP-550,"Stacked Chair Dolly Narrow Width, with 8"" Wheels","[RPP-550] Stacked Chair Dolly Narrow Width, with 8"" Wheels",,1,38,28,12,32
+Finished Goods,RPP-550US,"Stacked Chair Dolly Narrow Width, with 8"" Wheels","[RPP-550US] Stacked Chair Dolly Narrow Width, with 8"" Wheels",,1,38,28,12,32
+Finished Goods,RPP-560,Universal Stacked Chair Dolly,[RPP-560] Universal Stacked Chair Dolly,,1,25,23,6,15
+Finished Goods,RPP-560US,Universal Stacked Chair Dolly,[RPP-560US] Universal Stacked Chair Dolly,,1,25,23,6,15
+Finished Goods,RPP-600,"Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, 50-3/4"" Long","[RPP-600] Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, 50-3/4"" Long",,1,52,23,8,44
+Finished Goods,RPP-600US,"Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, 50-3/4"" Long","[RPP-600US] Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, 50-3/4"" Long",,1,52,23,8,44
+Finished Goods,RPP-610,"Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, all swivel and 50-3/4"" Long","[RPP-610] Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, all swivel and 50-3/4"" Long",,1,52,23,8,44
+Finished Goods,RPP-615,"Folded/Stacked Chair Tote with 6"" Thermoplastic Casters, 2 fixed and 2 swivel, and 50-3/4"" Long","[RPP-615] Folded/Stacked Chair Tote with 6"" Thermoplastic Casters, 2 fixed and 2 swivel, and 50-3/4"" Long",,1,52,23,8,44
+Finished Goods,RPP-620,"Folded/Stacked Chair Tote, No Casters, 50-3/4"" Long","[RPP-620] Folded/Stacked Chair Tote, No Casters, 50-3/4"" Long",,1,52,23,8,44
+Finished Goods,RPP-630,"Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, and 67"" Long","[RPP-630] Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, and 67"" Long",,1,68,23,8,50
+Finished Goods,RPP-630US,"Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, and 67"" Long","[RPP-630US] Folded/Stacked Chair Tote with 4"" Hard Rubber Casters, 2 fixed and 2 swivel, and 67"" Long",,1,68,23,8,50
+Finished Goods,RPP-635,"Folded Stacked Chair Tote with 4"" Hard Rubber Casters, all swivel and 67"" Long","[RPP-635] Folded Stacked Chair Tote with 4"" Hard Rubber Casters, all swivel and 67"" Long",,1,68,23,8,50
+Finished Goods,RPP-640,"Folded/Stacked Chair Tote, No Casters, 67"" Long","[RPP-640] Folded/Stacked Chair Tote, No Casters, 67"" Long",,1,68,23,8,50
+Finished Goods,RPP-645,"Folded/Stacked Chair Tote with 6"" Thermoplastic Casters, all swivel, and 67"" Long","[RPP-645] Folded/Stacked Chair Tote with 6"" Thermoplastic Casters, all swivel, and 67"" Long",,1,68,23,8,50
+Finished Goods,RPP-650,"Folded/Stacked Chair Tote with 6"" Thermoplastic Casters, 2 fixed and 2 swivel, 67"" Long","[RPP-650] Folded/Stacked Chair Tote with 6"" Thermoplastic Casters, 2 fixed and 2 swivel, 67"" Long",,1,38,28,12,15
+Finished Goods,RPP-700,"Student Desk Mover with 8"" Wheels","[RPP-700] Student Desk Mover with 8"" Wheels",,1,46,10,8,24
+Finished Goods,RPP-720,Bistro Table Mover,[RPP-720] Bistro Table Mover,,1,52,11,10,29
+Finished Goods,RPP-720US,Bistro Table Mover,[RPP-720US] Bistro Table Mover,,1,52,11,10,29
+Finished Goods,RPP-750,"Folding Chair Dolly with 8"" Wheels","[RPP-750] Folding Chair Dolly with 8"" Wheels",,1,42,28,10,28
+Finished Goods,RPP-750-1,Prong for #750 coated,[RPP-750-1] Prong for #750 coated,,1,42,28,10,28
+Finished Goods,RPP-750US,"Folding Chair Dolly with 8"" Wheels","[RPP-750US] Folding Chair Dolly with 8"" Wheels",,1,42,28,10,28
+Finished Goods,RPP-770,Multi-Purpose Two Wheeler,[RPP-770] Multi-Purpose Two Wheeler,,1,46,23,15,36
+Finished Goods,RPP-770US,Multi-Purpose Two Wheeler,[RPP-770US] Multi-Purpose Two Wheeler,,1,46,23,15,36
+Finished Goods,RPP-800,"Book Cart with 8"" Wheels","[RPP-800] Book Cart with 8"" Wheels",,1,47,21,18,30
+Finished Goods,RPP-800US,"Book Cart with 8"" Wheels","[RPP-800US] Book Cart with 8"" Wheels",,1,47,21,18,30
+Finished Goods,RPP-801,#800 Handle insert replacement painted,[RPP-801] #800 Handle insert replacement painted,,1,47,21,18,30
+Finished Goods,RPP-Flagship Handle,Replacement Handle for Flagship T.T.,[RPP-Flagship Handle] Replacement Handle for Flagship T.T.,,1,63,32,8,45
+Finished Goods,RPP-FS1 & R1 side,Replacement side for Flagship/ 4' & 5' Round Table Toter,[RPP-FS1 & R1 side] Replacement side for Flagship/ 4' & 5' Round Table Toter,,1,63,32,8,45
+Finished Goods,RPP-FS1-HS,"1"" square handle support for Flagship, Junior. 38-1/2"" x 14 ga.","[RPP-FS1-HS] 1"" square handle support for Flagship, Junior. 38-1/2"" x 14 ga.",,1,63,32,8,45
+Finished Goods,RPP-JUNIOR FS2,JUNIOR Table Toter,[RPP-JUNIOR FS2] JUNIOR Table Toter,,1,63,32,8,45
+Finished Goods,RPP-3828,"Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights","[RPP-3828] Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights",,1,42,31,6,59
+Finished Goods,RPP-3828,"Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights","[RPP-3828] Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights",,2,16,13,10,24
+Finished Goods,RPP-3828-B,"Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights with Brakes","[RPP-3828-B] Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights with Brakes",,1,42,31,6,59
+Finished Goods,RPP-3828-B,"Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights with Brakes","[RPP-3828-B] Panel Mover with 8"" Poly Casters; 2 Fixed and 2 Swivel and 3 Standard 26"" Uprights with Brakes",,2,16,13,10,24
+Finished Goods,RPP-3843,"Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; and 2 Standard Uprights","[RPP-3843] Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; and 2 Standard Uprights",,1,42,31,6,50
+Finished Goods,RPP-3843,"Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; and 2 Standard Uprights","[RPP-3843] Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; and 2 Standard Uprights",,2,16,13,10,24
+Finished Goods,RPP-3843,"Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; and 2 Standard Uprights","[RPP-3843] Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; and 2 Standard Uprights",,3,15,13,9,15
+Finished Goods,RPP-3872 - B,"Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights with Brakes","[RPP-3872 - B] Panel Mover with 5"" Poly Casters, all swivel, and 2 standard uprights with Brakes",,1,41,32,9,67
+Finished Goods,RPP-3880,"Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights","[RPP-3880] Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights",,1,42,31,6,59
+Finished Goods,RPP-3880,"Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights","[RPP-3880] Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights",,2,16,13,10,24
+Finished Goods,RPP-3880 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights with Brakes","[RPP-3880 - B] Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights with Brakes",,1,42,31,6,59
+Finished Goods,RPP-3880 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights with Brakes","[RPP-3880 - B] Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights with Brakes",,2,16,13,10,24
+Finished Goods,RPP-940,Half Height Chair Storage Truck,[RPP-940] Half Height Chair Storage Truck,,1,8,32,43,31
+Finished Goods,RPP-940,Half Height Chair Storage Truck,[RPP-940] Half Height Chair Storage Truck,,2,3,32,70,31
+Finished Goods,RPP-975,975 Pipe Rack (without brakes),[RPP-975] 975 Pipe Rack (without brakes),,1,8,32,43,31
+Finished Goods,RPP-975,975 Pipe Rack (without brakes),[RPP-975] 975 Pipe Rack (without brakes),,2,3,32,70,31
+Finished Goods,RPP-976,976 Pipe Rack (With Brakes),[RPP-976] 976 Pipe Rack (With Brakes),,1,8,32,43,31
+Finished Goods,RPP-976,976 Pipe Rack (With Brakes),[RPP-976] 976 Pipe Rack (With Brakes),,2,3,32,70,31
+Finished Goods,RPP-3780,"Round Table & Chair Mover 5"" Phenolic 2F & 2S 1 std 3700 Upright 1 Upright with Prongs","[RPP-3780] Round Table & Chair Mover 5"" Phenolic 2F & 2S 1 std 3700 Upright 1 Upright with Prongs",,1,40,28,6,36
+Finished Goods,RPP-3780,"Round Table & Chair Mover 5"" Phenolic 2F & 2S 1 std 3700 Upright 1 Upright with Prongs","[RPP-3780] Round Table & Chair Mover 5"" Phenolic 2F & 2S 1 std 3700 Upright 1 Upright with Prongs",,2,40,28,6,36
+Finished Goods,RPP-485,"HD Caddy with 10"" Air Free Wheels, and 6.125"" Channel and 2 Uprights","[RPP-485] HD Caddy with 10"" Air Free Wheels, and 6.125"" Channel and 2 Uprights",,1,21,16,11,21
+Finished Goods,RPP-485,"HD Caddy with 10"" Air Free Wheels, and 6.125"" Channel and 2 Uprights","[RPP-485] HD Caddy with 10"" Air Free Wheels, and 6.125"" Channel and 2 Uprights",,2,41,20,3,14
+Finished Goods,RPP-490,"HD Caddy with 10"" Air Free Wheels, and 12.25"" Channel, and 2 Uprights","[RPP-490] HD Caddy with 10"" Air Free Wheels, and 12.25"" Channel, and 2 Uprights",,1,22,21,12,28
+Finished Goods,RPP-490,"HD Caddy with 10"" Air Free Wheels, and 12.25"" Channel, and 2 Uprights","[RPP-490] HD Caddy with 10"" Air Free Wheels, and 12.25"" Channel, and 2 Uprights",,2,41,20,3,14
+Finished Goods,RPP-491,"HD Caddy with 12.25"" Channel No Wheels","[RPP-491] HD Caddy with 12.25"" Channel No Wheels",,1,22,21,12,28
+Finished Goods,RPP-491,"HD Caddy with 12.25"" Channel No Wheels","[RPP-491] HD Caddy with 12.25"" Channel No Wheels",,2,41,20,3,14
+Finished Goods,RPP-900L,"Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel","[RPP-900L] Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel",,1,8,32,63,34
+Finished Goods,RPP-900L,"Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel","[RPP-900L] Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel",,2,3,32,80,45
+Finished Goods,RPP-915L,"Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...","[RPP-915L] Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...",,1,8,32,63,30
+Finished Goods,RPP-915L,"Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...","[RPP-915L] Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...",,2,3,32,80,41
+Finished Goods,RPP-920L,"Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...","[RPP-920L] Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...",,1,8,32,63,34
+Finished Goods,RPP-920L,"Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...","[RPP-920L] Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...",,2,3,32,80,45
+Finished Goods,RPP-935L,"Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...","[RPP-935L] Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...",,1,8,32,63,30
+Finished Goods,RPP-935L,"Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...","[RPP-935L] Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...",,2,3,32,80,41
+Finished Goods,RPP-3701,"Standard Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 Swivel","[RPP-3701] Standard Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 Swivel",,1,50,34,9,58
+Finished Goods,RPP-3701,"Standard Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 Swivel","[RPP-3701] Standard Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 Swivel",,2,49,45,3,38
+Finished Goods,RPP-3702,"Standard Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3702] Standard Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel",,1,50,34,9,62
+Finished Goods,RPP-3702,"Standard Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3702] Standard Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel",,2,49,45,3,36
+Finished Goods,RPP-3705,"Standard Round Folding Table Mover with 5"" Poly Casters, All Swivel","[RPP-3705] Standard Round Folding Table Mover with 5"" Poly Casters, All Swivel",,1,50,34,9,61
+Finished Goods,RPP-3705,"Standard Round Folding Table Mover with 5"" Poly Casters, All Swivel","[RPP-3705] Standard Round Folding Table Mover with 5"" Poly Casters, All Swivel",,2,49,45,3,38
+Finished Goods,RPP-3707,"Standard Round Folding Table Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel","[RPP-3707] Standard Round Folding Table Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel",,1,50,34,9,58
+Finished Goods,RPP-3707,"Standard Round Folding Table Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel","[RPP-3707] Standard Round Folding Table Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel",,2,49,45,3,38
+Finished Goods,RPP-3708,"Standard Round Folding Table Mover with 5"" Phenolic Casters; All Swivel","[RPP-3708] Standard Round Folding Table Mover with 5"" Phenolic Casters; All Swivel",,1,50,34,9,61
+Finished Goods,RPP-3708,"Standard Round Folding Table Mover with 5"" Phenolic Casters; All Swivel","[RPP-3708] Standard Round Folding Table Mover with 5"" Phenolic Casters; All Swivel",,2,49,45,3,38
+Finished Goods,RPP-3709,"Standard Round Folding Table Mover with 6"" Phenolic Casters; All Swivel","[RPP-3709] Standard Round Folding Table Mover with 6"" Phenolic Casters; All Swivel",,1,50,34,9,64
+Finished Goods,RPP-3709,"Standard Round Folding Table Mover with 6"" Phenolic Casters; All Swivel","[RPP-3709] Standard Round Folding Table Mover with 6"" Phenolic Casters; All Swivel",,2,49,45,3,38
+Finished Goods,RPP-3713,"3701 NO UPRIGHTS, base and casters only, 5"" 2 Fixed & 2 Swivel","[RPP-3713] 3701 NO UPRIGHTS, base and casters only, 5"" 2 Fixed & 2 Swivel",,1,50,34,8,38
+Finished Goods,RPP-3750,XL Round Folding Table Mover without Casters,[RPP-3750] XL Round Folding Table Mover without Casters,,1,50,34,5,38
+Finished Goods,RPP-3750,XL Round Folding Table Mover without Casters,[RPP-3750] XL Round Folding Table Mover without Casters,,2,49,45,3,38
+Finished Goods,RPP-3751,"XL Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel","[RPP-3751] XL Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel",,1,49,38,7,74
+Finished Goods,RPP-3751,"XL Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel","[RPP-3751] XL Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel",,2,49,45,3,38
+Finished Goods,RPP-3751,"XL Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel","[RPP-3751] XL Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel",,3,12,13,14,24
+Finished Goods,RPP-3751- Poly,"XL Round Folding Table mover with 8"" red poly casters, 2 Fixed & 2 swivel","[RPP-3751- Poly] XL Round Folding Table mover with 8"" red poly casters, 2 Fixed & 2 swivel",,1,49,38,7,74
+Finished Goods,RPP-3751- Poly,"XL Round Folding Table mover with 8"" red poly casters, 2 Fixed & 2 swivel","[RPP-3751- Poly] XL Round Folding Table mover with 8"" red poly casters, 2 Fixed & 2 swivel",,2,49,45,3,38
+Finished Goods,RPP-3751- Poly,"XL Round Folding Table mover with 8"" red poly casters, 2 Fixed & 2 swivel","[RPP-3751- Poly] XL Round Folding Table mover with 8"" red poly casters, 2 Fixed & 2 swivel",,3,12,13,14,24
+Finished Goods,RPP-3753,"XL Round Folding Table Mover with 8"" Air Free Casters, all swivel","[RPP-3753] XL Round Folding Table Mover with 8"" Air Free Casters, all swivel",,1,49,38,7,77
+Finished Goods,RPP-3753,"XL Round Folding Table Mover with 8"" Air Free Casters, all swivel","[RPP-3753] XL Round Folding Table Mover with 8"" Air Free Casters, all swivel",,2,49,45,3,38
+Finished Goods,RPP-3771,"Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3771] Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel",,1,50,34,9,57
+Finished Goods,RPP-3771,"Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3771] Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel",,2,49,45,3,38
+Finished Goods,RPP-3771US,"Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3771US] Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel",,1,50,34,9,57
+Finished Goods,RPP-3771US,"Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3771US] Narrow Round Folding Table Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel",,2,49,45,3,38
+Finished Goods,RPP-3773,"Narrow Round Folding Table Mover with 5"" Phenolic Casters, all swivel","[RPP-3773] Narrow Round Folding Table Mover with 5"" Phenolic Casters, all swivel",,1,50,25,5,59
+Finished Goods,RPP-3773,"Narrow Round Folding Table Mover with 5"" Phenolic Casters, all swivel","[RPP-3773] Narrow Round Folding Table Mover with 5"" Phenolic Casters, all swivel",,2,49,45,3,38
+Finished Goods,RPP-3773-P,"Narrow Round Table Mover, 5"" Poly Casters, all swivel","[RPP-3773-P] Narrow Round Table Mover, 5"" Poly Casters, all swivel",,1,50,25,5,59
+Finished Goods,RPP-3773-P,"Narrow Round Table Mover, 5"" Poly Casters, all swivel","[RPP-3773-P] Narrow Round Table Mover, 5"" Poly Casters, all swivel",,2,49,45,3,38
+Finished Goods,RPP-3774,"Narrow Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3774] Narrow Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel",,1,50,34,9,58
+Finished Goods,RPP-3774,"Narrow Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-3774] Narrow Round Folding Table Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel",,2,49,45,3,38
+Finished Goods,RPP-3775,"Narrow Round Folding Table Mover with 6"" Phenolic Casters, all swivel","[RPP-3775] Narrow Round Folding Table Mover with 6"" Phenolic Casters, all swivel",,1,50,34,9,62
+Finished Goods,RPP-3775,"Narrow Round Folding Table Mover with 6"" Phenolic Casters, all swivel","[RPP-3775] Narrow Round Folding Table Mover with 6"" Phenolic Casters, all swivel",,2,49,45,3,38
+Finished Goods,RPP-3776,"Narrow Round Folding Table Mover with 8"" Poly Casters, all swivel","[RPP-3776] Narrow Round Folding Table Mover with 8"" Poly Casters, all swivel",,1,50,34,9,62
+Finished Goods,RPP-3776,"Narrow Round Folding Table Mover with 8"" Poly Casters, all swivel","[RPP-3776] Narrow Round Folding Table Mover with 8"" Poly Casters, all swivel",,2,49,45,3,38
+Finished Goods,RPP-3776,"Narrow Round Folding Table Mover with 8"" Poly Casters, all swivel","[RPP-3776] Narrow Round Folding Table Mover with 8"" Poly Casters, all swivel",,3,15,13,9,15
+Finished Goods,RPP-3776-2,"NARROW Round Folding Table Mover, 8"" casters, 2 swivel, 2 rigid & 2 std uprights","[RPP-3776-2] NARROW Round Folding Table Mover, 8"" casters, 2 swivel, 2 rigid & 2 std uprights",,1,50,34,9,62
+Finished Goods,RPP-3776-2,"NARROW Round Folding Table Mover, 8"" casters, 2 swivel, 2 rigid & 2 std uprights","[RPP-3776-2] NARROW Round Folding Table Mover, 8"" casters, 2 swivel, 2 rigid & 2 std uprights",,2,49,45,3,38
+Finished Goods,RPP-3776-2,"NARROW Round Folding Table Mover, 8"" casters, 2 swivel, 2 rigid & 2 std uprights","[RPP-3776-2] NARROW Round Folding Table Mover, 8"" casters, 2 swivel, 2 rigid & 2 std uprights",,3,15,13,9,15
+Finished Goods,RPP-3777,"Narrow Panel Mover Base: 5"" Poly Casters; 2 Fixed & 2 Swivel; with 2 Uprights","[RPP-3777] Narrow Panel Mover Base: 5"" Poly Casters; 2 Fixed & 2 Swivel; with 2 Uprights",,1,50,34,9,62
+Finished Goods,RPP-3777,"Narrow Panel Mover Base: 5"" Poly Casters; 2 Fixed & 2 Swivel; with 2 Uprights","[RPP-3777] Narrow Panel Mover Base: 5"" Poly Casters; 2 Fixed & 2 Swivel; with 2 Uprights",,2,49,45,3,38
+Finished Goods,RPP-3800,3800 Std Panel Mover in Carton (NO CASTERS) add casters for model numbers,[RPP-3800] 3800 Std Panel Mover in Carton (NO CASTERS) add casters for model numbers,,1,40,28,6,36
+Finished Goods,RPP-3800,3800 Std Panel Mover in Carton (NO CASTERS) add casters for model numbers,[RPP-3800] 3800 Std Panel Mover in Carton (NO CASTERS) add casters for model numbers,,2,49,45,3,38
+Finished Goods,RPP-3840,"Panel Mover Base and 3 45"" Uprights. No Casters","[RPP-3840] Panel Mover Base and 3 45"" Uprights. No Casters",,1,40,28,6,34
+Finished Goods,RPP-3840,"Panel Mover Base and 3 45"" Uprights. No Casters","[RPP-3840] Panel Mover Base and 3 45"" Uprights. No Casters",,2,50,40,4,52
+Finished Goods,RPP-3841,"Panel Mover Base and 2 45"" Uprights. No Casters.","[RPP-3841] Panel Mover Base and 2 45"" Uprights. No Casters.",,1,40,28,6,34
+Finished Goods,RPP-3841,"Panel Mover Base and 2 45"" Uprights. No Casters.","[RPP-3841] Panel Mover Base and 2 45"" Uprights. No Casters.",,2,50,40,4,35
+Finished Goods,RPP-3843-B,3843 with Brakes,[RPP-3843-B] 3843 with Brakes,,1,42,31,6,50
+Finished Goods,RPP-3843-B,3843 with Brakes,[RPP-3843-B] 3843 with Brakes,,2,50,40,4,35
+Finished Goods,RPP-3843-B,3843 with Brakes,[RPP-3843-B] 3843 with Brakes,,3,15,13,9,15
+Finished Goods,RPP-3845,"Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights","[RPP-3845] Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights",,1,40,29,9,54
+Finished Goods,RPP-3845,"Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights","[RPP-3845] Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights",,2,50,40,4,52
+Finished Goods,RPP-3845-B,"Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes","[RPP-3845-B] Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3845-B,"Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes","[RPP-3845-B] Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3845US,"Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights","[RPP-3845US] Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights",,1,40,29,9,54
+Finished Goods,RPP-3845US,"Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights","[RPP-3845US] Panel Mover with 5"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights",,2,50,40,4,35
+Finished Goods,RPP-3846,"Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights","[RPP-3846] Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights",,1,40,29,9,59
+Finished Goods,RPP-3846,"Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights","[RPP-3846] Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights",,2,50,40,4,52
+Finished Goods,RPP-3846-B,"Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes","[RPP-3846-B] Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3846-B,"Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes","[RPP-3846-B] Panel Mover with 6"" Phenolic Casters, 2 Fixed and 2 Swivel, and 3 45"" Uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3847,"Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights","[RPP-3847] Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights",,1,40,29,9,57
+Finished Goods,RPP-3847,"Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights","[RPP-3847] Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights",,2,50,40,4,52
+Finished Goods,RPP-3847-B,"Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights with Brakes","[RPP-3847-B] Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3847-B,"Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights with Brakes","[RPP-3847-B] Panel Mover with 5"" Phenolic Casters All Swivel, and 3 45"" Uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3847US,"Panel Mover with 5"" Phenolic Casters, all swivel, and 3 45"" uprights","[RPP-3847US] Panel Mover with 5"" Phenolic Casters, all swivel, and 3 45"" uprights",,1,40,29,9,54
+Finished Goods,RPP-3847US,"Panel Mover with 5"" Phenolic Casters, all swivel, and 3 45"" uprights","[RPP-3847US] Panel Mover with 5"" Phenolic Casters, all swivel, and 3 45"" uprights",,2,50,40,4,35
+Finished Goods,RPP-3848,"Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights","[RPP-3848] Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights",,1,40,29,9,59
+Finished Goods,RPP-3848,"Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights","[RPP-3848] Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights",,2,50,40,4,52
+Finished Goods,RPP-3848-B,"Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights with Brakes","[RPP-3848-B] Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights with Brakes",,1,40,29,9,59
+Finished Goods,RPP-3848-B,"Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights with Brakes","[RPP-3848-B] Panel Mover with 6"" Phenolic Casters, all swivel, and 3 45"" uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3848-NU,"Panel Mover ,6"" all swivel casters, NO Uprights","[RPP-3848-NU] Panel Mover ,6"" all swivel casters, NO Uprights",,1,40,29,9,59
+Finished Goods,RPP-3853,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights","[RPP-3853] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights",,1,40,29,9,54
+Finished Goods,RPP-3853,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights","[RPP-3853] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights",,2,50,40,4,52
+Finished Goods,RPP-3853-B,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights with Brakes","[RPP-3853-B] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3853-B,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights with Brakes","[RPP-3853-B] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 3 45"" uprights with Brakes",,2,50,40,4,52
+Finished Goods,RPP-3853US,"Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel; and 3 45"" Uprights","[RPP-3853US] Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel; and 3 45"" Uprights",,1,40,29,9,54
+Finished Goods,RPP-3853US,"Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel; and 3 45"" Uprights","[RPP-3853US] Panel Mover with 5"" Poly Casters, 2 Fixed and 2 Swivel; and 3 45"" Uprights",,2,50,40,4,52
+Finished Goods,RPP-3854,"Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3854] Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights",,1,40,29,9,57
+Finished Goods,RPP-3854,"Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3854] Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights",,2,50,40,4,52
+Finished Goods,RPP-3854-B,"Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights with Brakes","[RPP-3854-B] Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3854-B,"Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights with Brakes","[RPP-3854-B] Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights with Brakes",,2,50,40,4,52
+Finished Goods,RPP-3854US,"Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3854US] Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights",,1,40,29,9,54
+Finished Goods,RPP-3854US,"Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3854US] Panel Mover with 5"" Poly Casters, all swivel, and 3 45"" uprights",,2,50,40,4,52
+Finished Goods,RPP-3855,"Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3855] Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,1,40,29,9,54
+Finished Goods,RPP-3855,"Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3855] Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,2,50,40,4,35
+Finished Goods,RPP-3855-B,"Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3855-B] Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3855-B,"Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3855-B] Panel Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3856,"Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3856] Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,1,40,29,9,56
+Finished Goods,RPP-3856,"Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3856] Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,2,50,40,4,35
+Finished Goods,RPP-3856-B,"Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3856-B] Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3856-B,"Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3856-B] Panel Mover with 6"" Phenolic Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3857,"Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights","[RPP-3857] Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights",,1,40,29,9,57
+Finished Goods,RPP-3857,"Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights","[RPP-3857] Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights",,2,50,40,4,35
+Finished Goods,RPP-3857-B,"Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights with Brakes","[RPP-3857-B] Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights with Brakes",,1,40,29,9,54
+Finished Goods,RPP-3857-B,"Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights with Brakes","[RPP-3857-B] Panel Mover with 5"" Phenolic Casters, all swivel, and 2 45"" uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3858,"Panel Mover 2-45"" uprights, 6"" Phenolic casters, All swivel","[RPP-3858] Panel Mover 2-45"" uprights, 6"" Phenolic casters, All swivel",,1,40,29,9,59
+Finished Goods,RPP-3858,"Panel Mover 2-45"" uprights, 6"" Phenolic casters, All swivel","[RPP-3858] Panel Mover 2-45"" uprights, 6"" Phenolic casters, All swivel",,2,50,40,4,35
+Finished Goods,RPP-3861,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3861] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,1,40,29,9,54
+Finished Goods,RPP-3861,"Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3861] Panel Mover with 5"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,2,50,40,4,35
+Finished Goods,RPP-3863,"Panel Mover with 5"" Poly Casters, All Swivel, and 2 45"" Uprights","[RPP-3863] Panel Mover with 5"" Poly Casters, All Swivel, and 2 45"" Uprights",,1,40,29,9,57
+Finished Goods,RPP-3863,"Panel Mover with 5"" Poly Casters, All Swivel, and 2 45"" Uprights","[RPP-3863] Panel Mover with 5"" Poly Casters, All Swivel, and 2 45"" Uprights",,2,50,40,4,35
+Finished Goods,RPP-3985,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...","[RPP-3985] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...",,1,55,17,9,56
+Finished Goods,RPP-3985,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...","[RPP-3985] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...",,2,55,17,3,28
+Finished Goods,RPP-3985 - B,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...","[RPP-3985 - B] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...",,1,55,17,9,56
+Finished Goods,RPP-3985 - B,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...","[RPP-3985 - B] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 End Up...",,2,55,17,3,28
+Finished Goods,RPP-3986,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights","[RPP-3986] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights",,1,55,17,9,54
+Finished Goods,RPP-3986,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights","[RPP-3986] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights",,2,55,17,3,28
+Finished Goods,RPP-3986 - B,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights wit...","[RPP-3986 - B] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights wit...",,1,55,17,9,54
+Finished Goods,RPP-3986 - B,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights wit...","[RPP-3986 - B] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 End Uprights wit...",,2,55,17,3,28
+Finished Goods,RPP-3986 NC,"Heavy Duty Narrow Panel/Sheet Mover ,2 End Uprights, No Casters","[RPP-3986 NC] Heavy Duty Narrow Panel/Sheet Mover ,2 End Uprights, No Casters",,1,55,17,9,54
+Finished Goods,RPP-3986 NC,"Heavy Duty Narrow Panel/Sheet Mover ,2 End Uprights, No Casters","[RPP-3986 NC] Heavy Duty Narrow Panel/Sheet Mover ,2 End Uprights, No Casters",,2,55,17,3,28
+Finished Goods,RPP-3987 NC,"Heavy Duty Narrow Panel/Sheet Mover, 2 Side Uprights, No Casters","[RPP-3987 NC] Heavy Duty Narrow Panel/Sheet Mover, 2 Side Uprights, No Casters",,1,55,17,9,56
+Finished Goods,RPP-3987 NC,"Heavy Duty Narrow Panel/Sheet Mover, 2 Side Uprights, No Casters","[RPP-3987 NC] Heavy Duty Narrow Panel/Sheet Mover, 2 Side Uprights, No Casters",,2,55,17,3,28
+Finished Goods,RPP-3987-B,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...","[RPP-3987-B] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...",,1,55,17,9,56
+Finished Goods,RPP-3987-B,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...","[RPP-3987-B] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...",,2,55,17,3,28
+Finished Goods,RPP-3987US,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...","[RPP-3987US] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...",,1,55,17,9,56
+Finished Goods,RPP-3987US,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...","[RPP-3987US] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...",,2,55,17,3,28
+Finished Goods,RPP-3988,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 Side Uprights","[RPP-3988] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 Side Uprights",,1,55,17,9,56
+Finished Goods,RPP-3988,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 Side Uprights","[RPP-3988] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, all swivel, and 2 Side Uprights",,2,55,31,3,31
+Finished Goods,RPP-3988-B,"Heavy Duty Narrow Panel/Sheet Mover 5"" All Swivel Casters, 2 with Brakes, 2 Side Uprights","[RPP-3988-B] Heavy Duty Narrow Panel/Sheet Mover 5"" All Swivel Casters, 2 with Brakes, 2 Side Uprights",,1,55,17,9,56
+Finished Goods,RPP-3988-B,"Heavy Duty Narrow Panel/Sheet Mover 5"" All Swivel Casters, 2 with Brakes, 2 Side Uprights","[RPP-3988-B] Heavy Duty Narrow Panel/Sheet Mover 5"" All Swivel Casters, 2 with Brakes, 2 Side Uprights",,2,55,17,3,28
+Finished Goods,RPP-3989,"Narrow Heavy Duty Panel Mover Base, 2 Side Uprights, NO Casters","[RPP-3989] Narrow Heavy Duty Panel Mover Base, 2 Side Uprights, NO Casters",,1,55,17,9,56
+Finished Goods,RPP-3989,"Narrow Heavy Duty Panel Mover Base, 2 Side Uprights, NO Casters","[RPP-3989] Narrow Heavy Duty Panel Mover Base, 2 Side Uprights, NO Casters",,2,55,17,3,28
+Finished Goods,RPP-5005,"PAINTED DECK (3900) 2 X- Tall, 2 Std Uprights, 4 Connector Bars 5"" 2 F & 2 SW Casters","[RPP-5005] PAINTED DECK (3900) 2 X- Tall, 2 Std Uprights, 4 Connector Bars 5"" 2 F & 2 SW Casters",,1,55,17,9,53
+Finished Goods,RPP-5005,"PAINTED DECK (3900) 2 X- Tall, 2 Std Uprights, 4 Connector Bars 5"" 2 F & 2 SW Casters","[RPP-5005] PAINTED DECK (3900) 2 X- Tall, 2 Std Uprights, 4 Connector Bars 5"" 2 F & 2 SW Casters",,2,55,31,3,31
+Finished Goods,RPP-3987,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...","[RPP-3987] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...",,1,55,17,9,56
+Finished Goods,RPP-3987,"Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...","[RPP-3987] Heavy Duty Narrow Panel/Sheet Mover with 5"" Phenolic Casters, 2 fixed and 2 swivel, and 2 Side U...",,2,56,31,3,32
+Finished Goods,RPP-5051,"PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters","[RPP-5051] PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters",,1,56,33,8,111
+Finished Goods,RPP-5051,"PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters","[RPP-5051] PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters",,2,56,42,3,33
+Finished Goods,RPP-5056,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" casters 2F & Sw","[RPP-5056] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" casters 2F & Sw",,1,56,42,3,33
+Finished Goods,RPP-5056,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" casters 2F & Sw","[RPP-5056] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" casters 2F & Sw",,2,56,42,3,33
+Finished Goods,RPP-5057,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters","[RPP-5057] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters",,1,56,33,8,111
+Finished Goods,RPP-5057,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters","[RPP-5057] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters",,2,56,42,3,33
+Finished Goods,RPP-5058,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw","[RPP-5058] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw",,1,56,33,8,114
+Finished Goods,RPP-5058,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw","[RPP-5058] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw",,2,56,42,3,33
+Finished Goods,RPP-5059,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters","[RPP-5059] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters",,1,56,33,8,111
+Finished Goods,RPP-5059,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters","[RPP-5059] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters",,2,56,42,3,41
+Finished Goods,RPP-5005US,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 5"" 2 F & 2 SW Casters","[RPP-5005US] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 5"" 2 F & 2 SW Casters",,1,55,17,9,53
+Finished Goods,RPP-5005US,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 5"" 2 F & 2 SW Casters","[RPP-5005US] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 5"" 2 F & 2 SW Casters",,2,57,42,3,57
+Finished Goods,RPP-5006,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 6"" 2F & 2 SW Casters","[RPP-5006] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 6"" 2F & 2 SW Casters",,1,56,33,8,114
+Finished Goods,RPP-5006,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 6"" 2F & 2 SW Casters","[RPP-5006] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 6"" 2F & 2 SW Casters",,2,57,42,3,57
+Finished Goods,RPP-5008,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters","[RPP-5008] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters",,1,56,33,8,114
+Finished Goods,RPP-5008,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters","[RPP-5008] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters",,2,57,42,3,57
+Finished Goods,RPP-5008US,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters","[RPP-5008US] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters",,1,56,33,8,114
+Finished Goods,RPP-5008US,"PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters","[RPP-5008US] PAINTED DECK (3900) 2 X-Tall, 2 Std Uprights, 4 Connector Bars, 8"" 2F & 2 SW Casters",,2,57,42,3,57
+Finished Goods,RPP-5009,"PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters","[RPP-5009] PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters",,1,56,33,8,111
+Finished Goods,RPP-5009,"PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters","[RPP-5009] PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters",,2,57,42,3,57
+Finished Goods,RPP-5010,"PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,6""ALL SWIVEL casters","[RPP-5010] PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,6""ALL SWIVEL casters",,1,56,33,8,114
+Finished Goods,RPP-5010,"PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,6""ALL SWIVEL casters","[RPP-5010] PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,6""ALL SWIVEL casters",,2,57,42,3,57
+Finished Goods,RPP-5012,"PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,8""ALL SWIVEL casters","[RPP-5012] PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,8""ALL SWIVEL casters",,1,56,33,8,111
+Finished Goods,RPP-5012,"PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,8""ALL SWIVEL casters","[RPP-5012] PAINTED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,8""ALL SWIVEL casters",,2,57,42,3,41
+Finished Goods,RPP-5012- N C,"PAINTED Deck ( 3900) 2-X-tall uprights, 2 std. uprights, 4 connector braces NO Casters","[RPP-5012- N C] PAINTED Deck ( 3900) 2-X-tall uprights, 2 std. uprights, 4 connector braces NO Casters",,1,56,33,8,111
+Finished Goods,RPP-5012- N C,"PAINTED Deck ( 3900) 2-X-tall uprights, 2 std. uprights, 4 connector braces NO Casters","[RPP-5012- N C] PAINTED Deck ( 3900) 2-X-tall uprights, 2 std. uprights, 4 connector braces NO Casters",,2,57,42,3,57
+Finished Goods,RPP-5013,"COATED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" 2F & 2 S casters","[RPP-5013] COATED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" 2F & 2 S casters",,1,56,33,8,114
+Finished Goods,RPP-5013,"COATED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" 2F & 2 S casters","[RPP-5013] COATED DECK (3900) 2 x-tall,2 std uprights,4 connector bars,5"" 2F & 2 S casters",,2,57,42,3,57
+Finished Goods,RPP-5014,"COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,6"" 2F & 2 Sw casters","[RPP-5014] COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,6"" 2F & 2 Sw casters",,1,56,33,8,132
+Finished Goods,RPP-5014,"COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,6"" 2F & 2 Sw casters","[RPP-5014] COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,6"" 2F & 2 Sw casters",,2,57,42,3,57
+Finished Goods,RPP-5015,"COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,8"" 2F & 2 SW casters","[RPP-5015] COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,8"" 2F & 2 SW casters",,1,56,33,8,135
+Finished Goods,RPP-5015,"COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,8"" 2F & 2 SW casters","[RPP-5015] COATED DECK (3900) 2x-tall,2 std uprights,4 connector bars,8"" 2F & 2 SW casters",,2,57,42,3,57
+Finished Goods,RPP-5016,"COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters","[RPP-5016] COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters",,1,56,33,8,111
+Finished Goods,RPP-5016,"COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters","[RPP-5016] COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,5"" ALL SWIVEL casters",,2,57,42,3,57
+Finished Goods,RPP-5017,"COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,6"" ALL SWIVEL casters","[RPP-5017] COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,6"" ALL SWIVEL casters",,1,56,33,8,114
+Finished Goods,RPP-5017,"COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,6"" ALL SWIVEL casters","[RPP-5017] COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,6"" ALL SWIVEL casters",,2,57,42,3,57
+Finished Goods,RPP-5018,"COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,8"" ALL SWIVEL casters","[RPP-5018] COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,8"" ALL SWIVEL casters",,1,56,33,8,57
+Finished Goods,RPP-5018,"COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,8"" ALL SWIVEL casters","[RPP-5018] COATED DECK(3900) 2x-tall,2 std uprights,4 connector bars,8"" ALL SWIVEL casters",,2,57,42,3,57
+Finished Goods,RPP-505,"Stacked Chair Dolly, No Wheels","[RPP-505] Stacked Chair Dolly, No Wheels",,1,37,28,15,22
+Finished Goods,RPP-5050,"PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw","[RPP-5050] PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw",,1,56,33,8,135
+Finished Goods,RPP-5050,"PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw","[RPP-5050] PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw",,2,57,42,3,57
+Finished Goods,RPP-5050US,"PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw","[RPP-5050US] PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw",,1,56,33,8,57
+Finished Goods,RPP-5050US,"PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw","[RPP-5050US] PAINTED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 5"" casters 2F & 2 Sw",,2,57,42,3,57
+Finished Goods,RPP-5051US,"PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters","[RPP-5051US] PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters",,1,56,33,8,111
+Finished Goods,RPP-5051US,"PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters","[RPP-5051US] PAINTED DECK (3900) 1 x-tall, 1 std, 1short upright, 1 lip attach, 5"" ALL Swivel casters",,2,57,42,3,57
+Finished Goods,RPP-5058US,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw","[RPP-5058US] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw",,1,56,33,8,111
+Finished Goods,RPP-5058US,"PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw","[RPP-5058US] PAINTED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw",,2,57,42,3,57
+Finished Goods,RPP-5060,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright,1 lip attach 5"" casters 2F & 2 Sw","[RPP-5060] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright,1 lip attach 5"" casters 2F & 2 Sw",,1,56,33,8,133
+Finished Goods,RPP-5060,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright,1 lip attach 5"" casters 2F & 2 Sw","[RPP-5060] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright,1 lip attach 5"" casters 2F & 2 Sw",,2,57,42,3,41
+Finished Goods,RPP-5060- N/C,"Coated 3900 base,1x-tall upright,1 std upright,1 short upright & 1 lip attachment NO CASTERS","[RPP-5060- N/C] Coated 3900 base,1x-tall upright,1 std upright,1 short upright & 1 lip attachment NO CASTERS",,1,56,33,8,111
+Finished Goods,RPP-5060- N/C,"Coated 3900 base,1x-tall upright,1 std upright,1 short upright & 1 lip attachment NO CASTERS","[RPP-5060- N/C] Coated 3900 base,1x-tall upright,1 std upright,1 short upright & 1 lip attachment NO CASTERS",,2,57,42,3,57
+Finished Goods,RPP-5061,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 5"" ALL Swivel casters","[RPP-5061] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 5"" ALL Swivel casters",,1,56,33,8,111
+Finished Goods,RPP-5061,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 5"" ALL Swivel casters","[RPP-5061] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 5"" ALL Swivel casters",,2,57,42,3,41
+Finished Goods,RPP-5066,"COATED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 6"" casters 2F & 2 Sw","[RPP-5066] COATED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 6"" casters 2F & 2 Sw",,1,56,33,8,111
+Finished Goods,RPP-5066,"COATED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 6"" casters 2F & 2 Sw","[RPP-5066] COATED DECK (3900) 1 x-tall,1 std, 1 short upright, 1 lip attach, 6"" casters 2F & 2 Sw",,2,57,42,3,41
+Finished Goods,RPP-5067,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters","[RPP-5067] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters",,1,56,33,8,111
+Finished Goods,RPP-5067,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters","[RPP-5067] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 6"" ALL Swivel casters",,2,57,42,3,57
+Finished Goods,RPP-5068,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw","[RPP-5068] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw",,1,56,33,8,111
+Finished Goods,RPP-5068,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw","[RPP-5068] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" casters 2F & 2 Sw",,2,57,42,3,41
+Finished Goods,RPP-5069,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters","[RPP-5069] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters",,1,56,33,8,111
+Finished Goods,RPP-5069,"COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters","[RPP-5069] COATED DECK (3900) 1 x-tall, 1 std, 1 short upright, 1 lip attach, 8"" ALL Swivel casters",,2,57,42,3,41
+Finished Goods,RPP-900,"Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-900] Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel",,1,8,32,43,47
+Finished Goods,RPP-900,"Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-900] Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-900F,"Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-900F] Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel",,1,8,32,43,47
+Finished Goods,RPP-900F,"Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-900F] Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel",,2,3,32,70,41
+Finished Goods,RPP-900LUS,"Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel","[RPP-900LUS] Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel",,1,8,32,63,34
+Finished Goods,RPP-900LUS,"Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel","[RPP-900LUS] Hanging Folded Chair Storage Truck for Lifetime Chairs, with 5"" Phenolic Casters, all swivel",,2,3,32,80,41
+Finished Goods,RPP-900P,"Hanging Folded Chair Storage Truck with 5"" Poly Casters, all swivel","[RPP-900P] Hanging Folded Chair Storage Truck with 5"" Poly Casters, all swivel",,1,8,32,43,34
+Finished Goods,RPP-900P,"Hanging Folded Chair Storage Truck with 5"" Poly Casters, all swivel","[RPP-900P] Hanging Folded Chair Storage Truck with 5"" Poly Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-900US,"Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-900US] Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel",,1,8,32,43,34
+Finished Goods,RPP-900US,"Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-900US] Hanging Folded Chair Storage Truck with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-915,"Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-915] Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,1,8,32,43,29
+Finished Goods,RPP-915,"Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-915] Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-915LUS,"Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...","[RPP-915LUS] Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...",,1,8,32,63,30
+Finished Goods,RPP-915LUS,"Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...","[RPP-915LUS] Hanging Folded Chair and Table Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic C...",,2,3,32,80,41
+Finished Goods,RPP-915US,"Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-915US] Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,1,8,32,43,30
+Finished Goods,RPP-915US,"Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-915US] Hanging Folded Chair and Table Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-916,Half height version of 915,[RPP-916] Half height version of 915,,1,8,32,43,30
+Finished Goods,RPP-916,Half height version of 915,[RPP-916] Half height version of 915,,2,3,32,70,41
+Finished Goods,RPP-920,"Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-920] Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,1,8,32,43,35
+Finished Goods,RPP-920,"Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-920] Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-920 E.P.M.,"Custom 920 60"" overall height 3 plain crossbars per unit Middle crossbar 30"" on center from ...","[RPP-920 E.P.M.] Custom 920 60"" overall height 3 plain crossbars per unit Middle crossbar 30"" on center from ...",,1,8,32,43,30
+Finished Goods,RPP-920 E.P.M.,"Custom 920 60"" overall height 3 plain crossbars per unit Middle crossbar 30"" on center from ...","[RPP-920 E.P.M.] Custom 920 60"" overall height 3 plain crossbars per unit Middle crossbar 30"" on center from ...",,2,3,32,70,41
+Finished Goods,RPP-920F,"Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-920F] Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, 2 fixed and 2 swivel",,1,8,32,43,30
+Finished Goods,RPP-920F,"Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-920F] Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, 2 fixed and 2 swivel",,2,3,32,70,41
+Finished Goods,RPP-920LUS,"Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...","[RPP-920LUS] Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...",,1,8,32,63,30
+Finished Goods,RPP-920LUS,"Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...","[RPP-920LUS] Hanging Folded Chair Storage Truck Compact Size for Lifetime Chairs with 5"" Phenolic Casters, al...",,2,3,32,80,41
+Finished Goods,RPP-920US,"Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-920US] Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,1,8,32,43,30
+Finished Goods,RPP-920US,"Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel","[RPP-920US] Hanging Folded Chair Storage Truck Compact Size with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-930,"Hanging Folded Chair and Table Storage Truck Half Height, one sided hanger with 5"" Phenolic Ca...","[RPP-930] Hanging Folded Chair and Table Storage Truck Half Height, one sided hanger with 5"" Phenolic Ca...",,1,8,32,43,39
+Finished Goods,RPP-930,"Hanging Folded Chair and Table Storage Truck Half Height, one sided hanger with 5"" Phenolic Ca...","[RPP-930] Hanging Folded Chair and Table Storage Truck Half Height, one sided hanger with 5"" Phenolic Ca...",,2,3,32,70,41
+Finished Goods,RPP-935,"Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-935] Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel",,1,8,32,43,39
+Finished Goods,RPP-935,"Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-935] Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-935F,"Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-935F] Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel",,1,8,32,43,39
+Finished Goods,RPP-935F,"Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel","[RPP-935F] Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, 2 fixed and 2 swivel",,2,3,32,70,41
+Finished Goods,RPP-935LUS,"Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...","[RPP-935LUS] Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...",,1,8,32,63,30
+Finished Goods,RPP-935LUS,"Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...","[RPP-935LUS] Hanging Folded Chair and Table Storage Truck for Lifetime Chairs with 5"" Phenolic Casters, all s...",,2,3,32,80,41
+Finished Goods,RPP-935US,"Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-935US] Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel",,1,8,32,43,30
+Finished Goods,RPP-935US,"Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel","[RPP-935US] Hanging Folded Chair and Table Storage Truck with 5"" Phenolic Casters, all swivel",,2,3,32,70,41
+Finished Goods,RPP-940 E.P.M.,"Custom 940 48"" overall height , 2 plain cross bars per unit Emerson Process Management","[RPP-940 E.P.M.] Custom 940 48"" overall height , 2 plain cross bars per unit Emerson Process Management",,1,8,32,43,31
+Finished Goods,RPP-940 E.P.M.,"Custom 940 48"" overall height , 2 plain cross bars per unit Emerson Process Management","[RPP-940 E.P.M.] Custom 940 48"" overall height , 2 plain cross bars per unit Emerson Process Management",,2,3,32,70,41
+Finished Goods,RPP-940 F,Half Height Storage Truck with swivel And 2 Fixed casters,[RPP-940 F] Half Height Storage Truck with swivel And 2 Fixed casters,,1,8,32,43,31
+Finished Goods,RPP-940 F,Half Height Storage Truck with swivel And 2 Fixed casters,[RPP-940 F] Half Height Storage Truck with swivel And 2 Fixed casters,,2,3,32,70,41
+Finished Goods,RPP-940US,Half Height Chair Storage Truck,[RPP-940US] Half Height Chair Storage Truck,,1,8,32,43,31
+Finished Goods,RPP-940US,Half Height Chair Storage Truck,[RPP-940US] Half Height Chair Storage Truck,,2,3,32,70,41
+Finished Goods,RPP-943,"43.5"" long Pipe Rack","[RPP-943] 43.5"" long Pipe Rack",,1,8,32,43,31
+Finished Goods,RPP-943,"43.5"" long Pipe Rack","[RPP-943] 43.5"" long Pipe Rack",,2,3,32,70,41
+Finished Goods,RPP-975US,975 Pipe Rack (without brakes),[RPP-975US] 975 Pipe Rack (without brakes),,1,8,32,43,31
+Finished Goods,RPP-975US,975 Pipe Rack (without brakes),[RPP-975US] 975 Pipe Rack (without brakes),,2,3,32,70,41
+Finished Goods,RPP-976US,976 Pipe Rack (With Brakes),[RPP-976US] 976 Pipe Rack (With Brakes),,1,8,32,43,31
+Finished Goods,RPP-976US,976 Pipe Rack (With Brakes),[RPP-976US] 976 Pipe Rack (With Brakes),,2,3,32,70,41
+Finished Goods,RPP-Flagship FS1,Table Toter Flagship model,[RPP-Flagship FS1] Table Toter Flagship model,,1,40,14,6,45
+Finished Goods,RPP-Round Toter R1,4'-5' ROUND TABLE TOTER R1,[RPP-Round Toter R1] 4'-5' ROUND TABLE TOTER R1,,1,40,14,6,45
+Finished Goods,RPP-Strap Flagship Junior,"Replacement strap for Flagship/Junior T.T. 42""","[RPP-Strap Flagship Junior] Replacement strap for Flagship/Junior T.T. 42""",,1,40,14,6,45
+Finished Goods,RPP-3969,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights","[RPP-3969] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights",,1,56,33,9,72
+Finished Goods,RPP-3969,"Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights","[RPP-3969] Heavy Duty Platform Truck with 8"" Poly Casters, all swivel, and 4 37.25"" Uprights",,2,15,13,10,28
+Finished Goods,RPP-3828US,"Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; & 3 Standard 26"" Uprights","[RPP-3828US] Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; & 3 Standard 26"" Uprights",,1,42,31,6,59
+Finished Goods,RPP-3828US,"Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; & 3 Standard 26"" Uprights","[RPP-3828US] Panel Mover with 8"" Poly Casters, 2 Fixed and 2 Swivel; & 3 Standard 26"" Uprights",,2,16,13,10,24
+Finished Goods,RPP-3829-B,"Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel with Brakes","[RPP-3829-B] Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel with Brakes",,1,40,28,6,36
+Finished Goods,RPP-3829-B,"Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel with Brakes","[RPP-3829-B] Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel with Brakes",,2,16,13,10,24
+Finished Goods,RPP-3829-B,"Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel with Brakes","[RPP-3829-B] Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel with Brakes",,3,16,13,10,25
+Finished Goods,RPP-3703,"Standard Round Folding Table Mover with 8"" Poly Casters, 2 fixed and 2 swivel","[RPP-3703] Standard Round Folding Table Mover with 8"" Poly Casters, 2 fixed and 2 swivel",,1,50,34,5,38
+Finished Goods,RPP-3703,"Standard Round Folding Table Mover with 8"" Poly Casters, 2 fixed and 2 swivel","[RPP-3703] Standard Round Folding Table Mover with 8"" Poly Casters, 2 fixed and 2 swivel",,2,49,45,3,38
+Finished Goods,RPP-3703,"Standard Round Folding Table Mover with 8"" Poly Casters, 2 fixed and 2 swivel","[RPP-3703] Standard Round Folding Table Mover with 8"" Poly Casters, 2 fixed and 2 swivel",,3,16,13,10,24
+Finished Goods,RPP-3706,"Standard Round Folding Table Mover with 8"" Poly Casters, All Swivel","[RPP-3706] Standard Round Folding Table Mover with 8"" Poly Casters, All Swivel",,1,50,34,5,38
+Finished Goods,RPP-3706,"Standard Round Folding Table Mover with 8"" Poly Casters, All Swivel","[RPP-3706] Standard Round Folding Table Mover with 8"" Poly Casters, All Swivel",,2,49,45,3,38
+Finished Goods,RPP-3706,"Standard Round Folding Table Mover with 8"" Poly Casters, All Swivel","[RPP-3706] Standard Round Folding Table Mover with 8"" Poly Casters, All Swivel",,3,16,13,10,28
+Finished Goods,RPP-3711,"Standard Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel with Brakes","[RPP-3711] Standard Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel with Brakes",,1,50,34,5,38
+Finished Goods,RPP-3711,"Standard Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel with Brakes","[RPP-3711] Standard Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel with Brakes",,2,49,45,3,38
+Finished Goods,RPP-3711,"Standard Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel with Brakes","[RPP-3711] Standard Round Folding Table Mover with 8"" Air Free Casters; 2 Fixed and 2 Swivel with Brakes",,3,16,13,10,24
+Finished Goods,RPP-3712,"Standard Round Folding Table Mover with 8"" Air Free Casters; All Swivel w/Brakes","[RPP-3712] Standard Round Folding Table Mover with 8"" Air Free Casters; All Swivel w/Brakes",,1,50,34,5,38
+Finished Goods,RPP-3712,"Standard Round Folding Table Mover with 8"" Air Free Casters; All Swivel w/Brakes","[RPP-3712] Standard Round Folding Table Mover with 8"" Air Free Casters; All Swivel w/Brakes",,2,49,45,3,38
+Finished Goods,RPP-3712,"Standard Round Folding Table Mover with 8"" Air Free Casters; All Swivel w/Brakes","[RPP-3712] Standard Round Folding Table Mover with 8"" Air Free Casters; All Swivel w/Brakes",,3,16,13,10,28
+Finished Goods,RPP-3829,"Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel","[RPP-3829] Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel",,1,40,28,6,36
+Finished Goods,RPP-3829,"Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel","[RPP-3829] Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel",,2,50,40,4,52
+Finished Goods,RPP-3829,"Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel","[RPP-3829] Panel Mover with 3 Extra Tall Uprights, 8"" Poly Casters; 2 Fixed and 2 Swivel",,3,16,13,10,25
+Finished Goods,RPP-3881,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3881] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights",,1,40,28,6,34
+Finished Goods,RPP-3881,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3881] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights",,2,50,40,4,52
+Finished Goods,RPP-3881,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3881] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights",,3,16,13,10,28
+Finished Goods,RPP-3884,"Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3884] Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,1,40,28,6,65
+Finished Goods,RPP-3884,"Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3884] Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,2,50,40,4,35
+Finished Goods,RPP-3884,"Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights","[RPP-3884] Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights",,3,16,13,10,24
+Finished Goods,RPP-3884 - B,"Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3884 - B] Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,1,40,28,6,65
+Finished Goods,RPP-3884 - B,"Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3884 - B] Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,2,50,40,4,35
+Finished Goods,RPP-3884 - B,"Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes","[RPP-3884 - B] Panel Mover with 8"" Poly Casters, 2 fixed and 2 swivel, and 2 45"" uprights with Brakes",,3,16,13,10,28
+Finished Goods,RPP-3885,"Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights","[RPP-3885] Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights",,1,40,28,6,65
+Finished Goods,RPP-3885,"Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights","[RPP-3885] Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights",,2,50,40,4,35
+Finished Goods,RPP-3885,"Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights","[RPP-3885] Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights",,3,16,13,10,28
+Finished Goods,RPP-3880US,"Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights","[RPP-3880US] Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights",,1,42,31,6,59
+Finished Goods,RPP-3880US,"Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights","[RPP-3880US] Panel Mover with 8"" Poly Casters, all swivel, and 3 standard uprights",,2,16,13,10,24
+Finished Goods,RPP-3881 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights with Brakes","[RPP-3881 - B] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights with Brakes",,1,40,28,6,65
+Finished Goods,RPP-3881 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights with Brakes","[RPP-3881 - B] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights with Brakes",,2,16,13,10,28
+Finished Goods,RPP-3881 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights with Brakes","[RPP-3881 - B] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights with Brakes",,3,50,40,4,35
+Finished Goods,RPP-3881US,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3881US] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights",,1,40,28,6,65
+Finished Goods,RPP-3881US,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3881US] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights",,2,16,13,10,28
+Finished Goods,RPP-3881US,"Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights","[RPP-3881US] Panel Mover with 8"" Poly Casters, all swivel, and 3 45"" uprights",,3,50,40,4,35
+Finished Goods,RPP-3882,"Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights","[RPP-3882] Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights",,1,42,31,6,57
+Finished Goods,RPP-3882,"Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights","[RPP-3882] Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights",,2,16,13,10,28
+Finished Goods,RPP-3882 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights with Brakes","[RPP-3882 - B] Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights with Brakes",,1,42,31,6,57
+Finished Goods,RPP-3882 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights with Brakes","[RPP-3882 - B] Panel Mover with 8"" Poly Casters, all swivel, and 2 standard uprights with Brakes",,2,16,13,10,28
+Finished Goods,RPP-3885 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights with Brakes","[RPP-3885 - B] Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights with Brakes",,1,40,28,6,65
+Finished Goods,RPP-3885 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights with Brakes","[RPP-3885 - B] Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights with Brakes",,2,16,13,10,24
+Finished Goods,RPP-3885 - B,"Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights with Brakes","[RPP-3885 - B] Panel Mover with 8"" Poly Casters, all swivel, and 2 45"" uprights with Brakes",,3,50,40,4,35
+Finished Goods,RPP-3887,"3800 frame with four 8"" swivel casters, no uprights","[RPP-3887] 3800 frame with four 8"" swivel casters, no uprights",,1,40,28,6,65
+Finished Goods,RPP-3887,"3800 frame with four 8"" swivel casters, no uprights","[RPP-3887] 3800 frame with four 8"" swivel casters, no uprights",,2,16,13,10,24
+Finished Goods,RPP-3887 - B,"3800 frame with four 8"" swivel casters, no uprights with Brakes","[RPP-3887 - B] 3800 frame with four 8"" swivel casters, no uprights with Brakes",,1,40,28,6,65
+Finished Goods,RPP-3887 - B,"3800 frame with four 8"" swivel casters, no uprights with Brakes","[RPP-3887 - B] 3800 frame with four 8"" swivel casters, no uprights with Brakes",,2,16,13,10,24
+Finished Goods,RPP-3897,"3800 with 8"" Air Free 2 swivel with brakes, 2 fixed , & 3 std uprights","[RPP-3897] 3800 with 8"" Air Free 2 swivel with brakes, 2 fixed , & 3 std uprights",,1,40,28,6,65
+Finished Goods,RPP-3897,"3800 with 8"" Air Free 2 swivel with brakes, 2 fixed , & 3 std uprights","[RPP-3897] 3800 with 8"" Air Free 2 swivel with brakes, 2 fixed , & 3 std uprights",,2,16,13,10,24
+Finished Goods,RPP-3898,"Panel Mover 8"" air free all swivel 3 std uprights","[RPP-3898] Panel Mover 8"" air free all swivel 3 std uprights",,1,40,28,6,65
+Finished Goods,RPP-3898,"Panel Mover 8"" air free all swivel 3 std uprights","[RPP-3898] Panel Mover 8"" air free all swivel 3 std uprights",,2,16,13,10,24
+Finished Goods,RPP-2020,"2.5"" Caster for 2000 Desk Lift, set of 4","[RPP-2020] 2.5"" Caster for 2000 Desk Lift, set of 4",,1,10,12,14,4
+Finished Goods,RPP-2020,"2.5"" Caster for 2000 Desk Lift, set of 4","[RPP-2020] 2.5"" Caster for 2000 Desk Lift, set of 4",,2,10,12,14,4
+Finished Goods,RPP-2020,"2.5"" Caster for 2000 Desk Lift, set of 4","[RPP-2020] 2.5"" Caster for 2000 Desk Lift, set of 4",,3,10,12,14,4
+Finished Goods,RPP-2020,"2.5"" Caster for 2000 Desk Lift, set of 4","[RPP-2020] 2.5"" Caster for 2000 Desk Lift, set of 4",,4,10,12,14,4
+Finished Goods,RPP-2330,"3"" Caster for 2300 Desk Lift, set of 4","[RPP-2330] 3"" Caster for 2300 Desk Lift, set of 4",,1,10,12,14,4
+Finished Goods,RPP-2330,"3"" Caster for 2300 Desk Lift, set of 4","[RPP-2330] 3"" Caster for 2300 Desk Lift, set of 4",,2,10,12,14,4
+Finished Goods,RPP-2330,"3"" Caster for 2300 Desk Lift, set of 4","[RPP-2330] 3"" Caster for 2300 Desk Lift, set of 4",,3,10,12,14,4
+Finished Goods,RPP-2330,"3"" Caster for 2300 Desk Lift, set of 4","[RPP-2330] 3"" Caster for 2300 Desk Lift, set of 4",,4,10,12,14,4
+Finished Goods,RPP-3535,"3.5"" Caster for 3500 Desk Lift, set of 4","[RPP-3535] 3.5"" Caster for 3500 Desk Lift, set of 4",,1,10,12,14,4
+Finished Goods,RPP-3535,"3.5"" Caster for 3500 Desk Lift, set of 4","[RPP-3535] 3.5"" Caster for 3500 Desk Lift, set of 4",,2,10,12,14,4
+Finished Goods,RPP-3535,"3.5"" Caster for 3500 Desk Lift, set of 4","[RPP-3535] 3.5"" Caster for 3500 Desk Lift, set of 4",,3,10,12,14,4
+Finished Goods,RPP-3535,"3.5"" Caster for 3500 Desk Lift, set of 4","[RPP-3535] 3.5"" Caster for 3500 Desk Lift, set of 4",,4,10,12,14,4
+Finished Goods,RPP-4040,"4"" Caster for Desk Lift, set of 4","[RPP-4040] 4"" Caster for Desk Lift, set of 4",,1,10,12,14,4
+Finished Goods,RPP-4040,"4"" Caster for Desk Lift, set of 4","[RPP-4040] 4"" Caster for Desk Lift, set of 4",,2,10,12,14,4
+Finished Goods,RPP-4040,"4"" Caster for Desk Lift, set of 4","[RPP-4040] 4"" Caster for Desk Lift, set of 4",,3,10,12,14,4
+Finished Goods,RPP-4040,"4"" Caster for Desk Lift, set of 4","[RPP-4040] 4"" Caster for Desk Lift, set of 4",,4,10,12,14,4
